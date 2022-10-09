@@ -1,9 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_8479ace5d" segtype="sentence" srclang="en"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_98b0c1626" segtype="sentence" srclang="en"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="en">
+        <seg>Authors</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161242Z" creationid="Hiroshi Miura" creationdate="20221009T161242Z">
+        <seg>作者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Command Line Options</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161347Z" creationid="Hiroshi Miura" creationdate="20221009T161347Z">
+        <seg>コマンドラインオプション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Display help text</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161716Z" creationid="Hiroshi Miura" creationdate="20221009T161716Z">
+        <seg>ヘルプテキストを表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Extension of packages to list {wasm,src_doc_examples,preview,wasm_preview,x86_64,x86,armv7,arm64_v8a}</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161815Z" creationid="Hiroshi Miura" creationdate="20221009T161815Z">
+        <seg>リスト表示するパッケージ拡張{wasm,src_doc_examples,preview,wasm_preview,x86_64,x86,armv7,arm64_v8a}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Generic commands</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161529Z" creationid="Hiroshi Miura" creationdate="20221009T161529Z">
+        <seg>一般的なコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>List available versions of Qt, targets, extensions, modules, and architectures.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161643Z" creationid="Hiroshi Miura" creationdate="20221009T161643Z">
+        <seg>Qtの利用可能なバージョン、ターゲット、拡張、モジュール、アーキテクチャを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>List-* Commands</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161556Z" creationid="Hiroshi Miura" creationdate="20221009T161556Z">
+        <seg>List-*コマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Print versions of Qt within a `SimpleSpec`_ that specifies a range of versions. You can specify partial versions, inequalities, etc. ``"*"`` would match all versions of Qt; ``"&gt;6.0.2,&lt;6.2.0"`` would match all versions of Qt between 6.0.2 and 6.2.0, etc. For example, ``aqt list-qt windows desktop --spec "5.12"`` would print all versions of Qt for Windows Desktop beginning with 5.12. May be combined with any other flag to filter the output of that flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162108Z" creationid="Hiroshi Miura" creationdate="20221009T162108Z">
+        <seg>バージョンの範囲を指定する `SimpleSpec`_ 内のQtのバージョンを表示します。部分的なバージョンや不等式などを指定できます。``"*"``  はQtのすべてのバージョンにマッチし、``"&gt;6.0.2,&lt;6.2.0"``  は6.0.2から6.2.0までのQtのすべてのバージョンにマッチします。例えば、``aqt list-qt windows desktop --spec "5.12"`` と入力すると、5.12から始まるWindows デスクトップ用のQtのすべてのバージョンが出力されます。他のフラグと組み合わせて、そのフラグの出力をフィルタリングすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Project-Id-Version: aqtinstall 3.0
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2022-10-09 22:56+0900
+PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+Last-Translator: FULL NAME &lt;EMAIL@ADDRESS&gt;
+Language-Team: LANGUAGE &lt;LL@li.org&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Generated-By: Babel 2.8.0</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161105Z" creationid="Hiroshi Miura" creationdate="20221009T161105Z">
+        <seg>Project-Id-Version: aqtinstall 3.0
+Report-Msgid-Bugs-To: 
+POT-Creation-Date: 2022-10-09 22:56+0900
+PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+Last-Translator: FULL NAME &lt;EMAIL@ADDRESS&gt;
+Language-Team: LANGUAGE &lt;LL@li.org&gt;
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Generated-By: Babel 2.8.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Qt version in the format of "5.X.Y", or the keyword ``latest``. When set, this prints all valid arguments for the ``--extension`` flag for Qt 5.X.Y, or the latest version of Qt if ``latest`` is specified. Incompatible with the ``--extension`` flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161922Z" creationid="Hiroshi Miura" creationdate="20221009T161922Z">
+        <seg>"5.X.Y"形式のQtバージョン、またはキーワード``latest``。これを設定すると、Qt 5.X.Yの`--extension`フラグの有効な引数をすべて出力します。または、``latest``が指定されている場合はQtの最新バージョンを出力します。`--extension`フラグとは互換性がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The CLI uses argparse to parse the command line options so the short or long versions may be used and the long options may be truncated to the shortest unambiguous abbreviation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161527Z" creationid="Hiroshi Miura" creationdate="20221009T161527Z">
+        <seg>コマンドラインのインタフェースは、argparseライブラリを使用してコマンドラインのオプションを解析します。そのため、オプションに、短いバージョンや長いバージョンが使用できるます。長いオプションは最も短い明確な省略形も提供ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>These commands are used to list the packages available for installation with ``aqt``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161619Z" creationid="Hiroshi Miura" creationdate="20221009T161619Z">
+        <seg>このコマンドは、``aqt`でインストールできるパッケージを一覧表示するために使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Use the ``--extensions`` flag to list all relevant options for a host/target. Incompatible with the ``--extensions`` flag, but may be combined with any other flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161856Z" creationid="Hiroshi Miura" creationdate="20221009T161856Z">
+        <seg>ホスト/ターゲットに関連するすべてのオプションをリストするには、`--extensions``フラグを使用してください。`--extensions``フラグとは互換性がありませんが、他のフラグと組み合わせることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>and many other participants and contributors. If you find a missing name to record, please feel free to tell me.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161334Z" creationid="Hiroshi Miura" creationdate="20221009T161334Z">
+        <seg>他にも多くの参加者や貢献者がいます。記録に名前がない方は、遠慮なく言ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>desktop, winrt, ios or android. When omitted, the command prints all the targets available for a host OS. Note that winrt is only available on Windows, and ios is only available on Mac OS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161713Z" creationid="Hiroshi Miura" creationdate="20221009T161713Z">
+        <seg>desktop、winrt、iosまたはandroid。省略すると、ホストOSで使用可能なすべてのターゲットが出力されます。winrtはWindowsでしか使用できず、iosはMac OSでしか使用できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>display version</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161551Z" creationid="Hiroshi Miura" creationdate="20221009T161551Z">
+        <seg>バージョンの表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>linux, windows or mac</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161651Z" creationid="Hiroshi Miura" creationdate="20221009T161651Z">
+        <seg>linux、windows、またはmac</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>list-qt command</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161628Z" creationid="Hiroshi Miura" creationdate="20221009T161628Z">
+        <seg>list-qtコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>show generic help</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161536Z" creationid="Hiroshi Miura" creationdate="20221009T161536Z">
+        <seg>汎用ヘルプの表示</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
