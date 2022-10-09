@@ -66,6 +66,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Long display for modules: Similar to ``--modules``, but shows extra metadata associated with each module. This metadata is displayed in a table that includes long display names for each module. If your terminal is wider than 95 characters, ``aqt list-qt`` will also display release dates and sizes for each module. An example of this output is displayed below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162934Z" creationid="Hiroshi Miura" creationdate="20221009T162934Z">
+        <seg>モジュールの長い表示: ``--modules`` と似ていますが、各モジュールに関連付けられた追加のメタデータを表示します。このメタデータは、各モジュールの長い表示名を含むテーブルに表示されます。端末の表示幅が95文字を超える場合、``aqt list-qt`` には各モジュールのリリース日とサイズも表示されます。この出力例を以下に示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Print versions of Qt within a `SimpleSpec`_ that specifies a range of versions. You can specify partial versions, inequalities, etc. ``"*"`` would match all versions of Qt; ``"&gt;6.0.2,&lt;6.2.0"`` would match all versions of Qt between 6.0.2 and 6.2.0, etc. For example, ``aqt list-qt windows desktop --spec "5.12"`` would print all versions of Qt for Windows Desktop beginning with 5.12. May be combined with any other flag to filter the output of that flag.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162108Z" creationid="Hiroshi Miura" creationdate="20221009T162108Z">
@@ -109,6 +117,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Qt version in the format of "5.X.Y". When set, this prints all architectures available for Qt 5.X.Y with a host/target/extension, or the latest version of Qt if ``latest`` is specified.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162936Z" creationid="Hiroshi Miura" creationdate="20221009T162936Z">
+        <seg>Qt version in the format of "5.X.Y". When set, this prints all architectures available for Qt 5.X.Y with a host/target/extension, or the latest version of Qt if ``latest`` is specified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The CLI uses argparse to parse the command line options so the short or long versions may be used and the long options may be truncated to the shortest unambiguous abbreviation.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161527Z" creationid="Hiroshi Miura" creationdate="20221009T161527Z">
@@ -121,6 +137,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161619Z" creationid="Hiroshi Miura" creationdate="20221009T161619Z">
         <seg>このコマンドは、``aqt`でインストールできるパッケージを一覧表示するために使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This flag lists all the modules available for Qt 5.X.Y with a host/target/extension/architecture combination, or the latest version of Qt if ``latest`` is specified. You can list available architectures by using ``aqt list-qt`` with the ``--arch`` flag described below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162842Z" creationid="Hiroshi Miura" creationdate="20221009T162842Z">
+        <seg>このフラグは、Qt 5.X.Yで利用可能なすべてのモジュールをホスト/ターゲット/拡張/アーキテクチャの組み合わせで一覧表示します。``latest``  が指定されている場合はQtの最新バージョンを表示します。利用可能なアーキテクチャを一覧表示するには、以下で説明する ``--arch`` フラグを付けて ``aqt list-qt`` を使用します。</seg>
       </tuv>
     </tu>
     <tu>
