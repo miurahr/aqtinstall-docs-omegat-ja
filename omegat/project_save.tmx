@@ -6,10 +6,44 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="en">
+        <seg>Activity: moderate</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163301Z" creationid="Hiroshi Miura" creationdate="20221009T163301Z">
+        <seg>活動度:中等度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Authors</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161242Z" creationid="Hiroshi Miura" creationdate="20221009T161242Z">
         <seg>作者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bug Tracker:  Github issue `Tracker`_</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163243Z" creationid="Hiroshi Miura" creationdate="20221009T163243Z">
+        <seg>バグトラッカー:  Github issue `Tracker`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Bug triage</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163307Z" creationid="Hiroshi Miura" creationdate="20221009T163307Z">
+        <seg>バグ・トリアージ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>CI tests</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163334Z" creationid="Hiroshi Miura" creationdate="20221009T163334Z">
+        <seg>CIテスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -24,10 +58,28 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Contribution guide</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163213Z" creationid="Hiroshi Miura" creationdate="20221009T163213Z">
+        <seg>コントリビューションガイド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Display help text</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161716Z" creationid="Hiroshi Miura" creationdate="20221009T161716Z">
         <seg>ヘルプテキストを表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Every report to github issue tracker should be in triage. whether it is bug, question or invalid.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163312Z" creationid="Hiroshi Miura" creationdate="20221009T163312Z">
+        <seg>github issue trackerへのすべてのレポートは、バグであれ、質問であれ、無効であれ、トリアージする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45,6 +97,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161529Z" creationid="Hiroshi Miura" creationdate="20221009T161529Z">
         <seg>一般的なコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Here is small amount rule when you want to send patch the project;</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163321Z" creationid="Hiroshi Miura" creationdate="20221009T163321Z">
+        <seg>プロジェクトにパッチを送りたい場合の少量のルールを以下に示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -78,6 +138,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162108Z" creationid="Hiroshi Miura" creationdate="20221009T162108Z">
         <seg>バージョンの範囲を指定する `SimpleSpec`_ 内のQtのバージョンを表示します。部分的なバージョンや不等式などを指定できます。``"*"``  はQtのすべてのバージョンにマッチし、``"&gt;6.0.2,&lt;6.2.0"``  は6.0.2から6.2.0までのQtのすべてのバージョンにマッチします。例えば、``aqt list-qt windows desktop --spec "5.12"`` と入力すると、5.12から始まるWindows デスクトップ用のQtのすべてのバージョンが出力されます。他のフラグと組み合わせて、そのフラグの出力をフィルタリングすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Project owner: Hiroshi Miura</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163230Z" creationid="Hiroshi Miura" creationdate="20221009T163230Z">
+        <seg>プロジェクトオーナー:三浦広志</seg>
       </tuv>
     </tu>
     <tu>
@@ -124,11 +192,45 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Resources</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163220Z" creationid="Hiroshi Miura" creationdate="20221009T163220Z">
+        <seg>リソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Send patch</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163314Z" creationid="Hiroshi Miura" creationdate="20221009T163314Z">
+        <seg>パッチを送信</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Status: Beta</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163250Z" creationid="Hiroshi Miura" creationdate="20221009T163250Z">
+        <seg>ステータス:ベータ</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>The CLI uses argparse to parse the command line options so the short or long versions may be used and the long options may be truncated to the shortest unambiguous abbreviation.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161527Z" creationid="Hiroshi Miura" creationdate="20221009T161527Z">
         <seg>コマンドラインのインタフェースは、argparseライブラリを使用してコマンドラインのオプションを解析します。そのため、オプションに、短いバージョンや長いバージョンが使用できるます。長いオプションは最も短い明確な省略形も提供ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The project configured to use Azure Pipelines, Github actions and Coveralls for regression test. You can see test results on badge and see details in a web page linked from badge.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163404Z" creationid="Hiroshi Miura" creationdate="20221009T163404Z">
+        <seg>プロジェクトは、Azure Pipelines、Githubアクション、Coverallsを使用してリグレッションテストを行うように設定されています。テスト結果はバッジで確認でき、詳細はバッジからリンクされたWebページで確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -145,6 +247,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162842Z" creationid="Hiroshi Miura" creationdate="20221009T162842Z">
         <seg>このフラグは、Qt 5.X.Yで利用可能なすべてのモジュールをホスト/ターゲット/拡張/アーキテクチャの組み合わせで一覧表示します。``latest``  が指定されている場合はQtの最新バージョンを表示します。利用可能なアーキテクチャを一覧表示するには、以下で説明する ``--arch`` フラグを付けて ``aqt list-qt`` を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>This is contribution guide for aqtinstall project. You are welcome to send a Pull-Request, reporting bugs and ask questions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163218Z" creationid="Hiroshi Miura" creationdate="20221009T163218Z">
+        <seg>aqtinstallプロジェクトへの貢献ガイドです。Pull-Requestを送信してバグを報告し、質問をすることを歓迎します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -184,6 +295,24 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>each pull request can consist of multiple commits.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163329Z" creationid="Hiroshi Miura" creationdate="20221009T163329Z">
+        <seg>各プルリクエストは複数のコミットで構成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>every proposal for modification should send as 'Pull Request'</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163326Z" creationid="Hiroshi Miura" creationdate="20221009T163326Z">
+        <seg>修正案はすべて「プルリクエスト」として送信する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>linux, windows or mac</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161651Z" creationid="Hiroshi Miura" creationdate="20221009T161651Z">
@@ -206,6 +335,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161536Z" creationid="Hiroshi Miura" creationdate="20221009T161536Z">
         <seg>汎用ヘルプの表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>you are encourage to split modifications to individual commits that are logical subpart.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163332Z" creationid="Hiroshi Miura" creationdate="20221009T163332Z">
+        <seg>変更を論理的なサブパートである個々のコミットに分割することをお勧めします。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
