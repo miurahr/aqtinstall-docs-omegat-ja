@@ -239,6 +239,15 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Command examples</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023512Z" creationid="Hiroshi Miura" creationdate="20221010T023512Z">
+        <seg>コマンドの例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Configuration</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004222Z" creationid="Hiroshi Miura" creationdate="20221010T004222Z">
@@ -296,6 +305,160 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163312Z" creationid="Hiroshi Miura" creationdate="20221009T163312Z">
         <seg>github issue trackerへのすべてのレポートは、バグであれ、質問であれ、無効であれ、トリアージする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: Install MinGW on Windows</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023819Z" creationid="Hiroshi Miura" creationdate="20221010T023819Z">
+        <seg>例:WindowsへのMinGWのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Example: Install Web Assembly</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023653Z" creationid="Hiroshi Miura" creationdate="20221010T023653Z">
+        <seg>例: Webアセンブリのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: Install an Install FrameWork (IFW):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023812Z" creationid="Hiroshi Miura" creationdate="20221010T023812Z">
+        <seg>例:Install FrameWork(IFW)のインストール:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Example: Install examples, doc and source:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023557Z" creationid="Hiroshi Miura" creationdate="20221010T023530Z">
+        <seg>例: example、docおよびsourceのインストール:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: Install vcredist on Windows:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023816Z" creationid="Hiroshi Miura" creationdate="20221010T023816Z">
+        <seg>例:Windowsへのvcredistのインストール:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: Installing Android (armv7) Qt 5.13.2:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023526Z" creationid="Hiroshi Miura" creationdate="20221010T023526Z">
+        <seg>例:Android(armv7)Qt 5.13.2のインストール:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: Installing Qt SDK 5.12.12 for Linux with QtCharts and QtNetworkAuth:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023521Z" creationid="Hiroshi Miura" creationdate="20221010T023521Z">
+        <seg>例:QtChartsとQtNetworkAuthでQt SDK 5.12.12 for Linuxをインストールする:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: Installing the newest LTS version of Qt 5.12:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023524Z" creationid="Hiroshi Miura" creationdate="20221010T023524Z">
+        <seg>例:Qt 5.12の最新のLTSバージョンをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: List available architectures for Qt 6.1.2 on windows</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023713Z" creationid="Hiroshi Miura" creationdate="20221010T023713Z">
+        <seg>例:Windows上のQt 6.1.2で利用可能なアーキテクチャを一覧表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: List available modules for latest version of Qt on macOS</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023705Z" creationid="Hiroshi Miura" creationdate="20221010T023705Z">
+        <seg>例:macOS上のQtの最新バージョンで利用可能なモジュールを一覧表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Example: List available tools on windows</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023744Z" creationid="Hiroshi Miura" creationdate="20221010T023738Z">
+        <seg>例: WIndowsで使用可能なツールを一覧表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Example: List available versions of Qt on Linux</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023659Z" creationid="Hiroshi Miura" creationdate="20221010T023659Z">
+        <seg>例: Linuxで利用可能なQtのバージョンを一覧表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: List available versions of Qt6 on macOS</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023702Z" creationid="Hiroshi Miura" creationdate="20221010T023702Z">
+        <seg>例:macOS上で利用可能なQt6のバージョンを一覧表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Example: List the variants of IFW available:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023755Z" creationid="Hiroshi Miura" creationdate="20221010T023740Z">
+        <seg>例:使用可能なIFWのバリエーションを一覧表示する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Example: List the variants of IFW, including version, release date, description, etc.:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023808Z" creationid="Hiroshi Miura" creationdate="20221010T023808Z">
+        <seg>例:バージョン、リリース日、説明など、IFWのバリエーションを一覧表示する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Example: Print archives available for installation with ``install-example/doc/src``:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023725Z" creationid="Hiroshi Miura" creationdate="20221010T023534Z">
+        <seg>例: ``install-example/doc/src`` でインストール可能なアーカイブを一覧表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Example: Print modules available for installation with ``install-example/doc``:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023735Z" creationid="Hiroshi Miura" creationdate="20221010T023648Z">
+        <seg>例: ``install-example/doc`` でインストール可能なモジュールを一覧表示します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Example: Show help message</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023827Z" creationid="Hiroshi Miura" creationdate="20221010T023827Z">
+        <seg>例:ヘルプメッセージの表示</seg>
       </tuv>
     </tu>
     <tu>
@@ -1247,6 +1410,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162842Z" creationid="Hiroshi Miura" creationdate="20221009T162842Z">
         <seg>このフラグは、Qt 5.X.Yで利用可能なすべてのモジュールをホスト/ターゲット/拡張/アーキテクチャの組み合わせで一覧表示します。``latest``  が指定されている場合はQtの最新バージョンを表示します。利用可能なアーキテクチャを一覧表示するには、以下で説明する ``--arch`` フラグを付けて ``aqt list-qt`` を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This flag requires a list of at least two arguments: 'Qt version' and 'architecture'. The 'Qt version' argument can be in the format "5.X.Y" or the "latest" keyword. You can use the ``--arch`` flag to see a list of acceptable values for the 'architecture' argument. Any following arguments must be the names of modules available for the preceding version and architecture. You can use the ``--modules`` flag to see a list of acceptable values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023920Z" creationid="Hiroshi Miura" creationdate="20221010T023920Z">
+        <seg>このフラグには、'Qt version'と'architecture'の2つ以上の引数のリストが必要です。'Qt version'引数は、"5.X.Y"または"latest"キーワードの形式にすることができます。 ``--arch`` フラグを使用すると、'architecture' 引数に使用できる値のリストを確認できます。後続の引数は、以前のバージョンとアーキテクチャーで使用できるモジュールの名前である必要があります。 ``--modules`` フラグを使用すると、使用できる値のリストを確認できます。</seg>
       </tuv>
     </tu>
     <tu>
