@@ -253,12 +253,28 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>If we wish to install all the modules that are available, we can do that with the ``all`` keyword:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015037Z" creationid="Hiroshi Miura" creationdate="20221010T015037Z">
+        <seg>利用可能なすべてのモジュールをインストールしたい場合は、``all`` キーワードでインストールできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>If you have installed ``aqt`` with pip, you can run it with the command script ``aqt``, but in some cases you may need to run it as ``python -m aqt``. Some older operating systems may require you to specify Python version 3, like this: ``python3 -m aqt``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011016Z" creationid="Hiroshi Miura" creationdate="20221010T011016Z">
         <seg>pipと一緒に``aqt``をインストールしている場合は、コマンドスクリプト``aqt``で実行することができますが、場合によっては``python-m aqt``として実行する必要があるかもしれません。古いオペレーティングシステムでは、``python3-m aqt``のようにPythonバージョン3を指定する必要があるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you want to install all available modules, you are probably better off using the ``all`` keyword, as discussed above. This scripting example is presented to give you a sense of how to accomplish something more complicated. Perhaps you want to install all modules except `qtnetworkauth`; you could write a script that removes `qtnetworkauth` from the output of :ref:`aqt list-qt &lt;list-qt command&gt;`, and pipe that into :ref:`aqt install-qt &lt;qt installation command&gt;`. This exercise is left to the reader.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015334Z" creationid="Hiroshi Miura" creationdate="20221010T015334Z">
+        <seg>利用可能なすべてのモジュールをインストールしたい場合は、上記のように ``all`` キーワードを使った方が良いでしょう。このスクリプトの例は、もっと複雑な何かを実現する方法を理解するために提示されています。おそらくあなたは ``qtnetworkauth`` 以外のすべてのモジュールをインストールしたいと思うでしょう。 :ref:`aqt list-qt &lt;list-qt command&gt;` の出力から ``qtnetworkauth`` を削除し、それを :ref:`aqt install -qt&lt;qt installation command&gt;` にパイプするスクリプトを書くことができます。この練習は読者にお任せします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -303,6 +319,15 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011000Z" creationid="Hiroshi Miura" creationdate="20221010T011000Z">
         <seg>Qtをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Installing Qt for Android</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015339Z" creationid="Hiroshi Miura" creationdate="20221010T015339Z">
+        <seg>Android用Qtのインストール</seg>
       </tuv>
     </tu>
     <tu>
@@ -357,11 +382,28 @@
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Let's install Qt for Android. Installing Qt 5 will be similar to installing Qt for Desktop on Windows, but there will be differences when we get to Qt 6.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015346Z" creationid="Hiroshi Miura" creationdate="20221010T015346Z">
+        <seg>Qt for Androidをインストールしてみましょう。Qt 5のインストールはWindows上のQt for Desktopのインストールと似ていますが、Qt 6では違いがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>Let's say that we want to install Qt 6.2.0 with architecture `win64_mingw81`. The installation command we need is:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011621Z" creationid="Hiroshi Miura" creationdate="20221010T011621Z">
         <seg>Qt 6.2.0を `win64_mingw81` アーキテクチャでインストールしたいとします。必要なインストールコマンドは以下のとおりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Let's say that we want to install `qtcharts` and `qtnetworkauth`. We can do that by using the `-m` flag with the :ref:`aqt install-qt &lt;qt installation command&gt;` command. This flag receives the name of at least one module as an argument:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015010Z" creationid="Hiroshi Miura" creationdate="20221010T015010Z">
+        <seg>``qtcharts``と ``qtnetworkauth`` をインストールしたいとします。これは :ref:`aqt install-qt &lt;qt installation command&gt;` コマンドで ``-m`` フラグを使うことでできます。このフラグは少なくとも1つのモジュールの名前を引数として受け取ります:</seg>
       </tuv>
     </tu>
     <tu>
@@ -386,6 +428,15 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T012148Z" creationid="Hiroshi Miura" creationdate="20221010T012148Z">
         <seg>Qt 5.15.2用のモジュールをWindows Desktopにインストールする必要があるとします。まず、モジュールが何と呼ばれているかを調べる必要があります。そのためには :ref:`aqt list-qt &lt;list-qt command&gt;` と ``--modules`` フラグを使用します。Qtの各バージョンには、ホストOS/ターゲットSDK/アーキテクチャの組み合わせごとに異なるモジュールリストがあるので、その情報を :ref:`aqt list-qt &lt;list-qt command&gt;` に提供する必要があります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Let's see what happens when we try to list architectures and modules for Qt 6:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015350Z" creationid="Hiroshi Miura" creationdate="20221010T015350Z">
+        <seg>Qt 6のアーキテクチャとモジュールをリストアップしようとすると何が起こるか見てみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -455,6 +506,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004000Z" creationid="Hiroshi Miura" creationdate="20221010T004000Z">
         <seg>Note</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Note that if your terminal is wider than 95 characters, this command will show release dates and sizes in extra columns to the right. If you try this, you will notice that `debug_info` is 5.9 gigabytes installed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T014928Z" creationid="Hiroshi Miura" creationdate="20221010T014928Z">
+        <seg>端末の表示幅が95文字以上の場合、このコマンドはリリース日とサイズを右側のスペースに表示します。これを試してみると、``debug_info`` では、5.9ギガバイトがインストールされることに気付くでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -567,6 +626,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Remember that the :ref:`aqt list-qt &lt;list-qt command&gt;` command is meant to be scriptable? One way to install all modules available for Qt 5.15.2 is to send the output of :ref:`aqt list-qt &lt;list-qt command&gt;` into :ref:`aqt install-qt &lt;qt installation command&gt;`, like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015127Z" creationid="Hiroshi Miura" creationdate="20221010T015127Z">
+        <seg>:ref:`aqt list-qt &lt;list-qt command&gt;` コマンドは、スクリプト化できるように意図して作られていることを覚えていますか? Qt 5.15.2で利用可能なすべてのモジュールをインストールする1つの方法は :ref:`aqt list-qt &lt;list-qt command&gt;` の出力を :ref:`aqt install-qt &lt;qt installation command&gt;` に以下のように送ることです:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Requirements</seg>
@@ -624,6 +691,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161527Z" creationid="Hiroshi Miura" creationdate="20221009T161527Z">
         <seg>コマンドラインのインタフェースは、argparseライブラリを使用してコマンドラインのオプションを解析します。そのため、オプションに、短いバージョンや長いバージョンが使用できるます。長いオプションは最も短い明確な省略形も提供ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The Qt 6 for Android repositories are a little different than the Qt 5 repositories, and the :ref:`aqt list-qt &lt;list-qt command&gt;` tool doesn't know where to look for modules and architectures if you don't tell it what architecture you need. I know, it sounds a little backwards, but that's how the Qt repo was put together.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015445Z" creationid="Hiroshi Miura" creationdate="20221010T015445Z">
+        <seg>Qt 6 for AndroidリポジトリはQt 5リポジトリとは少し異なり、 :ref:`aqt list-qt &lt;list-qt command&gt;` ツールは、必要なアーキテクチャを教えなければ、モジュールやアーキテクチャを探す場所を知りません。 少し機能後退したように聞こえますが、それがQtリポジトリが組み立てられた方法です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -700,6 +775,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011053Z" creationid="Hiroshi Miura" creationdate="20221010T011053Z">
         <seg>インストールしたいQtのバージョン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are four architectures available, and the error message from :ref:`aqt list-qt &lt;list-qt command&gt;` just told us what they are: `x86_64`, `x86`, `armv7`, and `arm64_v8a`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015525Z" creationid="Hiroshi Miura" creationdate="20221010T015525Z">
+        <seg>利用可能なアーキテクチャは4つありますが、:ref:`aqt list-qt &lt;list-qt command&gt;` のエラーメッセージが、その4つを教えてくれます: `x86_64`、`x86`、`armv7`、`arm64_v8a`です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -803,10 +886,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>We know we want to use `armv7` for the architecture, but we don't know exactly what value for 'architecture' we need to pass to :ref:`aqt install-qt &lt;qt installation command&gt;` yet, so we will use :ref:`aqt list-qt &lt;list-qt command&gt;` again:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015553Z" creationid="Hiroshi Miura" creationdate="20221010T015553Z">
+        <seg>アーキテクチャに ``armv7`` を使いたいことはわかっていますが、:ref:`aqt install-qt &lt;qt installation command&gt;` に渡す必要のある'アーキテクチャ'の値が正確にはまだ分からないので、もう一度 :ref:`aqt list-qt &lt;list-qt command&gt;` を使います:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You can specify custom configuration file through ``AQT_CONFIG`` environment variable or "-c" or "--config" command line option.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004317Z" creationid="Hiroshi Miura" creationdate="20221010T004317Z">
         <seg>環境変数 ``AQT_CONFIG`` やコマンドラインオプション``-c``や``--config`` でカスタム設定ファイルを指定することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You should be thinking, "Well, that was silly. All it did was add `android_` to the beginning of the architecture I gave it. Why do I need to use ``aqt list-qt --arch`` for that?" The answer is, ``aqt list-qt --arch`` is checking to see what actually exists in the Qt repository. If it prints an error message, instead of the obvious `android_armv7`, we would know that Qt 6.2.0 for that architecture doesn't exist for some reason, and any attempt to install it with :ref:`aqt install-qt &lt;qt installation command&gt;` will fail.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015952Z" creationid="Hiroshi Miura" creationdate="20221010T015952Z">
+        <seg>「それはばかげている。アーキテクチャの先頭に `android_` を追加しただけだ。 なぜそのために`aqt list-qt--arch`を使う必要があるのか?」おそらく、そう考えるでしょう。 その答えは、``aqt list-qt-arch`` はQtリポジトリに実際に何が存在するかをチェックしているということです。期待した ``android_armv7`` の出力ではなくエラーメッセージが出力された場合、Qt 6.2.0のそのアーキテクチャ用のパッケージが何らかの理由で存在しないことがわかります。そのため、:ref:`aqt install-qt &lt;qt installation command&gt;`でインストールしようとすると失敗します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You will need a Unix-style shell to run this command, or at least git-bash on Windows. The ``xargs`` equivalent to this command is an exercise left to the reader.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015226Z" creationid="Hiroshi Miura" creationdate="20221010T015226Z">
+        <seg>このコマンドを実行するにはUnixスタイルのシェルが必要ですし、Windowsでは少なくともgit-bashが必要です。この ``xargs`` に相当するコマンドは、読者の練習課題です。</seg>
       </tuv>
     </tu>
     <tu>
