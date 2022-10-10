@@ -14,6 +14,30 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>**Archives**: In this context, an **archive** is a bundle of files compressed with the 7zip algorithm. It exists on a disk drive as a file with the extension ``.7z``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021255Z" creationid="Hiroshi Miura" creationdate="20221010T021244Z">
+        <seg>**Archives**: このコンテキストでは、**Archive** は 7-zipで圧縮されたファイルのバンドルです。これはディスクドライブ上に拡張子``.7z``"のファイルとして存在します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>**Modules**: The Qt repository organizes groups of archives into modules. A **module** contains one or more **archives**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021402Z" creationid="Hiroshi Miura" creationdate="20221010T021245Z">
+        <seg>**Modules**:  Qtリポジトリが一連のアーカイブをモジュールとして編成しています。 **module** には、ひとつか複数の **archives** が含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>**the base Qt installation**: By definition, this is just another **module** that contains 20-30 **archives**. This documentation refers to it as **the base Qt installation** instead of a **module** for several reasons:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021539Z" creationid="Hiroshi Miura" creationdate="20221010T021247Z">
+        <seg>**the base Qt installation**: 定義上、これは20から30の**archives** を含む単なる **module** です。このドキュメントでは、さまざまな事情から**module**ではなく、 **the base Qt installation** とよんでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>7zcmd:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004502Z" creationid="Hiroshi Miura" creationdate="20221010T004502Z">
@@ -51,6 +75,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161242Z" creationid="Hiroshi Miura" creationdate="20221009T161242Z">
         <seg>作者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Be careful about using the ``--archives`` flag; it is marked `Advanced` for a reason! It is very easy to misuse this command and end up with a Qt installation that is missing the components that you need. Don't use it unless you know what you are doing!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021054Z" creationid="Hiroshi Miura" creationdate="20221010T020919Z">
+        <seg>``--archives`` フラグの使用には注意してください。`Advanced` とマークされているのは理由があります! このコマンドを誤用しますと、必須コンポーネントがない不完全なQtインストール結果になります。自分が何をしているのかわかっていない限り、使用しないでください!</seg>
       </tuv>
     </tu>
     <tu>
@@ -311,6 +343,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>In this documentation, **"modules"**, **"archives"**, and **"the base Qt installation"** refer to different things, and are defined here:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021155Z" creationid="Hiroshi Miura" creationdate="20221010T021155Z">
+        <seg>このドキュメントでは、**"modules"**, **"archives"**, **"base Qt installation"** はそれぞれ別のものを指しており、ここで定義されています:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Install by pip command</seg>
@@ -371,6 +411,22 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020305Z" creationid="Hiroshi Miura" creationdate="20221010T020305Z">
         <seg>ツールをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Installing a subset of Qt archives [Advanced]</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020846Z" creationid="Hiroshi Miura" creationdate="20221010T020834Z">
+        <seg>Qtアーカイブのサブセットをインストールする[上級編]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020851Z" creationid="Hiroshi Miura" creationdate="20221010T020837Z">
+        <seg>はじめに</seg>
       </tuv>
     </tu>
     <tu>
@@ -439,6 +495,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015346Z" creationid="Hiroshi Miura" creationdate="20221010T015346Z">
         <seg>Qt for Androidをインストールしてみましょう。Qt 5のインストールはWindows上のQt for Desktopのインストールと似ていますが、Qt 6では違いがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Let's say that we want to install Qt 5.15.2 for Linux desktop, using the gcc_64 architecture. The ``qtbase`` archive includes the bare minimum for a working Qt installation, and we can install it alone with the ``--archives`` flag:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021817Z" creationid="Hiroshi Miura" creationdate="20221010T021817Z">
+        <seg>gcc_64アーキテクチャを使ってQt 5.15.2をLinuxデスクトップにインストールしたいとしましょう。``qtbase`` アーカイブには、動作中のQtインストールに最低限必要なものが含まれています。また、``--archives`` フラグを付けて単独でインストールすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -535,6 +599,15 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Minimum Qt Installation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021058Z" creationid="Hiroshi Miura" creationdate="20221010T020921Z">
+        <seg>Qtの最小インストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>New command only can take --kde option</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004120Z" creationid="Hiroshi Miura" creationdate="20221010T004120Z">
@@ -557,6 +630,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004026Z" creationid="Hiroshi Miura" creationdate="20221010T004026Z">
         <seg>新しい構文はバージョンを使用しません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Normally, when you run ``aqt install-qt``, the program will print a long list of archives that it is downloading, extracting, and installing, including ``qtbase``, ``qtmultimedia``, ``qt3d``, and ~25 more items. We can use the ``--archives`` flag to choose which of these archives we will actually install. The ``--archives`` flag can only affect two modules: the base Qt installation and the ``debug_info`` module.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021136Z" creationid="Hiroshi Miura" creationdate="20221010T021136Z">
+        <seg>通常、``aqt install-qt`` を実行すると、このプログラムはダウンロード、抽出、インストールしているアーカイブの長いリストを出力します。このリストには、``qtbase``、``qtmultimedia``、``qt3d``、そして約25項目が含まれています。これらのアーカイブのどれを実際にインストールするかは、``--archives`` フラグを使って選択することができます。 ``--archives`` フラグは、Qtの基本インストールモジュールと``debug_info``モジュールの2つのモジュールにしか影響しません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -817,6 +898,30 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>The ``aqt install-qt`` installs this module by default.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021549Z" creationid="Hiroshi Miura" creationdate="20221010T021439Z">
+        <seg>``aqt install-qt`` はデフォルトでこのモジュールをインストールします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The ``aqt list-qt --modules`` command is incapable of printing this module.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021619Z" creationid="Hiroshi Miura" creationdate="20221010T021619Z">
+        <seg>``aqt list-qt--modules`` コマンドはこのモジュールの説明を表示できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The fully-qualified name of the **base Qt installation** module is usually something like ``qt.qt6.620.gcc_64``. The fully-qualified name of the ``qtcharts`` module could be something like ``qt.qt6.620.qtcharts.gcc_64``. It would be difficult to read and write a list of 20 modules with the prefix ``qt.qt6.620.`` and the suffix ``.gcc_64``, because these parts are repetitive and not meaningful. Only the ``qtcharts`` part is useful.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021757Z" creationid="Hiroshi Miura" creationdate="20221010T021757Z">
+        <seg>**base Qt installation** モジュールの完全修飾名は通常、``qt.qt6.620.gcc_64`` のようなものです。``qtcharts`` モジュールの完全修飾名は通常、``qt.qt6.620.qtcharts.gcc_64`` のようなものです。プレフィックス ``qt.qt6.620.``とサフィックス``.gcc_64``を持つ20個のモジュールのリストを読み書きするのは難しいでしょう。なぜならこれらの部分は反復的で意味がないからです。ただ``qtcharts`` の部分だけが役に立つからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>The host operating system (windows, mac, or linux)</seg>
@@ -1053,6 +1158,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You cannot specify this module with ``aqt install-qt --modules``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021559Z" creationid="Hiroshi Miura" creationdate="20221010T021559Z">
+        <seg>このモジュールを``aqt install-qt --modules`` で指定することはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You may have noticed that by default, ``aqt install-qt`` installs a lot of archives that you may or may not need, and a typical installation can take up more disk space than necessary. If you installed the module ``debug_info``, it may have installed more than 1 gigabyte of data. This section will help you to reduce the footprint of your Qt installation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020910Z" creationid="Hiroshi Miura" creationdate="20221010T020910Z">
+        <seg>お気づきかもしれませんが、デフォルトでは ``aqt install-qt`` は多くのアーカイブをインストールしますが、その必要はないかもしれませんし、一般的なインストールでは必要以上のディスク容量を消費します。モジュール ``debug_info`` をインストールした場合、1 GB以上のデータがインストールされている可能性があります。この節では、Qtインストールのフットプリントを減らすための手助けをします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You should be thinking, "Well, that was silly. All it did was add `android_` to the beginning of the architecture I gave it. Why do I need to use ``aqt list-qt --arch`` for that?" The answer is, ``aqt list-qt --arch`` is checking to see what actually exists in the Qt repository. If it prints an error message, instead of the obvious `android_armv7`, we would know that Qt 6.2.0 for that architecture doesn't exist for some reason, and any attempt to install it with :ref:`aqt install-qt &lt;qt installation command&gt;` will fail.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015952Z" creationid="Hiroshi Miura" creationdate="20221010T015952Z">
@@ -1073,6 +1194,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010901Z" creationid="Hiroshi Miura" creationdate="20221010T010901Z">
         <seg>``aqt`` は、Qt、モジュール、Qtに関連するツール、ソース、ドキュメント、サンプルなどをインストールするためのツールで、https://download.qt.io/ から入手できます。``aqt`` を実行する前に、何をインストールしたいのかを正確に ``aqt`` に指示する必要があります。このセクションでは、どのようなパッケージが ``aqt`` に用意されているのかを調べ、何をインストールしたいのかを ``aqt`` に指示できるようにするための手順を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``aqt`` transforms the names of modules as they exist in the Qt repository so that they are easier to read and write. If the name of **the base Qt installation** were transformed using the same rules, the name would be empty.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021705Z" creationid="Hiroshi Miura" creationdate="20221010T021705Z">
+        <seg>``aqt`` はQtリポジトリに存在するモジュールの名前を読みやすく書きやすくするために変換します。**the base Qt installation** の名前を同じ規則を使って変換された場合、名前は空になります。</seg>
       </tuv>
     </tu>
     <tu>
