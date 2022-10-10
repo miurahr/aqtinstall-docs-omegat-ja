@@ -47,6 +47,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Because the :ref:`aqt list-qt &lt;list-qt command&gt;` command directly queries the Qt downloads repository at https://download.qt.io/, the results of this command will always be accurate. The `Available Qt versions`_ wiki page was last modified at some point in the past, so it may or may not be up to date.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011407Z" creationid="Hiroshi Miura" creationdate="20221010T011407Z">
+        <seg>:ref:`aqt list-qt &lt;list-qt command&gt;` コマンドは https://download.qt.io/ にあるQtダウンロードリポジトリに直接問い合わせますので、このコマンドの結果は常に正確になります。`Available Qt versions`_ wikiページは過去のある時点での更新ですので、最新であるかどうかは保障されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Bug Tracker:  Github issue `Tracker`_</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163243Z" creationid="Hiroshi Miura" creationdate="20221009T163243Z">
@@ -135,6 +143,15 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Deprecated; please do not use this setting. It has been replaced by the</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010356Z" creationid="Hiroshi Miura" creationdate="20221010T010356Z">
+        <seg>廃止されました。この設定は使用しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Display help text</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161716Z" creationid="Hiroshi Miura" creationdate="20221009T161716Z">
@@ -170,10 +187,28 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>General usage of ``aqt`` looks like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011006Z" creationid="Hiroshi Miura" creationdate="20221010T011006Z">
+        <seg>``aqt``の一般的な使い方は以下のようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Generic commands</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161529Z" creationid="Hiroshi Miura" creationdate="20221009T161529Z">
         <seg>一般的なコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Getting Started</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010817Z" creationid="Hiroshi Miura" creationdate="20221010T010817Z">
+        <seg>スタートアップガイド</seg>
       </tuv>
     </tu>
     <tu>
@@ -182,6 +217,15 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163321Z" creationid="Hiroshi Miura" creationdate="20221009T163321Z">
         <seg>プロジェクトにパッチを送りたい場合の少量のルールを以下に示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>If you have installed ``aqt`` with pip, you can run it with the command script ``aqt``, but in some cases you may need to run it as ``python -m aqt``. Some older operating systems may require you to specify Python version 3, like this: ``python3 -m aqt``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011016Z" creationid="Hiroshi Miura" creationdate="20221010T011016Z">
+        <seg>pipと一緒に``aqt``をインストールしている場合は、コマンドスクリプト``aqt``で実行することができますが、場合によっては``python-m aqt``として実行する必要があるかもしれません。古いオペレーティングシステムでは、``python3-m aqt``のようにPythonバージョン3を指定する必要があるかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -203,11 +247,45 @@
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Installing Qt</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011000Z" creationid="Hiroshi Miura" creationdate="20221010T011000Z">
+        <seg>Qtをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>It is a command name of 7-zip. When ``aqtinstall`` is installed **without** recommended library ``py7zr``, it is used to extract archive instead of ``py7zr`` library. When ``--external`` option specified, a value is override with option's one.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004626Z" creationid="Hiroshi Miura" creationdate="20221010T004626Z">
         <seg>圧縮解凍ツールの7-zipのコマンド名です。 ``aqtinstall`` が **推奨ライブラリ``py7zr``なしで** インストールされている場合、``py7zr`` ライブラリの代わりにアーカイブを抽出するために使用されます。``--external`` オプションが指定されている場合、オプションの指定値で上書きされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It is a list of URL where is a good for access. When mirror site cause an error, aqt use fallbacks when possible. You can find a list of mirrors at: https://download.qt.io/static/mirrorlist/</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010809Z" creationid="Hiroshi Miura" creationdate="20221010T010809Z">
+        <seg>アクセスに適したURLの一覧です。ミラーサイトでエラーが発生した場合は、可能な場合はフォールバックを使用してください。ミラーの一覧は次の場所で確認できます: https://download.qt.io/static/mirrorlist/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It is a list of URL where is a problematic mirror site. Some mirror sites ignore a connection from IP addresses out of their preffered one. It will cause connection error or connection timeout. There are some known mirror sites in default. When you are happy with the default sites, you can override with your custom settings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010747Z" creationid="Hiroshi Miura" creationdate="20221010T010747Z">
+        <seg>問題のあるミラーサイトがあるURLのリストです。一部のミラーサイトでは、優先されたIPアドレスからの接続以外が無視されます。接続エラーまたは接続タイムアウトが発生します。既定のミラーサイトには既知のものがあります。既定のサイトに問題がなければ、カスタム設定で上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Keep in mind that Qt for IOS is only available on Mac OS, and Qt for WinRT is only available on Windows.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011100Z" creationid="Hiroshi Miura" creationdate="20221010T011100Z">
+        <seg>Qt for IOSはMac OSでのみ利用可能であり、Qt for WinRTはWindowsでのみ利用可能であることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -295,6 +373,22 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004000Z" creationid="Hiroshi Miura" creationdate="20221010T004000Z">
         <seg>Note</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Notice that the version numbers are sorted, grouped by minor version number, and separated by a single space-character. The output of all of the :ref:`aqt list-qt &lt;list-qt command&gt;` commands is intended to make it easier for you to write programs that consume the output of :ref:`aqt list-qt &lt;list-qt command&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011225Z" creationid="Hiroshi Miura" creationdate="20221010T011225Z">
+        <seg>バージョン番号がソートされ、マイナーバージョン番号でグループ化され、1つのスペース文字で区切られていることに注意してください。すべての :ref:`aqt list-qt &lt;list-qt command&gt;` コマンドの出力は、 :ref:`aqt list-qt &lt;list-qt command&gt;` の出力を消費するプログラムを作成しやすくするためのものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Please note that every ``aqt`` subcommand has a ``--help`` option; please use it if you are having trouble!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010956Z" creationid="Hiroshi Miura" creationdate="20221010T010956Z">
+        <seg>すべての ``aqt`` サブコマンドには ``--help`` オプションがあります。なにか疑問が発生した場合は、このオプションを使用してください!</seg>
       </tuv>
     </tu>
     <tu>
@@ -435,10 +529,27 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The ``[mirrors]`` section is a configuration for mirror handling.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010512Z" creationid="Hiroshi Miura" creationdate="20221010T010512Z">
+        <seg>``[mirrors]`` セクションはミラー処理のための設定です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The ``[requests]`` section controls the way that ``aqt`` makes network requests.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004846Z" creationid="Hiroshi Miura" creationdate="20221010T004846Z">
         <seg>``[requests]`` セクションは、``aqt`` がネットワークリクエストを行う方法を制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>The host operating system (windows, mac, or linux)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011046Z" creationid="Hiroshi Miura" creationdate="20221010T011046Z">
+        <seg>ホストオペレーティングシステム(Windows、Mac、Linux)</seg>
       </tuv>
     </tu>
     <tu>
@@ -447,6 +558,33 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163404Z" creationid="Hiroshi Miura" creationdate="20221009T163404Z">
         <seg>プロジェクトは、Azure Pipelines、Githubアクション、Coverallsを使用してリグレッションテストを行うように設定されています。テスト結果はバッジで確認でき、詳細はバッジからリンクされたWebページで確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>The target SDK (desktop, android, ios, or winrt)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011050Z" creationid="Hiroshi Miura" creationdate="20221010T011050Z">
+        <seg>ターゲットSDK(デスクトップ、android、ios、winrt)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>The target architecture</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011055Z" creationid="Hiroshi Miura" creationdate="20221010T011055Z">
+        <seg>ターゲット・アーキテクチャ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>The version of Qt you would like to install</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011053Z" creationid="Hiroshi Miura" creationdate="20221010T011053Z">
+        <seg>インストールしたいQtのバージョン</seg>
       </tuv>
     </tu>
     <tu>
@@ -492,10 +630,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This setting controls how many times ``aqt`` will attempt to download a file, in the case of a checksum error.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010458Z" creationid="Hiroshi Miura" creationdate="20221010T010458Z">
+        <seg>この設定は、チェックサムエラーが発生した場合に ``aqt`` がファイルをダウンロードしようとする回数を制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This setting has no effect on your ability to install these modules. ``aqt install-*`` can will still install them without any warnings.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004827Z" creationid="Hiroshi Miura" creationdate="20221010T004827Z">
         <seg>この設定はこれらのモジュールをインストールする能力に影響を与えません。``aqt install-*`` は警告なしでそれらをインストールします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To find out what versions of Qt are available, you can use the :ref:`aqt list-qt command &lt;list-qt command&gt;`. This command will print all versions of Qt available for Windows Desktop:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011138Z" creationid="Hiroshi Miura" creationdate="20221010T011138Z">
+        <seg>利用可能なQtのバージョンを調べるには、 :ref:`aqt list-qt command &lt;list-qt command&gt;` を使うことができます。このコマンドはWindowsデスクトップで利用可能なQtのすべてのバージョンを出力します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To use ``aqt`` to install Qt, you will need to tell ``aqt`` four things:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011041Z" creationid="Hiroshi Miura" creationdate="20221010T011041Z">
+        <seg>Qtをインストールするには、``aqt`` に次の4つのことを伝える必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -526,10 +688,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>``aqt`` is a tool that can be used to install Qt, modules, tools related to Qt, source, docs, and examples, available at https://download.qt.io/. Before running ``aqt``, you will need to tell ``aqt`` exactly what you want it to install. This section of the documentation is meant to walk you through the process of finding out what packages are available to ``aqt``, so you can tell ``aqt`` what you want to install.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010901Z" creationid="Hiroshi Miura" creationdate="20221010T010901Z">
+        <seg>``aqt`` は、Qt、モジュール、Qtに関連するツール、ソース、ドキュメント、サンプルなどをインストールするためのツールで、https://download.qt.io/ から入手できます。``aqt`` を実行する前に、何をインストールしたいのかを正確に ``aqt`` に指示する必要があります。このセクションでは、どのようなパッケージが ``aqt`` に用意されているのかを調べ、何をインストールしたいのかを ``aqt`` に指示できるようにするための手順を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>``aqtinstall`` can be configured through a configuration file. A default configuration is stored in ``aqt/settings.ini`` file.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004251Z" creationid="Hiroshi Miura" creationdate="20221010T004251Z">
         <seg>``aqtinstall``は設定ファイルで設定できます。デフォルトの設定は ``aqt/settings.ini`` ファイルに保存されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``aqtinstall`` can safely download archive files from the fallback mirror list, and ensure that they are not malicious files, by checking them against the checksums downloaded from the ``trusted_mirrors`` list. ``aqtinstall`` uses the SHA-256 algorithm to perform this check.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010653Z" creationid="Hiroshi Miura" creationdate="20221010T010653Z">
+        <seg>``aqtinstall`` は、フォールバックミラーリストからアーカイブファイルを安全にダウンロードし、``trusted_mirrors`` リストからダウンロードしたチェックサムに照らして、それらが悪意のあるファイルでないことを確認することができます。``aqtinstall`` は、SHA-256アルゴリズムを使ってこのチェックを行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``aqtinstall`` downloads all checksums from mirrors in this list. These checksums are used to verify that every other file that ``aqtinstall`` downloads is, in fact, the correct file, and not a corrupt or malicious copy of the file. You may need to modify this list if the default mirrors are unreachable, or if you do not trust that they have not been compromised.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010623Z" creationid="Hiroshi Miura" creationdate="20221010T010623Z">
+        <seg>``aqtinstall`` は、このリスト内のミラーからすべてのチェックサムをダウンロードします。これらのチェックサムは、``aqtinstall`` がダウンロードする他のすべてのファイルが、実際には正しいファイルであり、そのファイルの不正コピーや悪意のあるコピーではないことを確認するために使用されます。デフォルトのミラーにアクセスできない場合や、ミラーが侵害されていないと信頼できない場合は、このリストを変更する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -550,10 +736,51 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>``connection_timeout`` is a timeout in second for connection. It is passed to ``requests`` library.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010340Z" creationid="Hiroshi Miura" creationdate="20221010T010340Z">
+        <seg>``connection_timeout`` は接続の秒単位のタイムアウトです。これは ``requests`` ライブラリに渡されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``max_retries_on_connection_error`` is an integer that controls how many times ``aqt`` will try to reconnect to the server in the case of a connection error.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010419Z" creationid="Hiroshi Miura" creationdate="20221010T010419Z">
+        <seg>``max_retries_on_connection_error`` は、接続エラーが発生した場合に ``aqt`` がサーバに再接続しようとする回数を制御する整数です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>``print_stacktrace_on_error`` is either ``True`` or ``False``. The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program. The ``False`` setting will hide the stack trace, unless an unhandled exception occurs.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004638Z" creationid="Hiroshi Miura" creationdate="20221010T004638Z">
         <seg>``print_stacktrace_on_error`` is either ``True`` or ``False``. The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program. The ``False`` setting will hide the stack trace, unless an unhandled exception occurs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>``response_timeout`` is a timeout in second how much time waiting for response. It is passed to ``requests`` library.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010349Z" creationid="Hiroshi Miura" creationdate="20221010T010349Z">
+        <seg>``response_timeout``は応答待ち時間の秒単位のタイムアウトです。これは``requests``ライブラリに渡されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``retry_backoff`` is a floating point number that controls how long ``aqt`` will sleep between failed connection attempts. Setting this value too low will hammer the server, and may result in no successful connections at all.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010443Z" creationid="Hiroshi Miura" creationdate="20221010T010443Z">
+        <seg>``retry_backoff`` は浮動小数点数で、``aqt`` が失敗した接続試行間にスリープする時間を制御します。この値をあまりに低く設定するとサーバに衝撃を与え、接続が全く成功しなくなる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``trusted_mirrors`` is a list of URLs that you trust to provide accurate checksums for all downloaded archives. This is a security feature; please do not change this value unless you know what you're doing!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010548Z" creationid="Hiroshi Miura" creationdate="20221010T010548Z">
+        <seg>``trusted_mirrors`` は、ダウンロードされたすべてのアーカイブに対して正確なチェックサムを提供するために信頼しているURLのリストです。これはセキュリティ機能です。何をしているのかわからない限り、この値を変更しないでください!</seg>
       </tuv>
     </tu>
     <tu>
@@ -639,6 +866,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161628Z" creationid="Hiroshi Miura" creationdate="20221009T161628Z">
         <seg>list-qtコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>max_retries:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010350Z" creationid="Hiroshi Miura" creationdate="20221010T010350Z">
+        <seg>max_retries:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>max_retries_on_connection_error:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010356Z" creationid="Hiroshi Miura" creationdate="20221010T010356Z">
+        <seg>max_retries_on_connection_error:</seg>
       </tuv>
     </tu>
     <tu>
