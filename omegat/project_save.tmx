@@ -38,10 +38,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>2.2.x</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022822Z" creationid="Hiroshi Miura" creationdate="20221010T022822Z">
+        <seg>2.2.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>3.0.x</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022820Z" creationid="Hiroshi Miura" creationdate="20221010T022820Z">
+        <seg>3.0.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>7zcmd:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004502Z" creationid="Hiroshi Miura" creationdate="20221010T004502Z">
         <seg>7zcmd:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt; 2.2</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022824Z" creationid="Hiroshi Miura" creationdate="20221010T022824Z">
+        <seg>&lt; 2.2</seg>
       </tuv>
     </tu>
     <tu>
@@ -831,6 +855,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Please disclose security vulnerabilities privately at miurahr@linux.com</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022855Z" creationid="Hiroshi Miura" creationdate="20221010T022855Z">
+        <seg>セキュリティの脆弱性については、miurahr@linux.com に提示してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Please note that ``aqt install-tool`` does not recognize the ``installscript.qs`` related to each tool. When you install these tools with the standard gui installer, the installer may use the ``installscript.qs`` script to make additional changes to your system. If you need those changes to occur, it will be your responsibility to make those changes happen, because ``aqt`` is not capable of running this script.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020830Z" creationid="Hiroshi Miura" creationdate="20221010T020830Z">
@@ -932,6 +964,15 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Reporting a Vulnerability</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022829Z" creationid="Hiroshi Miura" creationdate="20221010T022829Z">
+        <seg>脆弱性の報告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Requirements</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003844Z" creationid="Hiroshi Miura" creationdate="20221010T003844Z">
@@ -967,6 +1008,15 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Security fixes only</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022824Z" creationid="Hiroshi Miura" creationdate="20221010T022824Z">
+        <seg>セキュリティ修正のみ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Send patch</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163314Z" creationid="Hiroshi Miura" creationdate="20221009T163314Z">
@@ -991,11 +1041,38 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Stable version</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022822Z" creationid="Hiroshi Miura" creationdate="20221010T022822Z">
+        <seg>安定バージョン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Status</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022818Z" creationid="Hiroshi Miura" creationdate="20221010T022818Z">
+        <seg>ステータス</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>Status: Beta</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163250Z" creationid="Hiroshi Miura" creationdate="20221009T163250Z">
         <seg>ステータス:ベータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Supported Versions</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022815Z" creationid="Hiroshi Miura" creationdate="20221010T022815Z">
+        <seg>サポートされているバージョン</seg>
       </tuv>
     </tu>
     <tu>
@@ -1284,6 +1361,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020752Z" creationid="Hiroshi Miura" creationdate="20221010T020635Z">
         <seg>このコマンドを使用すると、`tools_mingw`  で利用可能なすべてのツールバリエーションがインストールされます。この場合、同じツールの10種類の異なるバージョンをインストールすることになります。``qtcreator`` や ``ifw`` のようないくつかのツールでは、それぞれのツールバリエーションが異なるプログラムなので、これは適切なことです。しかし、``mingw``や``vcredist``のようなツールでは、:ref:`aqt list-tool &lt;list-tool command&gt;` を使ってどんなバリエーションが利用可能か調べてから、必要なツールのバリエーションだけをインストールする方が理にかなっています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Version</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022817Z" creationid="Hiroshi Miura" creationdate="20221010T022817Z">
+        <seg>バージョン</seg>
       </tuv>
     </tu>
     <tu>
@@ -1590,6 +1676,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010356Z" creationid="Hiroshi Miura" creationdate="20221010T010356Z">
         <seg>max_retries_on_connection_error:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>not supported</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022826Z" creationid="Hiroshi Miura" creationdate="20221010T022826Z">
+        <seg>サポートされない</seg>
       </tuv>
     </tu>
     <tu>
