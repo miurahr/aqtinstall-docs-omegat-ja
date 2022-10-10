@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="en">
+        <seg>(Optional) The tool variant name. We saw a list of these when we ran :ref:`aqt list-tool &lt;list-tool command&gt;` with the `tool name` argument filled in.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020616Z" creationid="Hiroshi Miura" creationdate="20221010T020616Z">
+        <seg>(オプション)ツールのバリアント名。 :ref:`aqt list-tool &lt;list-tool command&gt;` を`tool name` 引数つきで実行したときに、リストに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>7zcmd:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004502Z" creationid="Hiroshi Miura" creationdate="20221010T004502Z">
@@ -209,6 +217,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Finally, let's install Qt 6.2.0 for Android armv7 with the ``qtcharts`` and ``qtnetworkauth`` modules:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020029Z" creationid="Hiroshi Miura" creationdate="20221010T020029Z">
+        <seg>最後に、``qtcharts`` と ``qtnetworkauth`` モジュールとともに、Qt 6.2.0 for Android armv7をインストールしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>From version 2.0.0, sub commands are changed. The previous versions of these sub commands have been retained for backwards compatibility, but are no longer recommended.</seg>
@@ -250,6 +266,15 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163321Z" creationid="Hiroshi Miura" creationdate="20221009T163321Z">
         <seg>プロジェクトにパッチを送りたい場合の少量のルールを以下に示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>If we want to install Qt 6.2.0 for armv7, we use this command to print available modules:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015958Z" creationid="Hiroshi Miura" creationdate="20221010T015958Z">
+        <seg>armv7用のQt 6.2.0をインストールしたい場合は、次のコマンドを使って利用可能なモジュールを出力します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -331,6 +356,24 @@
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Installing Qt for WASM</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020159Z" creationid="Hiroshi Miura" creationdate="20221010T020043Z">
+        <seg>WASM用Qtのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Installing Tools</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020305Z" creationid="Hiroshi Miura" creationdate="20221010T020305Z">
+        <seg>ツールをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>It is a command name of 7-zip. When ``aqtinstall`` is installed **without** recommended library ``py7zr``, it is used to extract archive instead of ``py7zr`` library. When ``--external`` option specified, a value is override with option's one.</seg>
       </tuv>
@@ -379,6 +422,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003952Z" creationid="Hiroshi Miura" creationdate="20221010T003952Z">
         <seg>レガシーサブコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Let's find out what tools are available for Windows Desktop by using the :ref:`aqt list-tool &lt;list-tool command&gt;` command:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020316Z" creationid="Hiroshi Miura" creationdate="20221010T020316Z">
+        <seg>:ref:`aqt list-tool &lt;list-tool command&gt;` コマンドを使って、Windows Desktopで利用できるツールを調べてみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -437,6 +488,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015350Z" creationid="Hiroshi Miura" creationdate="20221010T015350Z">
         <seg>Qt 6のアーキテクチャとモジュールをリストアップしようとすると何が起こるか見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Let's see what tool variants are available in `tools_mingw`:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020327Z" creationid="Hiroshi Miura" creationdate="20221010T020327Z">
+        <seg>``tools_mingw`` で利用できるツールのバリエーションを見てみましょう:</seg>
       </tuv>
     </tu>
     <tu>
@@ -533,6 +592,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Now let's install `mingw`, using the :ref:`aqt install-tool &lt;tools installation command&gt;` command. This command receives four parameters:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020514Z" creationid="Hiroshi Miura" creationdate="20221010T020514Z">
+        <seg>では、:ref:`aqt install-tool &lt;tools installation command&gt;` コマンドを使って`mingw`をインストールしましょう。このコマンドは4つのパラメータを受け取ります:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Now that we know what versions of Qt are available, let's choose version 6.2.0.</seg>
@@ -551,10 +618,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Please note that ``aqt install-tool`` does not recognize the ``installscript.qs`` related to each tool. When you install these tools with the standard gui installer, the installer may use the ``installscript.qs`` script to make additional changes to your system. If you need those changes to occur, it will be your responsibility to make those changes happen, because ``aqt`` is not capable of running this script.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020830Z" creationid="Hiroshi Miura" creationdate="20221010T020830Z">
+        <seg>``aqt install-tool`` は、各ツールに関連する``installscript.qs`` を認識しないことに注意してください。これらのツールを標準のGUIインストーラでインストールする場合、インストーラは``installscript.qs`` スクリプトを使ってシステムに追加の変更を加えることができます。これらの変更が必要な場合、``aqt`` はこのスクリプトを実行することができないので、変更を加えるのはあなたの責任になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Please note that every ``aqt`` subcommand has a ``--help`` option; please use it if you are having trouble!</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010956Z" creationid="Hiroshi Miura" creationdate="20221010T010956Z">
         <seg>すべての ``aqt`` サブコマンドには ``--help`` オプションがあります。なにか疑問が発生した場合は、このオプションを使用してください!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Please note that when you install Qt for android or ios, the installation will not be functional unless you install the corresponding desktop version of Qt alongside it. You can do this automatically with the ``--autodesktop`` flag:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020154Z" creationid="Hiroshi Miura" creationdate="20221010T020043Z">
+        <seg>Qt for androidまたはiosをインストールする場合、対応するデスクトップバージョンのQtを一緒にインストールしない限り、正しく機能しないことに注意してください。 ``--autodesktop`` フラグをつけることで、自動的にデスクトップバージョンのインストールを実行できます:</seg>
       </tuv>
     </tu>
     <tu>
@@ -703,6 +786,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The ``-l`` flag causes :ref:`aqt list-tool &lt;list-tool command&gt;` to print a table that shows plenty of data pertinent to each tool variant available in `tools_mingw`. :ref:`aqt list-tool &lt;list-tool command&gt;` additionally prints the 'Display Name' and 'Description' for each tool if your terminal is wider than 95 characters; terminals that are narrower than this cannot display this table in a readable way.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020459Z" creationid="Hiroshi Miura" creationdate="20221010T020459Z">
+        <seg>:ref:`aqt list-tool &lt;list-tool command&gt;` は、``tools_mingw`` で利用可能な各ツールに関連する、豊富なデータが含まれるテーブルを出力します。:ref:`aqt list-tool &lt;list-tool command&gt;` は、端末の幅が95文字より広い場合、各ツールの 「表示名」と「説明」を出力します。これより表示幅の狭い端末では、このテーブルを読みやすい形で表示することはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The ``[aqt]`` section configures basic behavior.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004345Z" creationid="Hiroshi Miura" creationdate="20221010T004345Z">
@@ -732,6 +823,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011046Z" creationid="Hiroshi Miura" creationdate="20221010T011046Z">
         <seg>ホストオペレーティングシステム(Windows、Mac、Linux)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>The name of the tool (this is `tools_mingw` in our case)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020519Z" creationid="Hiroshi Miura" creationdate="20221010T020519Z">
+        <seg>ツールの名前(この例では`tools_mingw`です)</seg>
       </tuv>
     </tu>
     <tu>
@@ -783,6 +883,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015525Z" creationid="Hiroshi Miura" creationdate="20221010T015525Z">
         <seg>利用可能なアーキテクチャは4つありますが、:ref:`aqt list-qt &lt;list-qt command&gt;` のエラーメッセージが、その4つを教えてくれます: `x86_64`、`x86`、`armv7`、`arm64_v8a`です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>There are only a few versions of Qt that support WASM, and they are only available for desktop targets. If we tried this command with `android`, `winrt`, or `ios` targets, we would have seen an error message.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020256Z" creationid="Hiroshi Miura" creationdate="20221010T020256Z">
+        <seg>WASMをサポートするQtのバージョンはわずかしかなく、デスクトップターゲットでのみ利用できます。このコマンドを`android`、`winrt`、`ios`ターゲットで実行すると、エラーメッセージが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -844,10 +953,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>To find out how to install Qt for WASM, we need to tell :ref:`aqt list-qt &lt;list-qt command&gt;` that we are using the `wasm` architecture. We can do that by using the ``--extension wasm`` flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020242Z" creationid="Hiroshi Miura" creationdate="20221010T020048Z">
+        <seg>Qt for WASMをインストールする方法を知るためには、:ref:`aqt list-q t&lt;list-qt command&gt;` に、私たちが ``wasm`` アーキテクチャを使いたい、ということを伝える必要があります。``--extension wasm`` フラグを使うことで、指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>To find out what versions of Qt are available, you can use the :ref:`aqt list-qt command &lt;list-qt command&gt;`. This command will print all versions of Qt available for Windows Desktop:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011138Z" creationid="Hiroshi Miura" creationdate="20221010T011138Z">
         <seg>利用可能なQtのバージョンを調べるには、 :ref:`aqt list-qt command &lt;list-qt command&gt;` を使うことができます。このコマンドはWindowsデスクトップで利用可能なQtのすべてのバージョンを出力します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To install `mingw`, you could use this command (please don't):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020647Z" creationid="Hiroshi Miura" creationdate="20221010T020621Z">
+        <seg>`mingw`をインストールするためには、以下のコマンドを使えます(が、使わないでください):</seg>
       </tuv>
     </tu>
     <tu>
@@ -876,12 +1001,38 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Using this command will install every tool variant available in `tools_mingw`; in this case, you would install 10 different versions of the same tool. For some tools, like `qtcreator` or `ifw`, this is an appropriate thing to do, since each tool variant is a different program. However, for tools like `mingw` and `vcredist`, it would make more sense to use :ref:`aqt list-tool &lt;list-tool command&gt;` to see what tool variants are available, and then install just the tool variant you are interested in, like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020752Z" creationid="Hiroshi Miura" creationdate="20221010T020635Z">
+        <seg>このコマンドを使用すると、`tools_mingw`  で利用可能なすべてのツールバリエーションがインストールされます。この場合、同じツールの10種類の異なるバージョンをインストールすることになります。``qtcreator`` や ``ifw`` のようないくつかのツールでは、それぞれのツールバリエーションが異なるプログラムなので、これは適切なことです。しかし、``mingw``や``vcredist``のようなツールでは、:ref:`aqt list-tool &lt;list-tool command&gt;` を使ってどんなバリエーションが利用可能か調べてから、必要なツールのバリエーションだけをインストールする方が理にかなっています:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Version moved after target</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004015Z" creationid="Hiroshi Miura" creationdate="20221010T004015Z">
         <seg>バージョンはターゲットの後に移動しました</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>We can check the architecture and modules available as before:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020300Z" creationid="Hiroshi Miura" creationdate="20221010T020300Z">
+        <seg>以前と同様に、利用可能なアーキテクチャとモジュールを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>We can install Qt for WASM as before:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020303Z" creationid="Hiroshi Miura" creationdate="20221010T020303Z">
+        <seg>以前と同じようにQt for WASMをインストールできます。</seg>
       </tuv>
     </tu>
     <tu>
