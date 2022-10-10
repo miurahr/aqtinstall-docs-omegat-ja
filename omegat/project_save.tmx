@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_98b0c1626" segtype="sentence" srclang="en"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_b9dbf593d" segtype="sentence" srclang="en"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="en">
+        <seg>7zcmd:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004502Z" creationid="Hiroshi Miura" creationdate="20221010T004502Z">
+        <seg>7zcmd:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A file is like as follows:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004329Z" creationid="Hiroshi Miura" creationdate="20221010T004329Z">
+        <seg>設定ファイルは次のようになります。</seg>
+      </tuv>
+    </tu>
     <tu>
       <tuv lang="en">
         <seg>Activity: moderate</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163301Z" creationid="Hiroshi Miura" creationdate="20221009T163301Z">
         <seg>活動度:中等度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Arguments are changed</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004020Z" creationid="Hiroshi Miura" creationdate="20221010T004020Z">
+        <seg>引数が変更されました</seg>
       </tuv>
     </tu>
     <tu>
@@ -47,6 +72,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Caution with last (s)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004109Z" creationid="Hiroshi Miura" creationdate="20221010T004109Z">
+        <seg>最後の引数に注意</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Command Line Options</seg>
@@ -58,10 +91,45 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Command changes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003930Z" creationid="Hiroshi Miura" creationdate="20221010T003914Z">
+        <seg>コマンドの変更</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Configuration</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004222Z" creationid="Hiroshi Miura" creationdate="20221010T004222Z">
+        <seg>構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Contribution guide</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163213Z" creationid="Hiroshi Miura" creationdate="20221009T163213Z">
         <seg>コントリビューションガイド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contributor Covenant Code of Conduct</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004212Z" creationid="Hiroshi Miura" creationdate="20221010T004212Z">
+        <seg>Contributor Covenant Code of Conduct</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Dependent libraries: requests, py7zr, semantic_version, patch, texttable, bs4</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003900Z" creationid="Hiroshi Miura" creationdate="20221010T003900Z">
+        <seg>依存ライブラリ:requests,py7zr,semantic_version,patch,texttable,bs4</seg>
       </tuv>
     </tu>
     <tu>
@@ -93,6 +161,15 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>From version 2.0.0, sub commands are changed. The previous versions of these sub commands have been retained for backwards compatibility, but are no longer recommended.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003942Z" creationid="Hiroshi Miura" creationdate="20221010T003942Z">
+        <seg>バージョン2.0.0から、サブコマンドが変更されました。これらのサブコマンドの以前のバージョンは、下位互換性のために保持されていますが、お勧めできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Generic commands</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161529Z" creationid="Hiroshi Miura" creationdate="20221009T161529Z">
@@ -105,6 +182,50 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163321Z" creationid="Hiroshi Miura" creationdate="20221009T163321Z">
         <seg>プロジェクトにパッチを送りたい場合の少量のルールを以下に示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Install by pip command</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003906Z" creationid="Hiroshi Miura" creationdate="20221010T003906Z">
+        <seg>pipコマンドによるインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Installation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003840Z" creationid="Hiroshi Miura" creationdate="20221010T003840Z">
+        <seg>インストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It is a command name of 7-zip. When ``aqtinstall`` is installed **without** recommended library ``py7zr``, it is used to extract archive instead of ``py7zr`` library. When ``--external`` option specified, a value is override with option's one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004626Z" creationid="Hiroshi Miura" creationdate="20221010T004626Z">
+        <seg>圧縮解凍ツールの7-zipのコマンド名です。 ``aqtinstall`` が **推奨ライブラリ``py7zr``なしで** インストールされている場合、``py7zr`` ライブラリの代わりにアーカイブを抽出するために使用されます。``--external`` オプションが指定されている場合、オプションの指定値で上書きされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Legacy list commands are removed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004141Z" creationid="Hiroshi Miura" creationdate="20221010T004141Z">
+        <seg>従来のリストコマンドは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Legacy sub commands</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003952Z" creationid="Hiroshi Miura" creationdate="20221010T003952Z">
+        <seg>レガシーサブコマンド</seg>
       </tuv>
     </tu>
     <tu>
@@ -130,6 +251,50 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162934Z" creationid="Hiroshi Miura" creationdate="20221009T162934Z">
         <seg>モジュールの長い表示: ``--modules`` と似ていますが、各モジュールに関連付けられた追加のメタデータを表示します。このメタデータは、各モジュールの長い表示名を含むテーブルに表示されます。端末の表示幅が95文字を超える場合、``aqt list-qt`` には各モジュールのリリース日とサイズも表示されます。この出力例を以下に示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Minimum Python version:  3.6</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003848Z" creationid="Hiroshi Miura" creationdate="20221010T003848Z">
+        <seg>Pythonの最小バージョン:3.6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>New command only can take --kde option</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004120Z" creationid="Hiroshi Miura" creationdate="20221010T004120Z">
+        <seg>新しいコマンドは--kdeオプションしか使えません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>New sub commands</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003946Z" creationid="Hiroshi Miura" creationdate="20221010T003946Z">
+        <seg>新しいサブコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>New syntax doesn't take version</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004026Z" creationid="Hiroshi Miura" creationdate="20221010T004026Z">
+        <seg>新しい構文はバージョンを使用しません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Note</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004000Z" creationid="Hiroshi Miura" creationdate="20221010T004000Z">
+        <seg>Note</seg>
       </tuv>
     </tu>
     <tu>
@@ -194,10 +359,36 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Recommended Python version: 3.7.5 or later</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003853Z" creationid="Hiroshi Miura" creationdate="20221010T003853Z">
+        <seg>推奨Pythonバージョン:3.7.5以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Requirements</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003844Z" creationid="Hiroshi Miura" creationdate="20221010T003844Z">
+        <seg>要件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Resources</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163220Z" creationid="Hiroshi Miura" creationdate="20221009T163220Z">
         <seg>リソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Same as usual, it can be installed with `pip`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003927Z" creationid="Hiroshi Miura" creationdate="20221010T003910Z">
+        <seg>いつもと同じように、``pip`` でインストールできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -207,6 +398,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163314Z" creationid="Hiroshi Miura" creationdate="20221009T163314Z">
         <seg>パッチを送信</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004332Z" creationid="Hiroshi Miura" creationdate="20221010T004332Z">
+        <seg>設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -223,6 +423,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161527Z" creationid="Hiroshi Miura" creationdate="20221009T161527Z">
         <seg>コマンドラインのインタフェースは、argparseライブラリを使用してコマンドラインのオプションを解析します。そのため、オプションに、短いバージョンや長いバージョンが使用できるます。長いオプションは最も短い明確な省略形も提供ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The ``[aqt]`` section configures basic behavior.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004345Z" creationid="Hiroshi Miura" creationdate="20221010T004345Z">
+        <seg>``[aqt]`` セクションは基本的な動作を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The ``[requests]`` section controls the way that ``aqt`` makes network requests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004846Z" creationid="Hiroshi Miura" creationdate="20221010T004846Z">
+        <seg>``[requests]`` セクションは、``aqt`` がネットワークリクエストを行う方法を制御します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -259,6 +475,30 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>This is the minimum decompressed size, in bytes, of the modules that aqt is permitted to list. The authors of aqt have discovered that the Qt repository contains a few mysteriously "empty" modules, including the examples modules for `qtlottie` and `qtquicktimeline`. These modules consist of a single archive that contains empty directories, and they are exactly 40 bytes when uncompressed. The authors feel that it is not useful for ``aqt list-*`` to list these empty modules. If you want to print these modules with ``aqt list-*``, please feel free to change the `min_module_size` value to something less than 40.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004815Z" creationid="Hiroshi Miura" creationdate="20221010T004815Z">
+        <seg>これは、aqtがリスト可能なモジュールの解凍後の最小サイズ(バイト単位)です。aqtの作者は、Qtリポジトリにいくつかの不可解な"空の"モジュールが含まれていることを発見しました。その中には``qtlottie`` や``qtquicktimeline``のモジュール例も含まれています。これらのモジュールは空のディレクトリを含む単一のアーカイブから構成されており、解凍すると正確に40バイトになります。著者は、``aqt list-*`` がこれらの空のモジュールをリストすることは有用ではないと感じています。これらのモジュールを ``aqt list-*`` で印刷したい場合は、``min_module_size`` の値を40未満に変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This is the relative or absolute path to the location in which ``.7z`` archives will be downloaded, when ``--keep`` is turned on. You can override this location with the ``--archives-dest`` option.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004709Z" creationid="Hiroshi Miura" creationdate="20221010T004709Z">
+        <seg>これは、``--keep`` がオンになっている場合に、``.7z`` アーカイブがダウンロードされる場所への相対パスまたは絶対パスです。この場所は、``--archives-dest`` オプションで上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This setting has no effect on your ability to install these modules. ``aqt install-*`` can will still install them without any warnings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004827Z" creationid="Hiroshi Miura" creationdate="20221010T004827Z">
+        <seg>この設定はこれらのモジュールをインストールする能力に影響を与えません。``aqt install-*`` は警告なしでそれらをインストールします。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Use the ``--extensions`` flag to list all relevant options for a host/target. Incompatible with the ``--extensions`` flag, but may be combined with any other flag.</seg>
@@ -268,11 +508,76 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Version moved after target</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004015Z" creationid="Hiroshi Miura" creationdate="20221010T004015Z">
+        <seg>バージョンはターゲットの後に移動しました</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can specify custom configuration file through ``AQT_CONFIG`` environment variable or "-c" or "--config" command line option.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004317Z" creationid="Hiroshi Miura" creationdate="20221010T004317Z">
+        <seg>環境変数 ``AQT_CONFIG`` やコマンドラインオプション``-c``や``--config`` でカスタム設定ファイルを指定することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``aqtinstall`` can be configured through a configuration file. A default configuration is stored in ``aqt/settings.ini`` file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004251Z" creationid="Hiroshi Miura" creationdate="20221010T004251Z">
+        <seg>``aqtinstall``は設定ファイルで設定できます。デフォルトの設定は ``aqt/settings.ini`` ファイルに保存されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``baseurl`` is a URL of Qt download site. When you have your own Qt download site repository, you can set it here. It is as same as ``--base`` option.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004500Z" creationid="Hiroshi Miura" creationdate="20221010T004500Z">
+        <seg>``baseurl`` はQtダウンロードサイトのURLです。独自のQtダウンロードサイトリポジトリがある場合は、ここで設定できます。これは``--base``オプションと同じです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``concurrency`` is a setting how many download concurrently starts. It should be a integer value.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004433Z" creationid="Hiroshi Miura" creationdate="20221010T004433Z">
+        <seg>``concurrency`` は、同時に開始するダウンロードの数を設定します。これは整数値でなくてはなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``print_stacktrace_on_error`` is either ``True`` or ``False``. The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program. The ``False`` setting will hide the stack trace, unless an unhandled exception occurs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004638Z" creationid="Hiroshi Miura" creationdate="20221010T004638Z">
+        <seg>``print_stacktrace_on_error`` is either ``True`` or ``False``. The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program. The ``False`` setting will hide the stack trace, unless an unhandled exception occurs.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>and many other participants and contributors. If you find a missing name to record, please feel free to tell me.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161334Z" creationid="Hiroshi Miura" creationdate="20221009T161334Z">
         <seg>他にも多くの参加者や貢献者がいます。記録に名前がない方は、遠慮なく言ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>baseurl:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004436Z" creationid="Hiroshi Miura" creationdate="20221010T004436Z">
+        <seg>baseurl:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>concurrency:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004356Z" creationid="Hiroshi Miura" creationdate="20221010T004356Z">
+        <seg>concurrency:</seg>
       </tuv>
     </tu>
     <tu>
@@ -311,6 +616,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>install-qt</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004005Z" creationid="Hiroshi Miura" creationdate="20221010T004005Z">
+        <seg>install-qt</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>linux, windows or mac</seg>
@@ -326,6 +639,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161628Z" creationid="Hiroshi Miura" creationdate="20221009T161628Z">
         <seg>list-qtコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>print_stacktrace_on_error:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004629Z" creationid="Hiroshi Miura" creationdate="20221010T004629Z">
+        <seg>print_stacktrace_on_error:</seg>
       </tuv>
     </tu>
     <tu>
