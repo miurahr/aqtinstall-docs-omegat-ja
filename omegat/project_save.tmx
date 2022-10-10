@@ -675,6 +675,15 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Install command</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025027Z" creationid="Hiroshi Miura" creationdate="20221010T025027Z">
+        <seg>インストール・コマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Install-* Commands</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024618Z" creationid="Hiroshi Miura" creationdate="20221010T024618Z">
@@ -799,6 +808,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010747Z" creationid="Hiroshi Miura" creationdate="20221010T010747Z">
         <seg>問題のあるミラーサイトがあるURLのリストです。一部のミラーサイトでは、優先されたIPアドレスからの接続以外が無視されます。接続エラーまたは接続タイムアウトが発生します。既定のミラーサイトには既知のものがあります。既定のサイトに問題がなければ、カスタム設定で上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Keep downloaded archive when specified, otherwise remove after install. Use ``--archive-dest &lt;path&gt;`` to choose where aqt will place these files. If you do not specify a download destination, aqt will place these files in the current working directory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024931Z" creationid="Hiroshi Miura" creationdate="20221010T024931Z">
+        <seg>指定された場合はダウンロードされたアーカイブを保持します。指定されていない場合はインストール後に削除します。これらのファイルをaqtが配置する場所を選択するには、 ``--archive-dest &lt;path&gt;``を使用します。ダウンロード先を指定しない場合、aqtはこれらのファイルを現在の作業ディレクトリに配置します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -961,6 +978,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>List command</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025036Z" creationid="Hiroshi Miura" creationdate="20221010T025030Z">
+        <seg>リストコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>List documentation archives and modules available for installation using the `install-doc command`_.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024147Z" creationid="Hiroshi Miura" creationdate="20221010T024147Z">
@@ -1084,6 +1109,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T014928Z" creationid="Hiroshi Miura" creationdate="20221010T014928Z">
         <seg>端末の表示幅が95文字以上の場合、このコマンドはリリース日とサイズを右側のスペースに表示します。これを試してみると、``debug_info`` では、5.9ギガバイトがインストールされることに気付くでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Note that this option refers to the intermediate ``.7z`` archives that ``aqt`` downloads and then extracts to ``--outputdir``. Most users will not need to keep these files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025013Z" creationid="Hiroshi Miura" creationdate="20221010T025013Z">
+        <seg>このオプションは、 ``aqt`` がダウンロードして ``--outputdir`` に展開する中間の ``.7z`` アーカイブを参照していることに注意してください。ほとんどのユーザはこれらのファイルを保持する必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1330,6 +1363,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Set the destination path for downloaded archives (temp directory by default). All downloaded archives will be automatically deleted unless you have specified the ``--keep`` option above, or ``aqt`` crashes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024945Z" creationid="Hiroshi Miura" creationdate="20221010T024945Z">
+        <seg>ダウンロードしたアーカイブの保存先パスを設定します(デフォルトディレクトリ)を設定します。上記の ``--keep`` オプションが指定されていないか、または ``aqt`` がクラッシュしない限り、ダウンロードしたアーカイブはすべて自動的に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Settings</seg>
@@ -1352,6 +1393,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024806Z" creationid="Hiroshi Miura" creationdate="20221010T024806Z">
         <seg>外部7zipコマンドのパスを指定します。デフォルトでは、aqtはこのタスクに py7zr_ を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify extra modules to install as a list. Use the appropriate ``aqt list-*`` command to list available modules:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025024Z" creationid="Hiroshi Miura" creationdate="20221010T025024Z">
+        <seg>リストとしてインストールする追加モジュールを指定してください。適切な ``aqt list-*`` コマンドを使って、利用可能なモジュールをリストしてください:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1705,6 +1754,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This option only applicable to ``install-qt``, ``install-example``, and ``install-doc``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025127Z" creationid="Hiroshi Miura" creationdate="20221010T025127Z">
+        <seg>このオプションは、 ``install-qt``、 ``install-example`` 、 ``install-doc`` にのみ適用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This setting controls how many times ``aqt`` will attempt to download a file, in the case of a checksum error.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010458Z" creationid="Hiroshi Miura" creationdate="20221010T010458Z">
@@ -1765,6 +1822,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011041Z" creationid="Hiroshi Miura" creationdate="20221010T011041Z">
         <seg>Qtをインストールするには、``aqt`` に次の4つのことを伝える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Usage of list command</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025045Z" creationid="Hiroshi Miura" creationdate="20221010T025031Z">
+        <seg>リストコマンドの使用法</seg>
       </tuv>
     </tu>
     <tu>
@@ -1834,6 +1899,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015553Z" creationid="Hiroshi Miura" creationdate="20221010T015553Z">
         <seg>アーキテクチャに ``armv7`` を使いたいことはわかっていますが、:ref:`aqt install-qt &lt;qt installation command&gt;` に渡す必要のある'アーキテクチャ'の値が正確にはまだ分からないので、もう一度 :ref:`aqt list-qt &lt;list-qt command&gt;` を使います:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>You can install multiple modules like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025133Z" creationid="Hiroshi Miura" creationdate="20221010T025133Z">
+        <seg>次のように、複数のモジュールをインストールできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1959,6 +2033,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>``list-qt &lt;host&gt; &lt;target&gt; --modules &lt;version&gt; &lt;arch&gt;``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025052Z" creationid="Hiroshi Miura" creationdate="20221010T025052Z">
+        <seg>``list-qt &lt;host&gt; &lt;target&gt; --modules &lt;version&gt; &lt;arch&gt;``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>``max_retries_on_connection_error`` is an integer that controls how many times ``aqt`` will try to reconnect to the server in the case of a connection error.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010419Z" creationid="Hiroshi Miura" creationdate="20221010T010419Z">
@@ -1996,6 +2078,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010548Z" creationid="Hiroshi Miura" creationdate="20221010T010548Z">
         <seg>``trusted_mirrors`` は、ダウンロードされたすべてのアーカイブに対して正確なチェックサムを提供するために信頼しているURLのリストです。これはセキュリティ機能です。何をしているのかわからない限り、この値を変更しないでください!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>`list-example command`_</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025058Z" creationid="Hiroshi Miura" creationdate="20221010T025058Z">
+        <seg>`list-example command`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>`list-qt command`_</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025050Z" creationid="Hiroshi Miura" creationdate="20221010T025050Z">
+        <seg>`list-qt command`_</seg>
       </tuv>
     </tu>
     <tu>
@@ -2063,6 +2161,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163326Z" creationid="Hiroshi Miura" creationdate="20221009T163326Z">
         <seg>修正案はすべて「プルリクエスト」として送信する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>install-example</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025054Z" creationid="Hiroshi Miura" creationdate="20221010T025054Z">
+        <seg>install-example</seg>
       </tuv>
     </tu>
     <tu>
