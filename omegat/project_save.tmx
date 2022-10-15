@@ -620,6 +620,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>First we need to find out what the modules are called, and we can do that with :ref:`aqt list-qt &lt;list-qt command&gt;` with the ``--modules`` flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074654Z" creationid="miurahr" creationdate="20221015T074654Z">
+        <seg>まず、モジュールが何と呼ばれているかを知る必要があります。これは``--modules`` フラグを付けて、:ref:`aqt list-qt &lt;list-qt command&gt;` を実行すれば確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>For example, ``aqt install-doc mac 5.12`` would install documentation for the newest version of Qt 5.12 available, and ``aqt install-doc mac "*"`` would install documentation for the highest version of Qt available.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073650Z" creationid="miurahr" creationdate="20221015T073650Z">
@@ -1399,6 +1407,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T014831Z" creationid="Hiroshi Miura" creationdate="20221010T014831Z">
         <seg>これらのモジュールをインストールする前に、これらのモジュールについてもっと知りたいとしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Let's say we need to install some modules for Qt 5.15.2 on Windows Desktop.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074600Z" creationid="miurahr" creationdate="20221015T074600Z">
+        <seg>Qt 5.15.2用のモジュールをWindows デスクトップにインストールする必要があるとします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2560,6 +2576,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>This is a security feature; please do not change this value unless you know what you're doing!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074432Z" creationid="miurahr" creationdate="20221015T074432Z">
+        <seg>これはセキュリティ機能です。何をしているのかわからない限り、この値を変更しないでください!</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>This is advanced option and not recommended to use for general usage.</seg>
@@ -3427,6 +3451,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>``trusted_mirrors`` is a list of URLs that you trust to provide accurate checksums for all downloaded archives.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074413Z" creationid="miurahr" creationdate="20221015T074413Z">
+        <seg>``trusted_mirrors`` は、ダウンロードされたすべてのアーカイブに対して正確なチェックサムを提供するために信頼しているURLのリストです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>``trusted_mirrors`` is a list of URLs that you trust to provide accurate checksums for all downloaded archives. This is a security feature; please do not change this value unless you know what you're doing!</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010548Z" creationid="Hiroshi Miura" creationdate="20221010T010548Z">
@@ -3515,6 +3547,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>blacklist:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074435Z" creationid="miurahr" creationdate="20221015T074435Z">
+        <seg>blacklist:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>by adding ``--kde`` option, KDE patch collection is applied for qtbase tree.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073557Z" creationid="miurahr" creationdate="20221015T073557Z">
@@ -3535,6 +3575,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004356Z" creationid="Hiroshi Miura" creationdate="20221010T004356Z">
         <seg>concurrency:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>connection_timeout:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074340Z" creationid="miurahr" creationdate="20221015T074340Z">
+        <seg>connection_timeout:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3586,6 +3634,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163326Z" creationid="Hiroshi Miura" creationdate="20221009T163326Z">
         <seg>修正案はすべて「プルリクエスト」として送信する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>fallbacks:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074522Z" creationid="miurahr" creationdate="20221015T074522Z">
+        <seg>fallbacks:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3754,6 +3810,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>max_retries_on_checksum_error:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074349Z" creationid="miurahr" creationdate="20221015T074349Z">
+        <seg>max_retries_on_checksum_error:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>max_retries_on_connection_error:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010356Z" creationid="Hiroshi Miura" creationdate="20221010T010356Z">
@@ -3783,6 +3847,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004629Z" creationid="Hiroshi Miura" creationdate="20221010T004629Z">
         <seg>print_stacktrace_on_error:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>retry_backoff:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074343Z" creationid="miurahr" creationdate="20221015T074343Z">
+        <seg>retry_backoff:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3834,6 +3906,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073755Z" creationid="miurahr" creationdate="20221015T073755Z">
         <seg>ツールバリアント名は'qt.tools.win64_mingw810','qt.tools.vcredist_msvc2013_x64'のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>trusted_mirrors:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074345Z" creationid="miurahr" creationdate="20221015T074345Z">
+        <seg>trusted_mirrors:</seg>
       </tuv>
     </tu>
     <tu>
