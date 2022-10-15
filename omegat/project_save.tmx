@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_4d1034fa" segtype="sentence" srclang="en"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_4d1034fa" segtype="paragraph" srclang="en"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -526,6 +526,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023827Z" creationid="Hiroshi Miura" creationdate="20221010T023827Z">
         <seg>例:ヘルプメッセージの表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Examples of unacceptable behavior include:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072439Z" creationid="miurahr" creationdate="20221015T072439Z">
+        <seg>Examples of unacceptable behavior include:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2373,6 +2381,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010340Z" creationid="Hiroshi Miura" creationdate="20221010T010340Z">
         <seg>``connection_timeout`` は接続の秒単位のタイムアウトです。これは ``requests`` ライブラリに渡されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``list-example &lt;host&gt; &lt;version&gt; --modules``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072507Z" creationid="miurahr" creationdate="20221015T072507Z">
+        <seg>``list-example &lt;host&gt; &lt;version&gt; --modules``</seg>
       </tuv>
     </tu>
     <tu>
