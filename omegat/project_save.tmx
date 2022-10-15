@@ -103,6 +103,15 @@
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>An example of this output is displayed below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071110Z" creationid="miurahr" creationdate="20221015T071110Z">
+        <seg>この出力の例を次に示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>Aqtinstall is written and maintained by Hiroshi Miura &lt;miurahr@linux.com&gt;</seg>
       </tuv>
@@ -206,6 +215,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024405Z" creationid="Hiroshi Miura" creationdate="20221010T024319Z">
         <seg>デフォルトでは、 ``list-example`` は `install-example command`_ と ``--archives`` オプションを使ってインストール可能なアーカイブのリストを出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>By default, aqt installs to the current working directory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071147Z" creationid="miurahr" creationdate="20221015T071147Z">
+        <seg>デフォルトでは、aqtは現在の作業ディレクトリにインストールされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -649,6 +666,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If your terminal is wider than 95 characters, ``aqt list-tool`` will also display the names and descriptions for each tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071004Z" creationid="miurahr" creationdate="20221015T071004Z">
+        <seg>端末幅が95文字以上の場合、``aqt list-tool`` は各ツールの名前と説明も表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>In the past, our users have had success using 7-zip_ on Windows, Linux and Mac. You can install 7-zip on Windows with Choco_. The Linux/Mac port of 7-zip is called ``p7zip``, and you can install it with brew_ on Mac, or on Linux with your package manager.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024910Z" creationid="Hiroshi Miura" creationdate="20221010T024910Z">
@@ -661,6 +686,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021155Z" creationid="Hiroshi Miura" creationdate="20221010T021155Z">
         <seg>このドキュメントでは、**"modules"**, **"archives"**, **"base Qt installation"** はそれぞれ別のものを指しており、ここで定義されています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Incompatible with the ``--extensions`` flag, but may be combined with any other flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071218Z" creationid="miurahr" creationdate="20221015T071218Z">
+        <seg>``--extensions`` フラグとは互換性がありませんが、他のフラグと組み合わせることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1275,6 +1308,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Qt version in the format of "5.X.Y", or the keyword ``latest``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071238Z" creationid="miurahr" creationdate="20221015T071238Z">
+        <seg>"5.X.Y"形式のQtバージョン、またはキーワード``latest``。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Qt version in the format of "5.X.Y", or the keyword ``latest``. When set, this prints all valid arguments for the ``--extension`` flag for Qt 5.X.Y, or the latest version of Qt if ``latest`` is specified. Incompatible with the ``--extension`` flag.</seg>
@@ -1417,6 +1458,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024702Z" creationid="Hiroshi Miura" creationdate="20221010T024642Z">
         <seg>'online' フォルダが存在する -b ``https://mirrors.dotsrc.org/qtproject`` などのミラーサイトベースURLを指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Specify output directory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071116Z" creationid="miurahr" creationdate="20221015T071116Z">
+        <seg>出力ディレクトリを指定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1599,8 +1649,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>The output of this command is meant to be used with the :ref:`aqt install-tool &lt;Tools installation command&gt;` below.</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024549Z" creationid="Hiroshi Miura" creationdate="20221010T024549Z">
-        <seg>このコマンドの出力は、以下の :ref:`aqt install-tool &lt;Tools installation command&gt;` と一緒に使うことを意図しています。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071019Z" creationid="Hiroshi Miura" creationdate="20221010T024549Z">
+        <seg>このコマンドの出力は、以下の :ref:`aqt install-tool &lt;Tools installation command&gt;` で使うことを意図しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1878,8 +1928,16 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>Use ``aqt list-tool &lt;host&gt; &lt;target&gt;`` to see accepted values.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T070904Z" creationid="miurahr" creationdate="20221015T070904Z">
-        <seg>Use ``aqt list-tool &lt;host&gt; &lt;target&gt;`` to see accepted values.</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071044Z" creationid="miurahr" creationdate="20221015T070904Z">
+        <seg>利用可能な値を確認するには、 ``aqt list-tool &lt;host&gt; &lt;target&gt;`` を使用してください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the ``--extensions`` flag to list all relevant options for a host/target.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071206Z" creationid="miurahr" creationdate="20221015T071206Z">
+        <seg>ホスト/ターゲットに関連するすべてのオプションをリストするには、`--extensions``フラグを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1955,8 +2013,16 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>When set, this prints all 'tool variant names' available.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T070927Z" creationid="miurahr" creationdate="20221015T070927Z">
-        <seg>利用可能な値を確認するには、 ``aqt list-tool &lt;host&gt; &lt;target&gt;`` を使用してください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071100Z" creationid="miurahr" creationdate="20221015T070927Z">
+        <seg>設定すると、利用可能なすべての 'ツールバリアント名'  を出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When set, this prints all valid arguments for the ``--extension`` flag for Qt 5.X.Y, or the latest version of Qt if ``latest`` is specified.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071301Z" creationid="miurahr" creationdate="20221015T071301Z">
+        <seg>これを設定すると、Qt 5.X.Yの ``--extension`` フラグの有効な引数をすべて出力します。</seg>
       </tuv>
     </tu>
     <tu>
