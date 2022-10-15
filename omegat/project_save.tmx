@@ -194,6 +194,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>As of aqt v2.1.0, the ``--archives`` flag will only apply to the base Qt installation and to the ``debug_info`` module.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075716Z" creationid="miurahr" creationdate="20221015T075716Z">
+        <seg>aqt v2.1.0以降では、``--archives``フラグはQtの基本インストールと``debug_info``モジュールにのみ適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>As of aqt v2.1.0, the ``--archives`` flag will only apply to the base Qt installation and to the ``debug_info`` module. Previous versions of aqt required that when installing modules with the ``--archives`` flag, the user must specify archives for each module, otherwise they would not be installed. This behavior has been changed to prevent such mistakes.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022046Z" creationid="Hiroshi Miura" creationdate="20221010T022046Z">
@@ -849,6 +857,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If we had tried to use this command with previous versions of aqt, we would not have installed the two modules because we did not specify them in the ``--archives`` list.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075747Z" creationid="miurahr" creationdate="20221015T075747Z">
+        <seg>このコマンドをaqtの以前のバージョンで使用しようとすると、2つのモジュールは``--archives``リストに指定されていなかったので、インストールされませんでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If we need to use some architecture that is not on this list, we can use the `Available Qt versions`_ wiki page to get a rough idea of what versions support the architecture we want, and then use :ref:`aqt list-qt &lt;list-qt command&gt;` to confirm that the architecture is available.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011610Z" creationid="Hiroshi Miura" creationdate="20221010T011610Z">
@@ -1359,6 +1375,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>It would be difficult to read and write a list of 20 modules with the prefix ``qt.qt6.620.`` and the suffix ``.gcc_64``, because these parts are repetitive and not meaningful.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075626Z" creationid="miurahr" creationdate="20221015T075601Z">
+        <seg>プレフィックス ``qt.qt6.620.``とサフィックス``.gcc_64``を持つ20個のモジュールのリストを読み書きするのは難しいでしょう。なぜならこれらの部分は反復的で意味がないからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Keep downloaded archive when specified, otherwise remove after install.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073417Z" creationid="miurahr" creationdate="20221015T073345Z">
@@ -1448,6 +1472,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022103Z" creationid="Hiroshi Miura" creationdate="20221010T022103Z">
         <seg>モジュール``qtcharts``と``qtlottie``を使って、最低限のQt 5.15.2をインストールする必要があるとしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Let's say that we want to install Qt 5.15.2 for Linux desktop, using the gcc_64 architecture.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075704Z" creationid="miurahr" creationdate="20221015T075645Z">
+        <seg>gcc_64アーキテクチャを使ってQt 5.15.2をLinuxデスクトップにインストールしたいとしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1726,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Note that there's a name collision between the ``debug_info`` archives and the archives in every other module/Qt base install: this is because there's a ``debug_info`` archive that corresponds to almost every other archive available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075845Z" creationid="miurahr" creationdate="20221015T075845Z">
+        <seg>``debug_info``アーカイブと他のすべてのモジュール/Qtベースインストールのアーカイブとの間に名前の衝突があることに注意してください。これは、利用可能な他のほとんどすべてのアーカイブに対応する``debug_info``アーカイブがあるからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Note that this option refers to the intermediate ``.7z`` archives that ``aqt`` downloads and then extracts to ``--outputdir``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025013Z" creationid="Hiroshi Miura" creationdate="20221010T025013Z">
@@ -1775,6 +1815,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Now let's say we need to install the ``debug_info`` module, which is particularly large: around one gigabyte.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075823Z" creationid="miurahr" creationdate="20221015T075812Z">
+        <seg>ここで、``debug_info``モジュールをインストールする必要があるとしましょう。このモジュールは非常に大きく、約1.0GBです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Now let's say we need to install the ``debug_info`` module, which is particularly large: around one gigabyte. We do not want to install all of it, so we can use ``aqt install-qt --archives`` to choose which archives we want to install. Remember that the ``--archives`` flag</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022211Z" creationid="Hiroshi Miura" creationdate="20221010T022211Z">
@@ -1804,6 +1852,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015127Z" creationid="Hiroshi Miura" creationdate="20221010T015127Z">
         <seg>Qt 5.15.2で利用可能なすべてのモジュールをインストールする1つの方法は :ref:`aqt list-qt &lt;list-qt command&gt;` の出力を :ref:`aqt install-qt &lt;qt installation command&gt;` に以下のように送ることです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Only the ``qtcharts`` part is useful.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075631Z" creationid="miurahr" creationdate="20221015T075631Z">
+        <seg>ただ``qtcharts`` の部分だけが役に立つからです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1870,6 +1926,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020154Z" creationid="Hiroshi Miura" creationdate="20221010T020043Z">
         <seg>Qt for androidまたはiosをインストールする場合、対応するデスクトップバージョンのQtを一緒にインストールしない限り、正しく機能しないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Previous versions of aqt required that when installing modules with the ``--archives`` flag, the user must specify archives for each module, otherwise they would not be installed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075738Z" creationid="miurahr" creationdate="20221015T075713Z">
+        <seg>aqtの以前のバージョンでは、``--archives``フラグを付けてモジュールをインストールする場合、ユーザはモジュールごとにアーカイブを指定する必要がありました。指定しないとインストールされませんでした。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1970,6 +2034,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015127Z" creationid="Hiroshi Miura" creationdate="20221010T015127Z">
         <seg>:ref:`aqt list-qt &lt;list-qt command&gt;` コマンドは、スクリプト化できるように意図して作られていることを覚えていますか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remember that the ``--archives`` flag</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075837Z" creationid="miurahr" creationdate="20221015T075827Z">
+        <seg>この場合の``--archives``フラグは</seg>
       </tuv>
     </tu>
     <tu>
@@ -2226,6 +2298,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The ``--archives`` flag can only affect two modules: the base Qt installation and the ``debug_info`` module.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075543Z" creationid="miurahr" creationdate="20221015T075543Z">
+        <seg> ``--archives`` フラグは、Qtの基本インストールモジュールと``debug_info``モジュールの2つのモジュールにしか影響しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The ``-l`` flag causes :ref:`aqt list-tool &lt;list-tool command&gt;` to print a table that shows plenty of data pertinent to each tool variant available in `tools_mingw`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T075311Z" creationid="miurahr" creationdate="20221015T075311Z">
@@ -2314,6 +2394,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The ``qtbase`` archive includes the bare minimum for a working Qt installation, and we can install it alone with the ``--archives`` flag:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075654Z" creationid="miurahr" creationdate="20221015T075654Z">
+        <seg>``qtbase`` アーカイブには、動作中のQtインストールに最低限必要なものが含まれています。また、``--archives`` フラグを付けて単独でインストールすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The ``xargs`` equivalent to this command is an exercise left to the reader.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015226Z" creationid="Hiroshi Miura" creationdate="20221010T015226Z">
@@ -2356,10 +2444,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The fully-qualified name of the **base Qt installation** module is usually something like ``qt.qt6.620.gcc_64``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075620Z" creationid="miurahr" creationdate="20221015T075546Z">
+        <seg>**base Qt installation**  モジュールの完全修飾名は通常、``qt.qt6.620.gcc_64`` のようなものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The fully-qualified name of the **base Qt installation** module is usually something like ``qt.qt6.620.gcc_64``. The fully-qualified name of the ``qtcharts`` module could be something like ``qt.qt6.620.qtcharts.gcc_64``. It would be difficult to read and write a list of 20 modules with the prefix ``qt.qt6.620.`` and the suffix ``.gcc_64``, because these parts are repetitive and not meaningful. Only the ``qtcharts`` part is useful.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021757Z" creationid="Hiroshi Miura" creationdate="20221010T021757Z">
         <seg>**base Qt installation** モジュールの完全修飾名は通常、``qt.qt6.620.gcc_64`` のようなものです。``qtcharts`` モジュールの完全修飾名は通常、``qt.qt6.620.qtcharts.gcc_64`` のようなものです。プレフィックス ``qt.qt6.620.``とサフィックス``.gcc_64``を持つ20個のモジュールのリストを読み書きするのは難しいでしょう。なぜならこれらの部分は反復的で意味がないからです。ただ``qtcharts`` の部分だけが役に立つからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The fully-qualified name of the ``qtcharts`` module could be something like ``qt.qt6.620.qtcharts.gcc_64``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075609Z" creationid="miurahr" creationdate="20221015T075609Z">
+        <seg>``qtcharts`` モジュールの完全修飾名は通常、``qt.qt6.620.qtcharts.gcc_64`` のようなものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2578,6 +2682,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This behavior has been changed to prevent such mistakes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075733Z" creationid="miurahr" creationdate="20221015T075733Z">
+        <seg>このようなミスを防止するために、この動作を変更しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This command receives four parameters:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020514Z" creationid="Hiroshi Miura" creationdate="20221010T020514Z">
@@ -2590,6 +2702,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011138Z" creationid="Hiroshi Miura" creationdate="20221010T011138Z">
         <seg>このコマンドはWindowsデスクトップで利用可能なQtのすべてのバージョンを出力します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This command will successfully install 3 archives: 1 for ``qtbase``, and one each for the two modules.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075752Z" creationid="miurahr" creationdate="20221015T075752Z">
+        <seg>このコマンドは3つのアーカイブを正しくインストールします。1つは``qtbase``用で、もう1つは2つのモジュール用です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2694,6 +2814,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024120Z" creationid="Hiroshi Miura" creationdate="20221010T024120Z">
         <seg>これはバージョンの範囲を指定する `SimpleSpec`_ です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This is a lot of archives.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075838Z" creationid="miurahr" creationdate="20221015T075838Z">
+        <seg>This is a lot of archives.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3115,6 +3243,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T014831Z" creationid="Hiroshi Miura" creationdate="20221010T014831Z">
         <seg>そのためには  ``--long-modules`` フラグを使うことができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We do not want to install all of it, so we can use ``aqt install-qt --archives`` to choose which archives we want to install.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075833Z" creationid="miurahr" creationdate="20221015T075758Z">
+        <seg>すべてをインストールしたくないので、``aqt install-qt --archives``を使ってインストールしたいアーカイブを選ぶことができます。</seg>
       </tuv>
     </tu>
     <tu>
