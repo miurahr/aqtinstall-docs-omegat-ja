@@ -667,6 +667,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If you type something in the ``&lt;Qt version&gt;`` positional argument that cannot be interpreted as a version, it will be interpreted as a `SimpleSpec`_, and ``aqt`` will select the highest available version within that `SimpleSpec`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072147Z" creationid="miurahr" creationdate="20221015T072147Z">
+        <seg> ``&lt;Qt version&gt;`` の位置引数にバージョンとして解釈できないものを入力すると、 `SimpleSpec`_ として解釈され、 ``aqt`` は、その `SimpleSpec`_ 内で利用可能な最高バージョンを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If you want to install all available modules, you are probably better off using the ``all`` keyword, as discussed above. This scripting example is presented to give you a sense of how to accomplish something more complicated. Perhaps you want to install all modules except `qtnetworkauth`; you could write a script that removes `qtnetworkauth` from the output of :ref:`aqt list-qt &lt;list-qt command&gt;`, and pipe that into :ref:`aqt install-qt &lt;qt installation command&gt;`. This exercise is left to the reader.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015334Z" creationid="Hiroshi Miura" creationdate="20221010T015334Z">
@@ -1546,6 +1554,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Specify the path to your own ``settings.ini`` file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072202Z" creationid="miurahr" creationdate="20221015T072202Z">
+        <seg>独自の ``settings.ini`` ファイルへのパスを指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify the path to your own ``settings.ini`` file. See :ref:`the Configuration section&lt;configuration-ref&gt;`.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024731Z" creationid="Hiroshi Miura" creationdate="20221010T024642Z">
@@ -1877,11 +1893,28 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>This is a Qt version such as 5.9.7, 5.12.1 etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071924Z" creationid="miurahr" creationdate="20221015T071924Z">
+        <seg>これは、5.9.7、5.12.1などのQtバージョンです。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>This is a Qt version such as 5.9.7, 5.12.1 etc. Use the :ref:`List-Qt Command` to list available versions.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024047Z" creationid="Hiroshi Miura" creationdate="20221010T024047Z">
         <seg>これは5.9.7、5.12.1などのQtバージョンです。利用可能なバージョンを一覧表示するには :ref:`List-Qt Command` を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This is a `SimpleSpec`_ that specifies a range of versions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072026Z" creationid="miurahr" creationdate="20221015T072026Z">
+        <seg>バージョンの範囲を指定する `SimpleSpec`_ です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2033,6 +2066,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Use the :ref:`List-Qt Command` to list available versions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072003Z" creationid="miurahr" creationdate="20221015T072003Z">
+        <seg>有効なバージョンを調べるには、:ref:`List-Qt Command` を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Use the ``--extensions`` flag to list all relevant options for a host/target.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T071206Z" creationid="miurahr" creationdate="20221015T071206Z">
@@ -2180,6 +2221,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T071854Z" creationid="miurahr" creationdate="20221015T071854Z">
         <seg>'architecture' 引数に指定できる値のリストを見るには、``--arch`` フラグを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can use the ``--modules`` flag to see a list of acceptable values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071918Z" creationid="miurahr" creationdate="20221015T071918Z">
+        <seg>受け入れ可能な値のリストを見るために、``--modules`` フラグを使うことができます。</seg>
       </tuv>
     </tu>
     <tu>
