@@ -1,47 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_4d1034fa" segtype="paragraph" srclang="en"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_4d1034fa" segtype="sentence" srclang="en"/>
   <body>
 <!-- Default translations -->
     <tu>
       <tuv lang="en">
-        <seg>(Optional) The tool variant name. We saw a list of these when we ran :ref:`aqt list-tool &lt;list-tool command&gt;` with the `tool name` argument filled in.</seg>
+        <seg>(Optional) The tool variant name.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020616Z" creationid="Hiroshi Miura" creationdate="20221010T020616Z">
-        <seg>(オプション)ツールのバリアント名。 :ref:`aqt list-tool &lt;list-tool command&gt;` を`tool name` 引数つきで実行したときに、リストに表示されます。</seg>
+        <seg>(オプション)ツールのバリアント名。</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>(default: 5 sec)</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072225Z" creationid="miurahr" creationdate="20221015T072225Z">
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024748Z" creationid="Hiroshi Miura" creationdate="20221010T024643Z">
         <seg>(デフォルト:5秒)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>**Archives**: In this context, an **archive** is a bundle of files compressed with the 7zip algorithm. It exists on a disk drive as a file with the extension ``.7z``.</seg>
+        <seg>**Archives**: In this context, an **archive** is a bundle of files compressed with the 7zip algorithm.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021255Z" creationid="Hiroshi Miura" creationdate="20221010T021244Z">
-        <seg>**Archives**: このコンテキストでは、**Archive** は 7-zipで圧縮されたファイルのバンドルです。これはディスクドライブ上に拡張子``.7z``"のファイルとして存在します。</seg>
+        <seg>**Archives**: このコンテキストでは、**Archive** は 7-zipで圧縮されたファイルのバンドルです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>**Modules**: The Qt repository organizes groups of archives into modules. A **module** contains one or more **archives**.</seg>
+        <seg>**Modules**: The Qt repository organizes groups of archives into modules.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021402Z" creationid="Hiroshi Miura" creationdate="20221010T021245Z">
-        <seg>**Modules**:  Qtリポジトリが一連のアーカイブをモジュールとして編成しています。 **module** には、ひとつか複数の **archives** が含まれます。</seg>
+        <seg>**Modules**:  Qtリポジトリが一連のアーカイブをモジュールとして編成しています。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>**the base Qt installation**: By definition, this is just another **module** that contains 20-30 **archives**. This documentation refers to it as **the base Qt installation** instead of a **module** for several reasons:</seg>
+        <seg>**the base Qt installation**: By definition, this is just another **module** that contains 20-30 **archives**.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021539Z" creationid="Hiroshi Miura" creationdate="20221010T021247Z">
-        <seg>**the base Qt installation**: 定義上、これは20から30の**archives** を含む単なる **module** です。このドキュメントでは、さまざまな事情から**module**ではなく、 **the base Qt installation** とよんでいます。</seg>
+        <seg>**the base Qt installation**: 定義上、これは20から30の**archives** を含む単なる **module** です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -78,6 +79,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>A **module** contains one or more **archives**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021402Z" creationid="Hiroshi Miura" creationdate="20221010T021245Z">
+        <seg>**module** には、ひとつか複数の **archives** が含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A default configuration is stored in ``aqt/settings.ini`` file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004251Z" creationid="Hiroshi Miura" creationdate="20221010T004251Z">
+        <seg>デフォルトの設定は ``aqt/settings.ini`` ファイルに保存されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>A file is like as follows:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004329Z" creationid="Hiroshi Miura" creationdate="20221010T004329Z">
@@ -102,6 +119,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>All downloaded archives will be automatically deleted unless you have specified the ``--keep`` option above, or ``aqt`` crashes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024945Z" creationid="Hiroshi Miura" creationdate="20221010T024945Z">
+        <seg>上記の ``--keep`` オプションが指定されていないか、または ``aqt`` がクラッシュしない限り、ダウンロードしたアーカイブはすべて自動的に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>All notable changes to this project will be documented in this file.</seg>
@@ -111,21 +136,19 @@
       </tuv>
     </tu>
     <tu>
-      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>An example of this output is displayed below.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071110Z" creationid="miurahr" creationdate="20221015T071110Z">
-        <seg>この出力の例を次に示します。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024616Z" creationid="Hiroshi Miura" creationdate="20221010T024616Z">
+        <seg>この出力例を以下に示します。</seg>
       </tuv>
     </tu>
     <tu>
-      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Any following arguments must be the names of modules available for the preceding version and architecture.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071859Z" creationid="miurahr" creationdate="20221015T071859Z">
-        <seg>次の引数はすべて、前のバージョンおよびアーキテクチャで使用可能なモジュールの名前である必要があります。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023920Z" creationid="Hiroshi Miura" creationdate="20221010T023920Z">
+        <seg>後続の引数は、以前のバージョンとアーキテクチャーで使用できるモジュールの名前である必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -147,6 +170,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>As a result, the command printed a list of archives that are part of the base (non-minimal) Qt installation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021942Z" creationid="Hiroshi Miura" creationdate="20221010T021918Z">
+        <seg>その結果、コマンドはベース(最小ではない)Qtインストールの一部であるアーカイブのリストを出力しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>As of aqt v2.1.0, the ``--archives`` flag will only apply to the base Qt installation and to the ``debug_info`` module. Previous versions of aqt required that when installing modules with the ``--archives`` flag, the user must specify archives for each module, otherwise they would not be installed. This behavior has been changed to prevent such mistakes.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022046Z" creationid="Hiroshi Miura" creationdate="20221010T022046Z">
@@ -155,10 +186,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>At present, ``aqt install-qt`` is incapable of installing any archive from the ``debug_info`` module without also installing the corresponding module from the base Qt installation. For instance, you cannot install the ``debug_info`` archive for ``qtbase`` without also installing the usual ``qtbase`` archive.</seg>
+        <seg>At present, ``aqt install-qt`` is incapable of installing any archive from the ``debug_info`` module without also installing the corresponding module from the base Qt installation.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022513Z" creationid="Hiroshi Miura" creationdate="20221010T022513Z">
-        <seg>現在、``aqt install-qt``は、基本Qtインストールから対応するモジュールをインストールせずに、``debug_info`` モジュールからアーカイブをインストールすることはできません。例えば、通常の``qtbase``アーカイブをインストールせずに、``qtbase``用の``debug_info`` アーカイブをインストールすることはできません。</seg>
+        <seg>現在、``aqt install-qt``は、基本Qtインストールから対応するモジュールをインストールせずに、``debug_info`` モジュールからアーカイブをインストールすることはできません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -179,10 +210,18 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Because the :ref:`aqt list-qt &lt;list-qt command&gt;` command directly queries the Qt downloads repository at https://download.qt.io/, the results of this command will always be accurate. The `Available Qt versions`_ wiki page was last modified at some point in the past, so it may or may not be up to date.</seg>
+        <seg>Because the :ref:`aqt list-qt &lt;list-qt command&gt;` command directly queries the Qt downloads repository at https://download.qt.io/, the results of this command will always be accurate.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011407Z" creationid="Hiroshi Miura" creationdate="20221010T011407Z">
-        <seg>:ref:`aqt list-qt &lt;list-qt command&gt;` コマンドは https://download.qt.io/ にあるQtダウンロードリポジトリに直接問い合わせますので、このコマンドの結果は常に正確になります。`Available Qt versions`_ wikiページは過去のある時点での更新ですので、最新であるかどうかは保障されません。</seg>
+        <seg>:ref:`aqt list-qt &lt;list-qt command&gt;` コマンドは https://download.qt.io/ にあるQtダウンロードリポジトリに直接問い合わせますので、このコマンドの結果は常に正確になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Before running ``aqt``, you will need to tell ``aqt`` exactly what you want it to install.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010901Z" creationid="Hiroshi Miura" creationdate="20221010T010901Z">
+        <seg>``aqt`` を実行する前に、何をインストールしたいのかを正確に ``aqt`` に指示する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -204,18 +243,18 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>By default, ``aqt`` extracts the 7zip archives stored in the Qt repository using py7zr_, which is installed alongside ``aqt``. You can specify an alternate 7zip command path instead by using the ``-E`` or ``--external`` flag. For example, you could use 7-zip_ on a Windows desktop, using this command:</seg>
+        <seg>By default, ``aqt`` extracts the 7zip archives stored in the Qt repository using py7zr_, which is installed alongside ``aqt``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011846Z" creationid="Hiroshi Miura" creationdate="20221010T011846Z">
-        <seg>デフォルトでは、``aqt`` はQtリポジトリに保存されている 7-zipアーカイブを、 ``aqt`` と一緒にインストールされている py7zr_ を使って抽出します。代わりに、 ``-E`` または ``--external`` フラグを使って7-zipコマンドパスを指定することもできます。例えば、Windowsデスクトップで次のコマンドを使って 7-zip_ を使うことができます。</seg>
+        <seg>デフォルトでは、``aqt`` はQtリポジトリに保存されている 7-zipアーカイブを、 ``aqt`` と一緒にインストールされている py7zr_ を使って抽出します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>By default, ``aqt`` will install all of the Qt packages into the current working directory, in the subdirectory ``./&lt;Qt version&gt;/&lt;arch&gt;/``. For example, if we install Qt 6.2.0 for Windows desktop with arch `win64_mingw81`, it would end up in ``./6.2.0/win64_mingw81``.</seg>
+        <seg>By default, ``aqt`` will install all of the Qt packages into the current working directory, in the subdirectory ``./&lt;Qt version&gt;/&lt;arch&gt;/``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T012016Z" creationid="Hiroshi Miura" creationdate="20221010T012016Z">
-        <seg>デフォルトでは、``aqt`` はすべてのQtパッケージを現在の作業ディレクトリのサブディレクトリ ``./&lt;Qt version&gt;/&lt;arch&gt;/`` にインストールします。例えば、Qt 6.2.0 for Windows desktopをarch `win64_mingw81` でインストールすると、その結果は ``./6.2.0/win64_mingw81`` になります。</seg>
+        <seg>デフォルトでは、``aqt`` はすべてのQtパッケージを現在の作業ディレクトリのサブディレクトリ ``./&lt;Qt version&gt;/&lt;arch&gt;/`` にインストールします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -235,10 +274,11 @@
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>By default, aqt installs to the current working directory.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071147Z" creationid="miurahr" creationdate="20221015T071147Z">
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024636Z" creationid="Hiroshi Miura" creationdate="20221010T024636Z">
         <seg>デフォルトでは、aqtは現在の作業ディレクトリにインストールされます。</seg>
       </tuv>
     </tu>
@@ -246,7 +286,7 @@
       <tuv lang="en">
         <seg>By default, aqt uses py7zr_ for this task.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072244Z" creationid="miurahr" creationdate="20221015T072244Z">
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024806Z" creationid="Hiroshi Miura" creationdate="20221010T024806Z">
         <seg>デフォルトでは、aqtはこのタスクに py7zr_ を使用します。</seg>
       </tuv>
     </tu>
@@ -350,10 +390,10 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>Deprecated; please do not use this setting. It has been replaced by the</seg>
+        <seg>Deprecated; please do not use this setting.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010356Z" creationid="Hiroshi Miura" creationdate="20221010T010356Z">
-        <seg>廃止されました。この設定は使用しないでください。</seg>
+        <seg>廃止されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -562,6 +602,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>For example, ``aqt install-qt mac desktop 5.12`` would install the newest version of Qt 5.12 available, and ``aqt install-qt mac desktop "*"`` would install the highest version of Qt available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073126Z" creationid="miurahr" creationdate="20221015T073126Z">
+        <seg>例えば、``aqt install-qt mac desktop 5.12`` はQt 5.12の最新バージョンをインストールし、``aqt install-qt mac desktop "*"`` はQtの最新バージョンをインストールします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>For example, ``aqt list-doc mac 5.12`` would print archives for the latest version of Qt 5.12 available (5.12.11 at the time of this writing).</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024225Z" creationid="Hiroshi Miura" creationdate="20221010T024225Z">
@@ -594,12 +642,36 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>For example, if we install Qt 6.2.0 for Windows desktop with arch `win64_mingw81`, it would end up in ``./6.2.0/win64_mingw81``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T012016Z" creationid="Hiroshi Miura" creationdate="20221010T012016Z">
+        <seg>例えば、Qt 6.2.0 for Windows desktopをarch `win64_mingw81` でインストールすると、その結果は ``./6.2.0/win64_mingw81`` になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For example, you could use 7-zip_ on a Windows desktop, using this command:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011846Z" creationid="Hiroshi Miura" creationdate="20221010T011846Z">
+        <seg>例えば、Windowsデスクトップで次のコマンドを使って 7-zip_ を使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For instance, you cannot install the ``debug_info`` archive for ``qtbase`` without also installing the usual ``qtbase`` archive.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022513Z" creationid="Hiroshi Miura" creationdate="20221010T022513Z">
+        <seg>例えば、通常の``qtbase``アーカイブをインストールせずに、``qtbase``用の``debug_info`` アーカイブをインストールすることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>From version 2.0.0, sub commands are changed. The previous versions of these sub commands have been retained for backwards compatibility, but are no longer recommended.</seg>
+        <seg>From version 2.0.0, sub commands are changed.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003942Z" creationid="Hiroshi Miura" creationdate="20221010T003942Z">
-        <seg>バージョン2.0.0から、サブコマンドが変更されました。これらのサブコマンドの以前のバージョンは、下位互換性のために保持されていますが、お勧めできません。</seg>
+        <seg>バージョン2.0.0から、サブコマンドが変更されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -639,10 +711,43 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Here, we have used the ``--archives`` flag with two arguments: the version of Qt we are interested in, and the architecture we are using. As a result, the command printed a list of archives that are part of the base (non-minimal) Qt installation.</seg>
+        <seg>Here, we have used the ``--archives`` flag with two arguments: the version of Qt we are interested in, and the architecture we are using.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021942Z" creationid="Hiroshi Miura" creationdate="20221010T021918Z">
-        <seg>ここでは、関心のあるQtのバージョンと使用しているアーキテクチャの2つの引数を持つ``--archives``フラグを使用しました。その結果、コマンドはベース(最小ではない)Qtインストールの一部であるアーカイブのリストを出力しました。</seg>
+        <seg>ここでは、関心のあるQtのバージョンと使用しているアーキテクチャの2つの引数を持つ``--archives``フラグを使用しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I know, it sounds a little backwards, but that's how the Qt repo was put together.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015445Z" creationid="Hiroshi Miura" creationdate="20221010T015445Z">
+        <seg>少し機能後退したように聞こえますが、それがQtリポジトリが組み立てられた方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If the name of **the base Qt installation** were transformed using the same rules, the name would be empty.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021705Z" creationid="Hiroshi Miura" creationdate="20221010T021705Z">
+        <seg>**the base Qt installation** の名前を同じ規則を使って変換された場合、名前は空になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If we need to use some architecture that is not on this list, we can use the `Available Qt versions`_ wiki page to get a rough idea of what versions support the architecture we want, and then use :ref:`aqt list-qt &lt;list-qt command&gt;` to confirm that the architecture is available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011610Z" creationid="Hiroshi Miura" creationdate="20221010T011610Z">
+        <seg>このリストにないアーキテクチャを使用する必要がある場合は、`Available Qt versions`_ wikiページを使用して、どのバージョンが希望するアーキテクチャをサポートしているかの大まかなアイデアを得てから、 :ref:`aqt list-qt &lt;list-qt command&gt;` を使用して、アーキテクチャが使用可能であることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>If we tried this command with `android`, `winrt`, or `ios` targets, we would have seen an error message.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020256Z" creationid="Hiroshi Miura" creationdate="20221010T020256Z">
+        <seg>このコマンドを`android`、`winrt`、`ios`ターゲットで実行すると、エラーメッセージが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -681,20 +786,52 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>If you find a missing name to record, please feel free to tell me.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161334Z" creationid="Hiroshi Miura" creationdate="20221009T161334Z">
+        <seg>記録に名前がない方は、遠慮なく言ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>If you have installed ``aqt`` with pip, you can run it with the command script ``aqt``, but in some cases you may need to run it as ``python -m aqt``. Some older operating systems may require you to specify Python version 3, like this: ``python3 -m aqt``.</seg>
+        <seg>If you have installed ``aqt`` with pip, you can run it with the command script ``aqt``, but in some cases you may need to run it as ``python -m aqt``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011016Z" creationid="Hiroshi Miura" creationdate="20221010T011016Z">
-        <seg>pipと一緒に``aqt``をインストールしている場合は、コマンドスクリプト``aqt``で実行することができますが、場合によっては``python-m aqt``として実行する必要があるかもしれません。古いオペレーティングシステムでは、``python3-m aqt``のようにPythonバージョン3を指定する必要があるかもしれません。</seg>
+        <seg>pipと一緒に``aqt``をインストールしている場合は、コマンドスクリプト``aqt``で実行することができますが、場合によっては``python-m aqt``として実行する必要があるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you installed the module ``debug_info``, it may have installed more than 1 gigabyte of data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020910Z" creationid="Hiroshi Miura" creationdate="20221010T020910Z">
+        <seg>モジュール ``debug_info`` をインストールした場合、1 GB以上のデータがインストールされている可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you need those changes to occur, it will be your responsibility to make those changes happen, because ``aqt`` is not capable of running this script.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020830Z" creationid="Hiroshi Miura" creationdate="20221010T020830Z">
+        <seg>これらの変更が必要な場合、``aqt`` はこのスクリプトを実行することができないので、変更を加えるのはあなたの責任になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you try this, you will notice that `debug_info` is 5.9 gigabytes installed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T014928Z" creationid="Hiroshi Miura" creationdate="20221010T014928Z">
+        <seg>これを試してみると、``debug_info`` では、5.9ギガバイトがインストールされることに気付くでしょう。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>If you type something in the ``&lt;Qt version&gt;`` positional argument that cannot be interpreted as a version, it will be interpreted as a `SimpleSpec`_, and ``aqt`` will select the highest available version within that `SimpleSpec`_.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072147Z" creationid="miurahr" creationdate="20221015T072147Z">
-        <seg> ``&lt;Qt version&gt;`` の位置引数にバージョンとして解釈できないものを入力すると、 `SimpleSpec`_ として解釈され、 ``aqt`` は、その `SimpleSpec`_ 内で利用可能な最高バージョンを選択します。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024120Z" creationid="Hiroshi Miura" creationdate="20221010T024120Z">
+        <seg>バージョンとして解釈できない何かを位置引数 ``&lt;Qt version&gt;`` に入力すると、それは `SimpleSpec`_ として解釈され、``aqt`` はその`SimpleSpec`_ 内で利用可能な最高バージョンを選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -707,34 +844,50 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>If you would prefer to install it to another location, you will need to use the ``-O`` or ``--outputdir`` flag. This option also works for all of the other subcommands that begin with ``aqt install-``.</seg>
+        <seg>If you wish to install every module available, you may use the ``all`` keyword instead of a list of modules, like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072836Z" creationid="miurahr" creationdate="20221015T072836Z">
+        <seg>利用可能なすべてのモジュールをインストールしたい場合は、次のように、モジュールのリストの代わりに ``all``キーワードを使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you would prefer to install it to another location, you will need to use the ``-O`` or ``--outputdir`` flag.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T012041Z" creationid="Hiroshi Miura" creationdate="20221010T012041Z">
-        <seg>別の場所にインストールしたい場合は、``-O``  または ``--outputdir`` フラグを使う必要があります。このオプションは、``aqt install-`` で始まる他のすべてのサブコマンドにも使えます。</seg>
+        <seg>別の場所にインストールしたい場合は、``-O``  または ``--outputdir`` フラグを使う必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If your target is ios, please be aware that versions of Qt older than 6.2.4 are expected to be non-functional with current versions of XCode (applies to any XCode greater than or equal to 13).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073057Z" creationid="miurahr" creationdate="20221015T073057Z">
+        <seg>ターゲットがiosの場合、6.2.4よりも古いバージョンのQtは、現在のバージョンのXCodeでは機能しないことに注意してください(バージョン13以上のXCodeに適用されます)。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>If your terminal is wider than 95 characters, ``aqt list-qt`` will also display release dates and sizes for each module.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071704Z" creationid="miurahr" creationdate="20221015T071704Z">
-        <seg>端末幅が95文字以上の場合、``aqt list-qt`` は各モジュールのリリース日とサイズも表示します。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162934Z" creationid="Hiroshi Miura" creationdate="20221009T162934Z">
+        <seg>端末の表示幅が95文字を超える場合、``aqt list-qt`` には各モジュールのリリース日とサイズも表示されます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>If your terminal is wider than 95 characters, ``aqt list-tool`` will also display the names and descriptions for each tool.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071004Z" creationid="miurahr" creationdate="20221015T071004Z">
-        <seg>端末幅が95文字以上の場合、``aqt list-tool`` は各ツールの名前と説明も表示します。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024616Z" creationid="Hiroshi Miura" creationdate="20221010T024616Z">
+        <seg>あなたの端末の表示幅が95文字を超える場合、``aqt list-tool``  は各ツールの名前と説明も表示します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>In the past, our users have had success using 7-zip_ on Windows, Linux and Mac. You can install 7-zip on Windows with Choco_. The Linux/Mac port of 7-zip is called ``p7zip``, and you can install it with brew_ on Mac, or on Linux with your package manager.</seg>
+        <seg>In the past, our users have had success using 7-zip_ on Windows, Linux and Mac.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024910Z" creationid="Hiroshi Miura" creationdate="20221010T024910Z">
-        <seg>これまで、ユーザは Windows、Linux、Macで 7-zip_ を使ってうまくやってきました。Windowsでは Choco_ を使って7-zipをインストールすることができます。Linux/Macのポートである 7-zipは ``p7zip`` と呼ばれており、brew_ on Macでインストールするか、Linuxではパッケージマネージャを使ってインストールすることができます。</seg>
+        <seg>これまで、ユーザは Windows、Linux、Macで 7-zip_ を使ってうまくやってきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -754,11 +907,21 @@
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Incompatible with the ``--extensions`` flag, but may be combined with any other flag.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071218Z" creationid="miurahr" creationdate="20221015T071218Z">
-        <seg>``--extensions`` フラグとは互換性がありませんが、他のフラグと組み合わせることができます。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161856Z" creationid="Hiroshi Miura" creationdate="20221009T161856Z">
+        <seg>`--extensions``フラグとは互換性がありませんが、他のフラグと組み合わせることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Install Qt library, with specified version and target.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073012Z" creationid="miurahr" creationdate="20221015T072814Z">
+        <seg>指定されたバージョンとターゲットでQtライブラリをインストールします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -836,6 +999,15 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>Installing Qt 5 will be similar to installing Qt for Desktop on Windows, but there will be differences when we get to Qt 6.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015346Z" creationid="Hiroshi Miura" creationdate="20221010T015346Z">
+        <seg>Qt 5のインストールはWindows上のQt for Desktopのインストールと似ていますが、Qt 6では違いがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>Installing Qt for Android</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015339Z" creationid="Hiroshi Miura" creationdate="20221010T015339Z">
@@ -885,27 +1057,94 @@
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>It is a command name of 7-zip. When ``aqtinstall`` is installed **without** recommended library ``py7zr``, it is used to extract archive instead of ``py7zr`` library. When ``--external`` option specified, a value is override with option's one.</seg>
+        <seg>It can cause broken installation of Qt SDK.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072925Z" creationid="miurahr" creationdate="20221015T072925Z">
+        <seg>Qt SDKのインストールが失敗する可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It exists on a disk drive as a file with the extension ``.7z``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021255Z" creationid="Hiroshi Miura" creationdate="20221010T021244Z">
+        <seg>これはディスクドライブ上に拡張子``.7z``"のファイルとして存在します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>It has been replaced by the</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010356Z" creationid="Hiroshi Miura" creationdate="20221010T010356Z">
+        <seg>この設定は使用しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It is a command name of 7-zip.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004626Z" creationid="Hiroshi Miura" creationdate="20221010T004626Z">
-        <seg>圧縮解凍ツールの7-zipのコマンド名です。 ``aqtinstall`` が **推奨ライブラリ``py7zr``なしで** インストールされている場合、``py7zr`` ライブラリの代わりにアーカイブを抽出するために使用されます。``--external`` オプションが指定されている場合、オプションの指定値で上書きされます。</seg>
+        <seg>圧縮解凍ツールの7-zipのコマンド名です。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>It is a list of URL where is a good for access. When mirror site cause an error, aqt use fallbacks when possible. You can find a list of mirrors at: https://download.qt.io/static/mirrorlist/</seg>
+        <seg>It is a list of URL where is a good for access.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010809Z" creationid="Hiroshi Miura" creationdate="20221010T010809Z">
-        <seg>アクセスに適したURLの一覧です。ミラーサイトでエラーが発生した場合は、可能な場合はフォールバックを使用してください。ミラーの一覧は次の場所で確認できます: https://download.qt.io/static/mirrorlist/</seg>
+        <seg>アクセスに適したURLの一覧です。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>It is a list of URL where is a problematic mirror site. Some mirror sites ignore a connection from IP addresses out of their preffered one. It will cause connection error or connection timeout. There are some known mirror sites in default. When you are happy with the default sites, you can override with your custom settings.</seg>
+        <seg>It is a list of URL where is a problematic mirror site.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010747Z" creationid="Hiroshi Miura" creationdate="20221010T010747Z">
-        <seg>問題のあるミラーサイトがあるURLのリストです。一部のミラーサイトでは、優先されたIPアドレスからの接続以外が無視されます。接続エラーまたは接続タイムアウトが発生します。既定のミラーサイトには既知のものがあります。既定のサイトに問題がなければ、カスタム設定で上書きできます。</seg>
+        <seg>問題のあるミラーサイトがあるURLのリストです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It is as same as ``--base`` option.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004500Z" creationid="Hiroshi Miura" creationdate="20221010T004500Z">
+        <seg>これは``--base``オプションと同じです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>It is passed to ``requests`` library.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010349Z" creationid="Hiroshi Miura" creationdate="20221010T010349Z">
+        <seg>これは``requests``ライブラリに渡されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It should be a integer value.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004433Z" creationid="Hiroshi Miura" creationdate="20221010T004433Z">
+        <seg>これは整数値でなくてはなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It will cause connection error or connection timeout.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010747Z" creationid="Hiroshi Miura" creationdate="20221010T010747Z">
+        <seg>接続エラーまたは接続タイムアウトが発生します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It will only affect the base Qt installation and the ``debug_info`` module.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072906Z" creationid="miurahr" creationdate="20221015T072906Z">
+        <seg>これはQtの基本インストールと ``debug_info`` モジュールにのみ影響します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -954,10 +1193,10 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>Let's install Qt for Android. Installing Qt 5 will be similar to installing Qt for Desktop on Windows, but there will be differences when we get to Qt 6.</seg>
+        <seg>Let's install Qt for Android.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015346Z" creationid="Hiroshi Miura" creationdate="20221010T015346Z">
-        <seg>Qt for Androidをインストールしてみましょう。Qt 5のインストールはWindows上のQt for Desktopのインストールと似ていますが、Qt 6では違いがあります。</seg>
+        <seg>Qt for Androidをインストールしてみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -970,10 +1209,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Let's say that the ``qtbase`` archive is missing some features that you need. Using the ``--archives qtbase`` flag causes ``aqt install-qt`` to omit roughly 27 archives. We can print a list of these archives with the ``aqt list-qt --archives`` command:</seg>
+        <seg>Let's say that the ``qtbase`` archive is missing some features that you need.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021924Z" creationid="Hiroshi Miura" creationdate="20221010T021911Z">
-        <seg>``qtbase``アーカイブに必要な機能が欠けているとします。``--archives qtbase``フラグを使用すると、``aqt install-qt``は約27のアーカイブを省略します。``aqt list-qt --archives``コマンドでこれらのアーカイブのリストを表示することができます:</seg>
+        <seg>``qtbase``アーカイブに必要な機能が欠けているとします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -994,34 +1233,34 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Let's say that we want to install Qt 6.2.0 with architecture `win64_mingw81`. The installation command we need is:</seg>
+        <seg>Let's say that we want to install Qt 6.2.0 with architecture `win64_mingw81`.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011621Z" creationid="Hiroshi Miura" creationdate="20221010T011621Z">
-        <seg>Qt 6.2.0を `win64_mingw81` アーキテクチャでインストールしたいとします。必要なインストールコマンドは以下のとおりです。</seg>
+        <seg>Qt 6.2.0を `win64_mingw81` アーキテクチャでインストールしたいとします。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Let's say that we want to install `qtcharts` and `qtnetworkauth`. We can do that by using the `-m` flag with the :ref:`aqt install-qt &lt;qt installation command&gt;` command. This flag receives the name of at least one module as an argument:</seg>
+        <seg>Let's say that we want to install `qtcharts` and `qtnetworkauth`.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015010Z" creationid="Hiroshi Miura" creationdate="20221010T015010Z">
-        <seg>``qtcharts``と ``qtnetworkauth`` をインストールしたいとします。これは :ref:`aqt install-qt &lt;qt installation command&gt;` コマンドで ``-m`` フラグを使うことでできます。このフラグは少なくとも1つのモジュールの名前を引数として受け取ります:</seg>
+        <seg>``qtcharts``と ``qtnetworkauth`` をインストールしたいとします。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Let's say that we want to install the next version of Qt 6.2 as soon as it is available. We can do this by using a `SimpleSpec &lt;https://python-semanticversion.readthedocs.io/en/latest/reference.html#semantic_version.SimpleSpec&gt;`_ instead of an explicit version:</seg>
+        <seg>Let's say that we want to install the next version of Qt 6.2 as soon as it is available.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011657Z" creationid="Hiroshi Miura" creationdate="20221010T011657Z">
-        <seg>Qt 6.2の次のバージョンが利用可能になったらすぐにインストールしたいとしましょう。これを行うには、明示的なバージョンではなく `SimpleSpec &lt;https://python-semanticversion.readthedocs.io/en/latest/reference.html#semantic_version.SimpleSpec&gt;`_ を使用します。</seg>
+        <seg>Qt 6.2の次のバージョンが利用可能になったらすぐにインストールしたいとしましょう。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Let's say that we want to know more about these modules before we install them. We can use the ``--long-modules`` flag for that:</seg>
+        <seg>Let's say that we want to know more about these modules before we install them.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T014831Z" creationid="Hiroshi Miura" creationdate="20221010T014831Z">
-        <seg>これらのモジュールをインストールする前に、これらのモジュールについてもっと知りたいとしましょう。そのためには  ``--long-modules`` フラグを使うことができます:</seg>
+        <seg>これらのモジュールをインストールする前に、これらのモジュールについてもっと知りたいとしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1034,10 +1273,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Let's say we need to use ``qtmultimedia``, ``qtdeclarative``, ``qtsvg``, and nothing else. Remember that the ``qtbase`` archive is required for a minimal working Qt installation. We can install these archives using this command:</seg>
+        <seg>Let's say we need to use ``qtmultimedia``, ``qtdeclarative``, ``qtsvg``, and nothing else.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022011Z" creationid="Hiroshi Miura" creationdate="20221010T021931Z">
-        <seg>``qtmultimedia``、``qtdeclarative``、``qtsvg``を使う必要があり、それ以外は何も使わないとしましょう。``qtbase``アーカイブは最低限動作するQtインストールに必要であることを覚えておいてください。これらのアーカイブは次のコマンドを使ってインストールできます:</seg>
+        <seg>``qtmultimedia``、``qtdeclarative``、``qtsvg``を使う必要があり、それ以外は何も使わないとしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1116,36 +1355,28 @@
       </tuv>
     </tu>
     <tu>
-      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Long display for modules: Similar to ``--modules``, but shows extra metadata associated with each module.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071607Z" creationid="miurahr" creationdate="20221015T071607Z">
-        <seg>モジュールの長い表示:`--modules`に似ていますが、各モジュールに関連した追加のメタデータを表示します。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
-        <seg>Long display for modules: Similar to ``--modules``, but shows extra metadata associated with each module. This metadata is displayed in a table that includes long display names for each module. If your terminal is wider than 95 characters, ``aqt list-qt`` will also display release dates and sizes for each module. An example of this output is displayed below.</seg>
-      </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162934Z" creationid="Hiroshi Miura" creationdate="20221009T162934Z">
-        <seg>モジュールの長い表示: ``--modules`` と似ていますが、各モジュールに関連付けられた追加のメタデータを表示します。このメタデータは、各モジュールの長い表示名を含むテーブルに表示されます。端末の表示幅が95文字を超える場合、``aqt list-qt`` には各モジュールのリリース日とサイズも表示されます。この出力例を以下に示します。</seg>
+        <seg>モジュールの長い表示: ``--modules`` と似ていますが、各モジュールに関連付けられた追加のメタデータを表示します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Long display: shows extra metadata associated with each tool variant.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T070939Z" creationid="miurahr" creationdate="20221015T070939Z">
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024616Z" creationid="Hiroshi Miura" creationdate="20221010T024616Z">
         <seg>長い表示: 各ツールバリアントに関連付けられた追加のメタデータを表示します。</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>Long display: shows extra metadata associated with each tool variant. This metadata is displayed in a table, and includes versions and release dates for each tool. If your terminal is wider than 95 characters, ``aqt list-tool`` will also display the names and descriptions for each tool. An example of this output is displayed below.</seg>
+        <seg>Main purpose is speed up CI/CD process by limiting installed modules.</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024616Z" creationid="Hiroshi Miura" creationdate="20221010T024616Z">
-        <seg>長い表示: 各ツールバリアントに関連付けられた追加のメタデータを表示します。このメタデータは表に表示され、各ツールのバージョンとリリース日が含まれています。あなたの端末の表示幅が95文字を超える場合、``aqt list-tool``  は各ツールの名前と説明も表示します。この出力例を以下に示します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072921Z" creationid="miurahr" creationdate="20221015T072921Z">
+        <seg>主な目的は、インストールされているモジュールを制限することによってCI/CDプロセスを高速化することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1181,6 +1412,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024632Z" creationid="Hiroshi Miura" creationdate="20221010T024632Z">
         <seg>これらのコマンドのほとんどは、同じコマンドラインオプションを共有しています。次に、これらのオプションについて説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Most users will not need to keep these files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025013Z" creationid="Hiroshi Miura" creationdate="20221010T025013Z">
+        <seg>ほとんどのユーザはこれらのファイルを保持する必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1228,50 +1467,59 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Note that if your terminal is wider than 95 characters, this command will show release dates and sizes in extra columns to the right. If you try this, you will notice that `debug_info` is 5.9 gigabytes installed.</seg>
+        <seg>Note that if your terminal is wider than 95 characters, this command will show release dates and sizes in extra columns to the right.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T014928Z" creationid="Hiroshi Miura" creationdate="20221010T014928Z">
-        <seg>端末の表示幅が95文字以上の場合、このコマンドはリリース日とサイズを右側のスペースに表示します。これを試してみると、``debug_info`` では、5.9ギガバイトがインストールされることに気付くでしょう。</seg>
+        <seg>端末の表示幅が95文字以上の場合、このコマンドはリリース日とサイズを右側のスペースに表示します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Note that this option refers to the intermediate ``.7z`` archives that ``aqt`` downloads and then extracts to ``--outputdir``. Most users will not need to keep these files.</seg>
+        <seg>Note that this option refers to the intermediate ``.7z`` archives that ``aqt`` downloads and then extracts to ``--outputdir``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025013Z" creationid="Hiroshi Miura" creationdate="20221010T025013Z">
-        <seg>このオプションは、 ``aqt`` がダウンロードして ``--outputdir`` に展開する中間の ``.7z`` アーカイブを参照していることに注意してください。ほとんどのユーザはこれらのファイルを保持する必要はありません。</seg>
+        <seg>このオプションは、 ``aqt`` がダウンロードして ``--outputdir`` に展開する中間の ``.7z`` アーカイブを参照していることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Note that winrt is only available on Windows, and ios is only available on Mac OS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161713Z" creationid="Hiroshi Miura" creationdate="20221009T161713Z">
+        <seg>winrtはWindowsでしか使用できず、iosはMac OSでしか使用できません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Notice that the version numbers are sorted, grouped by minor version number, and separated by a single space-character. The output of all of the :ref:`aqt list-qt &lt;list-qt command&gt;` commands is intended to make it easier for you to write programs that consume the output of :ref:`aqt list-qt &lt;list-qt command&gt;`.</seg>
+        <seg>Notice that the version numbers are sorted, grouped by minor version number, and separated by a single space-character.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011225Z" creationid="Hiroshi Miura" creationdate="20221010T011225Z">
-        <seg>バージョン番号がソートされ、マイナーバージョン番号でグループ化され、1つのスペース文字で区切られていることに注意してください。すべての :ref:`aqt list-qt &lt;list-qt command&gt;` コマンドの出力は、 :ref:`aqt list-qt &lt;list-qt command&gt;` の出力を消費するプログラムを作成しやすくするためのものです。</seg>
+        <seg>バージョン番号がソートされ、マイナーバージョン番号でグループ化され、1つのスペース文字で区切られていることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Notice that this is a very small subset of the architectures listed in the `Available Qt versions`_ wiki page. If we need to use some architecture that is not on this list, we can use the `Available Qt versions`_ wiki page to get a rough idea of what versions support the architecture we want, and then use :ref:`aqt list-qt &lt;list-qt command&gt;` to confirm that the architecture is available.</seg>
+        <seg>Notice that this is a very small subset of the architectures listed in the `Available Qt versions`_ wiki page.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011610Z" creationid="Hiroshi Miura" creationdate="20221010T011610Z">
-        <seg>これは `Available Qt versions`_ wikiページにリストされているアーキテクチャの非常に小さなサブセットであることに注意してください。このリストにないアーキテクチャを使用する必要がある場合は、`Available Qt versions`_ wikiページを使用して、どのバージョンが希望するアーキテクチャをサポートしているかの大まかなアイデアを得てから、 :ref:`aqt list-qt &lt;list-qt command&gt;` を使用して、アーキテクチャが使用可能であることを確認します。</seg>
+        <seg>これは `Available Qt versions`_ wikiページにリストされているアーキテクチャの非常に小さなサブセットであることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Notice what we did here: We specified the ``qtcharts`` and ``debug_info`` modules, and we specified the ``qtbase``, ``qtcharts``, and ``qtdeclarative`` archives. This will install a total of 6 archives:</seg>
+        <seg>Notice what we did here: We specified the ``qtcharts`` and ``debug_info`` modules, and we specified the ``qtbase``, ``qtcharts``, and ``qtdeclarative`` archives.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022341Z" creationid="Hiroshi Miura" creationdate="20221010T022341Z">
-        <seg>ここで行ったことに注目してください:``qtcharts`` モジュールと``debug_info``モジュールを指定し、``qtbase``アーカイブ、``qtcharts``アーカイブ、``qtdeclarative`` アーカイブを指定しました。これで合計6つのアーカイブがインストールされます:</seg>
+        <seg>ここで行ったことに注目してください:``qtcharts`` モジュールと``debug_info``モジュールを指定し、``qtbase``アーカイブ、``qtcharts``アーカイブ、``qtdeclarative`` アーカイブを指定しました。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Now let's install `mingw`, using the :ref:`aqt install-tool &lt;tools installation command&gt;` command. This command receives four parameters:</seg>
+        <seg>Now let's install `mingw`, using the :ref:`aqt install-tool &lt;tools installation command&gt;` command.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020514Z" creationid="Hiroshi Miura" creationdate="20221010T020514Z">
-        <seg>では、:ref:`aqt install-tool &lt;tools installation command&gt;` コマンドを使って`mingw`をインストールしましょう。このコマンドは4つのパラメータを受け取ります:</seg>
+        <seg>では、:ref:`aqt install-tool &lt;tools installation command&gt;` コマンドを使って`mingw`をインストールしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1301,6 +1549,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>One way to install all modules available for Qt 5.15.2 is to send the output of :ref:`aqt list-qt &lt;list-qt command&gt;` into :ref:`aqt install-qt &lt;qt installation command&gt;`, like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015127Z" creationid="Hiroshi Miura" creationdate="20221010T015127Z">
+        <seg>Qt 5.15.2で利用可能なすべてのモジュールをインストールする1つの方法は :ref:`aqt list-qt &lt;list-qt command&gt;` の出力を :ref:`aqt install-qt &lt;qt installation command&gt;` に以下のように送ることです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Original qli-installer is written by Linus Jahn</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022607Z" creationid="Hiroshi Miura" creationdate="20221010T022607Z">
@@ -1317,10 +1573,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Please note that ``aqt install-tool`` does not recognize the ``installscript.qs`` related to each tool. When you install these tools with the standard gui installer, the installer may use the ``installscript.qs`` script to make additional changes to your system. If you need those changes to occur, it will be your responsibility to make those changes happen, because ``aqt`` is not capable of running this script.</seg>
+        <seg>Please note that ``aqt install-tool`` does not recognize the ``installscript.qs`` related to each tool.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020830Z" creationid="Hiroshi Miura" creationdate="20221010T020830Z">
-        <seg>``aqt install-tool`` は、各ツールに関連する``installscript.qs`` を認識しないことに注意してください。これらのツールを標準のGUIインストーラでインストールする場合、インストーラは``installscript.qs`` スクリプトを使ってシステムに追加の変更を加えることができます。これらの変更が必要な場合、``aqt`` はこのスクリプトを実行することができないので、変更を加えるのはあなたの責任になります。</seg>
+        <seg>``aqt install-tool`` は、各ツールに関連する``installscript.qs`` を認識しないことに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1333,10 +1589,10 @@
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Please note that when you install Qt for android or ios, the installation will not be functional unless you install the corresponding desktop version of Qt alongside it. You can do this automatically with the ``--autodesktop`` flag:</seg>
+        <seg>Please note that when you install Qt for android or ios, the installation will not be functional unless you install the corresponding desktop version of Qt alongside it.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020154Z" creationid="Hiroshi Miura" creationdate="20221010T020043Z">
-        <seg>Qt for androidまたはiosをインストールする場合、対応するデスクトップバージョンのQtを一緒にインストールしない限り、正しく機能しないことに注意してください。 ``--autodesktop`` フラグをつけることで、自動的にデスクトップバージョンのインストールを実行できます:</seg>
+        <seg>Qt for androidまたはiosをインストールする場合、対応するデスクトップバージョンのQtを一緒にインストールしない限り、正しく機能しないことに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1418,16 +1674,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>Qt version in the format of "5.X.Y".</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071717Z" creationid="miurahr" creationdate="20221015T071717Z">
-        <seg>"5.X.Y"形式のQtバージョン</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
-        <seg>Qt version in the format of "5.X.Y". When set, this prints all architectures available for Qt 5.X.Y with a host/target/extension, or the latest version of Qt if ``latest`` is specified.</seg>
-      </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162936Z" creationid="Hiroshi Miura" creationdate="20221009T162936Z">
-        <seg>Qt version in the format of "5.X.Y". When set, this prints all architectures available for Qt 5.X.Y with a host/target/extension, or the latest version of Qt if ``latest`` is specified.</seg>
+        <seg>Qt version in the format of "5.X.Y".</seg>
       </tuv>
     </tu>
     <tu>
@@ -1441,10 +1689,18 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Remember that the :ref:`aqt list-qt &lt;list-qt command&gt;` command is meant to be scriptable? One way to install all modules available for Qt 5.15.2 is to send the output of :ref:`aqt list-qt &lt;list-qt command&gt;` into :ref:`aqt install-qt &lt;qt installation command&gt;`, like this:</seg>
+        <seg>Remember that the :ref:`aqt list-qt &lt;list-qt command&gt;` command is meant to be scriptable?</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015127Z" creationid="Hiroshi Miura" creationdate="20221010T015127Z">
-        <seg>:ref:`aqt list-qt &lt;list-qt command&gt;` コマンドは、スクリプト化できるように意図して作られていることを覚えていますか? Qt 5.15.2で利用可能なすべてのモジュールをインストールする1つの方法は :ref:`aqt list-qt &lt;list-qt command&gt;` の出力を :ref:`aqt install-qt &lt;qt installation command&gt;` に以下のように送ることです:</seg>
+        <seg>:ref:`aqt list-qt &lt;list-qt command&gt;` コマンドは、スクリプト化できるように意図して作られていることを覚えていますか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Remember that the ``qtbase`` archive is required for a minimal working Qt installation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022011Z" creationid="Hiroshi Miura" creationdate="20221010T021931Z">
+        <seg>``qtbase``アーカイブは最低限動作するQtインストールに必要であることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1504,7 +1760,7 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>See :ref:`the Configuration section&lt;configuration-ref&gt;`.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072208Z" creationid="miurahr" creationdate="20221015T072208Z">
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024731Z" creationid="Hiroshi Miura" creationdate="20221010T024642Z">
         <seg>:ref:`the Configuration section &lt;configuration-ref&gt;` を参照してください。</seg>
       </tuv>
     </tu>
@@ -1519,10 +1775,18 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Set the destination path for downloaded archives (temp directory by default). All downloaded archives will be automatically deleted unless you have specified the ``--keep`` option above, or ``aqt`` crashes.</seg>
+        <seg>Set the destination path for downloaded archives (temp directory by default).</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024945Z" creationid="Hiroshi Miura" creationdate="20221010T024945Z">
-        <seg>ダウンロードしたアーカイブの保存先パスを設定します(デフォルトディレクトリ)を設定します。上記の ``--keep`` オプションが指定されていないか、または ``aqt`` がクラッシュしない限り、ダウンロードしたアーカイブはすべて自動的に削除されます。</seg>
+        <seg>ダウンロードしたアーカイブの保存先パスを設定します(デフォルトディレクトリ)を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Setting this value too low will hammer the server, and may result in no successful connections at all.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010443Z" creationid="Hiroshi Miura" creationdate="20221010T010443Z">
+        <seg>この値をあまりに低く設定するとサーバに衝撃を与え、接続が全く成功しなくなる可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1544,26 +1808,35 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Some mirror sites ignore a connection from IP addresses out of their preffered one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010747Z" creationid="Hiroshi Miura" creationdate="20221010T010747Z">
+        <seg>一部のミラーサイトでは、優先されたIPアドレスからの接続以外が無視されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Some older operating systems may require you to specify Python version 3, like this: ``python3 -m aqt``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011016Z" creationid="Hiroshi Miura" creationdate="20221010T011016Z">
+        <seg>古いオペレーティングシステムでは、``python3-m aqt``のようにPythonバージョン3を指定する必要があるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Specify external 7zip command path.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072234Z" creationid="miurahr" creationdate="20221015T072234Z">
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024806Z" creationid="Hiroshi Miura" creationdate="20221010T024806Z">
         <seg>外部7zipコマンドのパスを指定します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Specify external 7zip command path. By default, aqt uses py7zr_ for this task.</seg>
-      </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024806Z" creationid="Hiroshi Miura" creationdate="20221010T024806Z">
-        <seg>外部7zipコマンドのパスを指定します。デフォルトでは、aqtはこのタスクに py7zr_ を使用します。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
-        <seg>Specify extra modules to install as a list. Use the appropriate ``aqt list-*`` command to list available modules:</seg>
+        <seg>Specify extra modules to install as a list.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025024Z" creationid="Hiroshi Miura" creationdate="20221010T025024Z">
-        <seg>リストとしてインストールする追加モジュールを指定してください。適切な ``aqt list-*`` コマンドを使って、利用可能なモジュールをリストしてください:</seg>
+        <seg>リストとしてインストールする追加モジュールを指定してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1579,33 +1852,16 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>Specify output directory.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071116Z" creationid="miurahr" creationdate="20221015T071116Z">
-        <seg>出力ディレクトリを指定します。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
-      <tuv lang="en">
-        <seg>Specify output directory. By default, aqt installs to the current working directory.</seg>
-      </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024636Z" creationid="Hiroshi Miura" creationdate="20221010T024636Z">
-        <seg>出力ディレクトリを指定します。デフォルトでは、aqtは現在の作業ディレクトリにインストールされます。</seg>
+        <seg>出力ディレクトリを指定します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Specify the path to your own ``settings.ini`` file.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072202Z" creationid="miurahr" creationdate="20221015T072202Z">
-        <seg>独自の ``settings.ini`` ファイルへのパスを指定します。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
-        <seg>Specify the path to your own ``settings.ini`` file. See :ref:`the Configuration section&lt;configuration-ref&gt;`.</seg>
-      </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024731Z" creationid="Hiroshi Miura" creationdate="20221010T024642Z">
-        <seg>独自の ``settings.ini`` ファイルへのパスを指定します。:ref:`the Configuration section &lt;configuration-ref&gt;` を参照してください。</seg>
+        <seg>独自の ``settings.ini`` ファイルへのパスを指定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1647,8 +1903,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>The 'Qt version' argument can be in the format "5.X.Y" or the "latest" keyword.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071833Z" creationid="miurahr" creationdate="20221015T071833Z">
-        <seg>'Qtバージョン' 引数は、"5.X.Y" または "latest" キーワードの形式で指定できます。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023920Z" creationid="Hiroshi Miura" creationdate="20221010T023920Z">
+        <seg>'Qt version'引数は、"5.X.Y"または"latest"キーワードの形式にすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1661,10 +1917,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>The Qt 6 for Android repositories are a little different than the Qt 5 repositories, and the :ref:`aqt list-qt &lt;list-qt command&gt;` tool doesn't know where to look for modules and architectures if you don't tell it what architecture you need. I know, it sounds a little backwards, but that's how the Qt repo was put together.</seg>
+        <seg>The Linux/Mac port of 7-zip is called ``p7zip``, and you can install it with brew_ on Mac, or on Linux with your package manager.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024910Z" creationid="Hiroshi Miura" creationdate="20221010T024910Z">
+        <seg>Linux/Macのポートである 7-zipは ``p7zip`` と呼ばれており、brew_ on Macでインストールするか、Linuxではパッケージマネージャを使ってインストールすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The Qt 6 for Android repositories are a little different than the Qt 5 repositories, and the :ref:`aqt list-qt &lt;list-qt command&gt;` tool doesn't know where to look for modules and architectures if you don't tell it what architecture you need.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015445Z" creationid="Hiroshi Miura" creationdate="20221010T015445Z">
-        <seg>Qt 6 for AndroidリポジトリはQt 5リポジトリとは少し異なり、 :ref:`aqt list-qt &lt;list-qt command&gt;` ツールは、必要なアーキテクチャを教えなければ、モジュールやアーキテクチャを探す場所を知りません。 少し機能後退したように聞こえますが、それがQtリポジトリが組み立てられた方法です。</seg>
+        <seg>Qt 6 for AndroidリポジトリはQt 5リポジトリとは少し異なり、 :ref:`aqt list-qt &lt;list-qt command&gt;` ツールは、必要なアーキテクチャを教えなければ、モジュールやアーキテクチャを探す場所を知りません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The `Available Qt versions`_ wiki page was last modified at some point in the past, so it may or may not be up to date.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011407Z" creationid="Hiroshi Miura" creationdate="20221010T011407Z">
+        <seg>`Available Qt versions`_ wikiページは過去のある時点での更新ですので、最新であるかどうかは保障されません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1673,6 +1945,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020459Z" creationid="Hiroshi Miura" creationdate="20221010T020459Z">
         <seg>:ref:`aqt list-tool &lt;list-tool command&gt;` は、``tools_mingw`` で利用可能な各ツールに関連する、豊富なデータが含まれるテーブルを出力します。:ref:`aqt list-tool &lt;list-tool command&gt;` は、端末の幅が95文字より広い場合、各ツールの 「表示名」と「説明」を出力します。これより表示幅の狭い端末では、このテーブルを読みやすい形で表示することはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The ``False`` setting will hide the stack trace, unless an unhandled exception occurs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004638Z" creationid="Hiroshi Miura" creationdate="20221010T004638Z">
+        <seg>The ``False`` setting will hide the stack trace, unless an unhandled exception occurs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004638Z" creationid="Hiroshi Miura" creationdate="20221010T004638Z">
+        <seg>The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1717,19 +2005,19 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>The connection timeout, in seconds, for the download site.</seg>
+        <seg>The ``xargs`` equivalent to this command is an exercise left to the reader.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072223Z" creationid="miurahr" creationdate="20221015T072223Z">
-        <seg>ダウンロードサイトの接続タイムアウト(秒単位)。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015226Z" creationid="Hiroshi Miura" creationdate="20221010T015226Z">
+        <seg>この ``xargs`` に相当するコマンドは、読者の練習課題です。</seg>
       </tuv>
     </tu>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>The connection timeout, in seconds, for the download site. (default: 5 sec)</seg>
+        <seg>The connection timeout, in seconds, for the download site.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024748Z" creationid="Hiroshi Miura" creationdate="20221010T024643Z">
-        <seg>ダウンロードサイトの接続タイムアウト(秒単位)。(デフォルト:5秒)</seg>
+        <seg>ダウンロードサイトの接続タイムアウト(秒単位)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1750,20 +2038,19 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
-      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>The name of a tool.</seg>
+        <seg>The installation command we need is:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T070903Z" creationid="miurahr" creationdate="20221015T070903Z">
-        <seg>ツールの名前。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011621Z" creationid="Hiroshi Miura" creationdate="20221010T011621Z">
+        <seg>必要なインストールコマンドは以下のとおりです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>The name of a tool. Use ``aqt list-tool &lt;host&gt; &lt;target&gt;`` to see accepted values. When set, this prints all 'tool variant names' available.</seg>
+        <seg>The name of a tool.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024533Z" creationid="Hiroshi Miura" creationdate="20221010T024533Z">
-        <seg>ツールの名前です。受け入れられた値を確認するには、 ``aqt list-tool &lt;host&gt; &lt;target&gt;`` を使用してください。設定すると、利用可能なすべての 'ツールバリアント名' を出力します。</seg>
+        <seg>ツールの名前です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1777,10 +2064,27 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>The next thing we need to do is find out what architectures are available for Qt 6.2.0 for Windows Desktop. To do this, we can use :ref:`aqt list-qt &lt;list-qt command&gt;` with the ``--arch`` flag:</seg>
+        <seg>The next thing we need to do is find out what architectures are available for Qt 6.2.0 for Windows Desktop.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011459Z" creationid="Hiroshi Miura" creationdate="20221010T011459Z">
-        <seg>次にすべきことは、Qt 6.2.0 for Windows Desktopで利用可能なアーキテクチャを見つけることです。これを行うには、:ref:`aqt list-qt &lt;list-qt command&gt;` に ``--arch`` フラグを付けて確認します:</seg>
+        <seg>次にすべきことは、Qt 6.2.0 for Windows Desktopで利用可能なアーキテクチャを見つけることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>The operating system on which the Qt development tools will run.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073028Z" creationid="miurahr" creationdate="20221015T073028Z">
+        <seg>Qt開発ツールが実行されるオペレーティングシステム。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The output of all of the :ref:`aqt list-qt &lt;list-qt command&gt;` commands is intended to make it easier for you to write programs that consume the output of :ref:`aqt list-qt &lt;list-qt command&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011225Z" creationid="Hiroshi Miura" creationdate="20221010T011225Z">
+        <seg>すべての :ref:`aqt list-qt &lt;list-qt command&gt;` コマンドの出力は、 :ref:`aqt list-qt &lt;list-qt command&gt;` の出力を消費するプログラムを作成しやすくするためのものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1792,27 +2096,28 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>The project configured to use Azure Pipelines, Github actions and Coveralls for regression test. You can see test results on badge and see details in a web page linked from badge.</seg>
+        <seg>The previous versions of these sub commands have been retained for backwards compatibility, but are no longer recommended.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T003942Z" creationid="Hiroshi Miura" creationdate="20221010T003942Z">
+        <seg>これらのサブコマンドの以前のバージョンは、下位互換性のために保持されていますが、お勧めできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The project configured to use Azure Pipelines, Github actions and Coveralls for regression test.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163404Z" creationid="Hiroshi Miura" creationdate="20221009T163404Z">
-        <seg>プロジェクトは、Azure Pipelines、Githubアクション、Coverallsを使用してリグレッションテストを行うように設定されています。テスト結果はバッジで確認でき、詳細はバッジからリンクされたWebページで確認できます。</seg>
+        <seg>プロジェクトは、Azure Pipelines、Githubアクション、Coverallsを使用してリグレッションテストを行うように設定されています。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>The purpose of this command is to show you what arguments you can pass to the :ref:`archives flag &lt;install archives flag&gt;` when using the ``install-*`` commands.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T070837Z" creationid="miurahr" creationdate="20221015T070837Z">
-        <seg>このコマンドの目的は、 ``install-*`` コマンドを使うときに :ref:`archives flag &lt;install archives flag&gt;` に渡すことができる引数を表示することです。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
-        <seg>The purpose of this command is to show you what arguments you can pass to the :ref:`archives flag &lt;install archives flag&gt;` when using the ``install-*`` commands. This flag allows you to avoid installing parts of Qt that you do not need.</seg>
-      </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023953Z" creationid="Hiroshi Miura" creationdate="20221010T023953Z">
-        <seg>このコマンドの目的は、 ``install-*`` コマンドを使うときに :ref:`archives flag &lt;install archives flag&gt;` に渡すことができる引数を表示することです。このフラグを使うと、Qtの不要な部分をインストールするのを避けることができます。</seg>
+        <seg>このコマンドの目的は、 ``install-*`` コマンドを使うときに :ref:`archives flag &lt;install archives flag&gt;` に渡すことができる引数を表示することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1836,6 +2141,15 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>The type of device for which you are developing Qt programs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073044Z" creationid="miurahr" creationdate="20221015T073044Z">
+        <seg>Qtプログラムを開発するデバイスのタイプ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>The version of Qt you would like to install</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011053Z" creationid="Hiroshi Miura" creationdate="20221010T011053Z">
@@ -1853,10 +2167,35 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>There are only a few versions of Qt that support WASM, and they are only available for desktop targets. If we tried this command with `android`, `winrt`, or `ios` targets, we would have seen an error message.</seg>
+        <seg>There are only a few versions of Qt that support WASM, and they are only available for desktop targets.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020256Z" creationid="Hiroshi Miura" creationdate="20221010T020256Z">
-        <seg>WASMをサポートするQtのバージョンはわずかしかなく、デスクトップターゲットでのみ利用できます。このコマンドを`android`、`winrt`、`ios`ターゲットで実行すると、エラーメッセージが表示されます。</seg>
+        <seg>WASMをサポートするQtのバージョンはわずかしかなく、デスクトップターゲットでのみ利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There are some known mirror sites in default.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010747Z" creationid="Hiroshi Miura" creationdate="20221010T010747Z">
+        <seg>既定のミラーサイトには既知のものがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>There are various combinations to accept according to Qt version.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073017Z" creationid="miurahr" creationdate="20221015T073008Z">
+        <seg>Qtのバージョンに応じて、さまざまな組み合わせを受け入れることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>These checksums are used to verify that every other file that ``aqtinstall`` downloads is, in fact, the correct file, and not a corrupt or malicious copy of the file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010623Z" creationid="Hiroshi Miura" creationdate="20221010T010623Z">
+        <seg>これらのチェックサムは、``aqtinstall`` がダウンロードする他のすべてのファイルが、実際には正しいファイルであり、そのファイルの不正コピーや悪意のあるコピーではないことを確認するために使用されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1878,10 +2217,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This command receives four parameters:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020514Z" creationid="Hiroshi Miura" creationdate="20221010T020514Z">
+        <seg>このコマンドは4つのパラメータを受け取ります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This command will print all versions of Qt available for Windows Desktop:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011138Z" creationid="Hiroshi Miura" creationdate="20221010T011138Z">
+        <seg>このコマンドはWindowsデスクトップで利用可能なQtのすべてのバージョンを出力します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This command will successfully install 3 archives: 1 for ``qtbase``, and one each for the two modules. If we had tried to use this command with previous versions of aqt, we would not have installed the two modules because we did not specify them in the ``--archives`` list.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022120Z" creationid="Hiroshi Miura" creationdate="20221010T022120Z">
         <seg>このコマンドは3つのアーカイブを正しくインストールします。1つは``qtbase``用で、もう1つは2つのモジュール用です。このコマンドをaqtの以前のバージョンで使用しようとすると、2つのモジュールは``--archives``リストに指定されていなかったので、インストールされませんでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This documentation refers to it as **the base Qt installation** instead of a **module** for several reasons:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021539Z" creationid="Hiroshi Miura" creationdate="20221010T021247Z">
+        <seg>このドキュメントでは、さまざまな事情から**module**ではなく、 **the base Qt installation** とよんでいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1926,51 +2289,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>This flag requires a list of at least two arguments: 'Qt version' and 'architecture'.</seg>
+        <seg>This flag receives the name of at least one module as an argument:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071818Z" creationid="miurahr" creationdate="20221015T071818Z">
-        <seg>このフラグには、少なくとも2つの引数('Qtバージョン'と'アーキテクチャ')のリストが必要です。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015010Z" creationid="Hiroshi Miura" creationdate="20221010T015010Z">
+        <seg>このフラグは少なくとも1つのモジュールの名前を引数として受け取ります:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>This flag requires a list of at least two arguments: 'Qt version' and 'architecture'. The 'Qt version' argument can be in the format "5.X.Y" or the "latest" keyword. You can use the ``--arch`` flag to see a list of acceptable values for the 'architecture' argument. Any following arguments must be the names of modules available for the preceding version and architecture. You can use the ``--modules`` flag to see a list of acceptable values.</seg>
+        <seg>This flag requires a list of at least two arguments: 'Qt version' and 'architecture'.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023920Z" creationid="Hiroshi Miura" creationdate="20221010T023920Z">
-        <seg>このフラグには、'Qt version'と'architecture'の2つ以上の引数のリストが必要です。'Qt version'引数は、"5.X.Y"または"latest"キーワードの形式にすることができます。 ``--arch`` フラグを使用すると、'architecture' 引数に使用できる値のリストを確認できます。後続の引数は、以前のバージョンとアーキテクチャーで使用できるモジュールの名前である必要があります。 ``--modules`` フラグを使用すると、使用できる値のリストを確認できます。</seg>
+        <seg>このフラグには、'Qt version'と'architecture'の2つ以上の引数のリストが必要です。</seg>
       </tuv>
     </tu>
     <tu>
-      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>This is a Qt version such as 5.9.7, 5.12.1 etc.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071924Z" creationid="miurahr" creationdate="20221015T071924Z">
-        <seg>これは、5.9.7、5.12.1などのQtバージョンです。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
-        <seg>This is a Qt version such as 5.9.7, 5.12.1 etc. Use the :ref:`List-Qt Command` to list available versions.</seg>
-      </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024047Z" creationid="Hiroshi Miura" creationdate="20221010T024047Z">
-        <seg>これは5.9.7、5.12.1などのQtバージョンです。利用可能なバージョンを一覧表示するには :ref:`List-Qt Command` を使用してください。</seg>
+        <seg>これは5.9.7、5.12.1などのQtバージョンです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This is a `SimpleSpec`_ that specifies a range of versions.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072026Z" creationid="miurahr" creationdate="20221015T072026Z">
-        <seg>バージョンの範囲を指定する `SimpleSpec`_ です。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en">
-        <seg>This is a `SimpleSpec`_ that specifies a range of versions. If you type something in the ``&lt;Qt version&gt;`` positional argument that cannot be interpreted as a version, it will be interpreted as a `SimpleSpec`_, and ``aqt`` will select the highest available version within that `SimpleSpec`_.</seg>
-      </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024120Z" creationid="Hiroshi Miura" creationdate="20221010T024120Z">
-        <seg>これはバージョンの範囲を指定する `SimpleSpec`_ です。バージョンとして解釈できない何かを位置引数 ``&lt;Qt version&gt;`` に入力すると、それは `SimpleSpec`_ として解釈され、``aqt`` はその`SimpleSpec`_ 内で利用可能な最高バージョンを選択します。</seg>
+        <seg>これはバージョンの範囲を指定する `SimpleSpec`_ です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1984,10 +2330,19 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>This is contribution guide for aqtinstall project. You are welcome to send a Pull-Request, reporting bugs and ask questions.</seg>
+        <seg>This is advanced option and not recommended to use for general usage.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072918Z" creationid="miurahr" creationdate="20221015T072918Z">
+        <seg>これは高度なオプションであり、一般的な使用にはお勧めできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>This is contribution guide for aqtinstall project.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163218Z" creationid="Hiroshi Miura" creationdate="20221009T163218Z">
-        <seg>aqtinstallプロジェクトへの貢献ガイドです。Pull-Requestを送信してバグを報告し、質問をすることを歓迎します。</seg>
+        <seg>aqtinstallプロジェクトへの貢献ガイドです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2000,10 +2355,10 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>This is the relative or absolute path to the location in which ``.7z`` archives will be downloaded, when ``--keep`` is turned on. You can override this location with the ``--archives-dest`` option.</seg>
+        <seg>This is the relative or absolute path to the location in which ``.7z`` archives will be downloaded, when ``--keep`` is turned on.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004709Z" creationid="Hiroshi Miura" creationdate="20221010T004709Z">
-        <seg>これは、``--keep`` がオンになっている場合に、``.7z`` アーカイブがダウンロードされる場所への相対パスまたは絶対パスです。この場所は、``--archives-dest`` オプションで上書きできます。</seg>
+        <seg>これは、``--keep`` がオンになっている場合に、``.7z`` アーカイブがダウンロードされる場所への相対パスまたは絶対パスです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2026,10 +2381,42 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This option also works for all of the other subcommands that begin with ``aqt install-``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T012041Z" creationid="Hiroshi Miura" creationdate="20221010T012041Z">
+        <seg>このオプションは、``aqt install-`` で始まる他のすべてのサブコマンドにも使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This option is applicable to all the ``install-*`` commands except for ``install-tool``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072944Z" creationid="miurahr" creationdate="20221015T072944Z">
+        <seg>このオプションは、``install-tool``を除くすべての ``install-*`` コマンドに適用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This option only applicable to ``install-qt``, ``install-example``, and ``install-doc``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025127Z" creationid="Hiroshi Miura" creationdate="20221010T025127Z">
         <seg>このオプションは、 ``install-qt``、 ``install-example`` 、 ``install-doc`` にのみ適用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This section of the documentation is meant to walk you through the process of finding out what packages are available to ``aqt``, so you can tell ``aqt`` what you want to install.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010901Z" creationid="Hiroshi Miura" creationdate="20221010T010901Z">
+        <seg>このセクションでは、どのようなパッケージが ``aqt`` に用意されているのかを調べ、何をインストールしたいのかを ``aqt`` に指示できるようにするための手順を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This section will help you to reduce the footprint of your Qt installation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020910Z" creationid="Hiroshi Miura" creationdate="20221010T020910Z">
+        <seg>この節では、Qtインストールのフットプリントを減らすための手助けをします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2042,10 +2429,10 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>This setting has no effect on your ability to install these modules. ``aqt install-*`` can will still install them without any warnings.</seg>
+        <seg>This setting has no effect on your ability to install these modules.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004827Z" creationid="Hiroshi Miura" creationdate="20221010T004827Z">
-        <seg>この設定はこれらのモジュールをインストールする能力に影響を与えません。``aqt install-*`` は警告なしでそれらをインストールします。</seg>
+        <seg>この設定はこれらのモジュールをインストールする能力に影響を与えません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2058,18 +2445,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>To find out how to install Qt for WASM, we need to tell :ref:`aqt list-qt &lt;list-qt command&gt;` that we are using the `wasm` architecture. We can do that by using the ``--extension wasm`` flag.</seg>
+        <seg>This will install a total of 6 archives:</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020242Z" creationid="Hiroshi Miura" creationdate="20221010T020048Z">
-        <seg>Qt for WASMをインストールする方法を知るためには、:ref:`aqt list-q t&lt;list-qt command&gt;` に、私たちが ``wasm`` アーキテクチャを使いたい、ということを伝える必要があります。``--extension wasm`` フラグを使うことで、指定できます。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022341Z" creationid="Hiroshi Miura" creationdate="20221010T022341Z">
+        <seg>これで合計6つのアーカイブがインストールされます:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>To find out what versions of Qt are available, you can use the :ref:`aqt list-qt command &lt;list-qt command&gt;`. This command will print all versions of Qt available for Windows Desktop:</seg>
+        <seg>To do this, we can use :ref:`aqt list-qt &lt;list-qt command&gt;` with the ``--arch`` flag:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011459Z" creationid="Hiroshi Miura" creationdate="20221010T011459Z">
+        <seg>これを行うには、:ref:`aqt list-qt &lt;list-qt command&gt;` に ``--arch`` フラグを付けて確認します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To find out how to install Qt for WASM, we need to tell :ref:`aqt list-qt &lt;list-qt command&gt;` that we are using the `wasm` architecture.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020242Z" creationid="Hiroshi Miura" creationdate="20221010T020048Z">
+        <seg>Qt for WASMをインストールする方法を知るためには、:ref:`aqt list-q t&lt;list-qt command&gt;` に、私たちが ``wasm`` アーキテクチャを使いたい、ということを伝える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To find out what versions of Qt are available, you can use the :ref:`aqt list-qt command &lt;list-qt command&gt;`.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011138Z" creationid="Hiroshi Miura" creationdate="20221010T011138Z">
-        <seg>利用可能なQtのバージョンを調べるには、 :ref:`aqt list-qt command &lt;list-qt command&gt;` を使うことができます。このコマンドはWindowsデスクトップで利用可能なQtのすべてのバージョンを出力します:</seg>
+        <seg>利用可能なQtのバージョンを調べるには、 :ref:`aqt list-qt command &lt;list-qt command&gt;` を使うことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2121,20 +2524,20 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Use the ``--extensions`` flag to list all relevant options for a host/target.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071206Z" creationid="miurahr" creationdate="20221015T071206Z">
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161856Z" creationid="Hiroshi Miura" creationdate="20221009T161856Z">
         <seg>ホスト/ターゲットに関連するすべてのオプションをリストするには、`--extensions``フラグを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
-      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>Use the ``--extensions`` flag to list all relevant options for a host/target. Incompatible with the ``--extensions`` flag, but may be combined with any other flag.</seg>
+        <seg>Use the appropriate ``aqt list-*`` command to list available modules:</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161856Z" creationid="Hiroshi Miura" creationdate="20221009T161856Z">
-        <seg>ホスト/ターゲットに関連するすべてのオプションをリストするには、`--extensions``フラグを使用してください。`--extensions``フラグとは互換性がありませんが、他のフラグと組み合わせることができます。</seg>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025024Z" creationid="Hiroshi Miura" creationdate="20221010T025024Z">
+        <seg>適切な ``aqt list-*`` コマンドを使って、利用可能なモジュールをリストしてください:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2143,6 +2546,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024917Z" creationid="Hiroshi Miura" creationdate="20221010T024917Z">
         <seg>内部エクストラクタ py7zr_ を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Using the ``--archives qtbase`` flag causes ``aqt install-qt`` to omit roughly 27 archives.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021924Z" creationid="Hiroshi Miura" creationdate="20221010T021911Z">
+        <seg>``--archives qtbase``フラグを使用すると、``aqt install-qt``は約27のアーカイブを省略します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2181,6 +2592,30 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>We can do that by using the `-m` flag with the :ref:`aqt install-qt &lt;qt installation command&gt;` command.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015010Z" creationid="Hiroshi Miura" creationdate="20221010T015010Z">
+        <seg>これは :ref:`aqt install-qt &lt;qt installation command&gt;` コマンドで ``-m`` フラグを使うことでできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We can do that by using the ``--extension wasm`` flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020242Z" creationid="Hiroshi Miura" creationdate="20221010T020048Z">
+        <seg>``--extension wasm`` フラグを使うことで、指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We can do this by using a `SimpleSpec &lt;https://python-semanticversion.readthedocs.io/en/latest/reference.html#semantic_version.SimpleSpec&gt;`_ instead of an explicit version:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011657Z" creationid="Hiroshi Miura" creationdate="20221010T011657Z">
+        <seg>これを行うには、明示的なバージョンではなく `SimpleSpec &lt;https://python-semanticversion.readthedocs.io/en/latest/reference.html#semantic_version.SimpleSpec&gt;`_ を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>We can install Qt for WASM as before:</seg>
@@ -2191,10 +2626,75 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>We can install these archives using this command:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022011Z" creationid="Hiroshi Miura" creationdate="20221010T021931Z">
+        <seg>これらのアーカイブは次のコマンドを使ってインストールできます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We can print a list of these archives with the ``aqt list-qt --archives`` command:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021924Z" creationid="Hiroshi Miura" creationdate="20221010T021911Z">
+        <seg>``aqt list-qt --archives``コマンドでこれらのアーカイブのリストを表示することができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We can use the ``--long-modules`` flag for that:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T014831Z" creationid="Hiroshi Miura" creationdate="20221010T014831Z">
+        <seg>そのためには  ``--long-modules`` フラグを使うことができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>We know we want to use `armv7` for the architecture, but we don't know exactly what value for 'architecture' we need to pass to :ref:`aqt install-qt &lt;qt installation command&gt;` yet, so we will use :ref:`aqt list-qt &lt;list-qt command&gt;` again:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015553Z" creationid="Hiroshi Miura" creationdate="20221010T015553Z">
         <seg>アーキテクチャに ``armv7`` を使いたいことはわかっていますが、:ref:`aqt install-qt &lt;qt installation command&gt;` に渡す必要のある'アーキテクチャ'の値が正確にはまだ分からないので、もう一度 :ref:`aqt list-qt &lt;list-qt command&gt;` を使います:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We saw a list of these when we ran :ref:`aqt list-tool &lt;list-tool command&gt;` with the `tool name` argument filled in.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020616Z" creationid="Hiroshi Miura" creationdate="20221010T020616Z">
+        <seg>:ref:`aqt list-tool &lt;list-tool command&gt;` を`tool name` 引数つきで実行したときに、リストに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When ``--external`` option specified, a value is override with option's one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004626Z" creationid="Hiroshi Miura" creationdate="20221010T004626Z">
+        <seg>``--external`` オプションが指定されている場合、オプションの指定値で上書きされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When ``aqtinstall`` is installed **without** recommended library ``py7zr``, it is used to extract archive instead of ``py7zr`` library.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004626Z" creationid="Hiroshi Miura" creationdate="20221010T004626Z">
+        <seg>``aqtinstall`` が **推奨ライブラリ``py7zr``なしで** インストールされている場合、``py7zr`` ライブラリの代わりにアーカイブを抽出するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When mirror site cause an error, aqt use fallbacks when possible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010809Z" creationid="Hiroshi Miura" creationdate="20221010T010809Z">
+        <seg>ミラーサイトでエラーが発生した場合は、可能な場合はフォールバックを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>When omitted, the command prints all the targets available for a host OS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161713Z" creationid="Hiroshi Miura" creationdate="20221009T161713Z">
+        <seg>省略すると、ホストOSで使用可能なすべてのターゲットが出力されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2222,6 +2722,63 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>When you are happy with the default sites, you can override with your custom settings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010747Z" creationid="Hiroshi Miura" creationdate="20221010T010747Z">
+        <seg>既定のサイトに問題がなければ、カスタム設定で上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When you have your own Qt download site repository, you can set it here.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004500Z" creationid="Hiroshi Miura" creationdate="20221010T004500Z">
+        <seg>独自のQtダウンロードサイトリポジトリがある場合は、ここで設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When you install these tools with the standard gui installer, the installer may use the ``installscript.qs`` script to make additional changes to your system.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020830Z" creationid="Hiroshi Miura" creationdate="20221010T020830Z">
+        <seg>これらのツールを標準のGUIインストーラでインストールする場合、インストーラは``installscript.qs`` スクリプトを使ってシステムに追加の変更を加えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>You are welcome to send a Pull-Request, reporting bugs and ask questions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163218Z" creationid="Hiroshi Miura" creationdate="20221009T163218Z">
+        <seg>Pull-Requestを送信してバグを報告し、質問をすることを歓迎します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can do this automatically with the ``--autodesktop`` flag:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020154Z" creationid="Hiroshi Miura" creationdate="20221010T020043Z">
+        <seg>``--autodesktop`` フラグをつけることで、自動的にデスクトップバージョンのインストールを実行できます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can find a list of mirrors at: https://download.qt.io/static/mirrorlist/</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010809Z" creationid="Hiroshi Miura" creationdate="20221010T010809Z">
+        <seg>ミラーの一覧は次の場所で確認できます: https://download.qt.io/static/mirrorlist/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can install 7-zip on Windows with Choco_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024910Z" creationid="Hiroshi Miura" creationdate="20221010T024910Z">
+        <seg>Windowsでは Choco_ を使って7-zipをインストールすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>You can install multiple modules like this:</seg>
@@ -2236,6 +2793,38 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T071545Z" creationid="miurahr" creationdate="20221015T071545Z">
         <seg>利用可能なアーキテクチャを一覧表示するには、以下で説明する ``--arch`` フラグを付けて ``aqt list-qt`` を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can override this location with the ``--archives-dest`` option.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004709Z" creationid="Hiroshi Miura" creationdate="20221010T004709Z">
+        <seg>この場所は、``--archives-dest`` オプションで上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can print a list of all acceptable values to use with this command by using the appropriate ``aqt list-*`` command:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072954Z" creationid="miurahr" creationdate="20221015T072954Z">
+        <seg>適切な``aqt list-*`` コマンドを使えば、このコマンドで使える全ての値のリストを出力することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can see test results on badge and see details in a web page linked from badge.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163404Z" creationid="Hiroshi Miura" creationdate="20221009T163404Z">
+        <seg>テスト結果はバッジで確認でき、詳細はバッジからリンクされたWebページで確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can specify an alternate 7zip command path instead by using the ``-E`` or ``--external`` flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011846Z" creationid="Hiroshi Miura" creationdate="20221010T011846Z">
+        <seg>代わりに、 ``-E`` または ``--external`` フラグを使って7-zipコマンドパスを指定することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2257,10 +2846,10 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>You can still misuse the ``--archives`` flag by omitting the ``qtbase`` archive, or by omitting archives that another archive or module is dependent on. You may not notice that there is a problem until you try to compile a program, and compilation fails.</seg>
+        <seg>You can still misuse the ``--archives`` flag by omitting the ``qtbase`` archive, or by omitting archives that another archive or module is dependent on.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022129Z" creationid="Hiroshi Miura" creationdate="20221010T022129Z">
-        <seg>``qtbase``アーカイブを省略したり、他のアーカイブやモジュールが依存しているアーカイブを省略することで、``--archives``フラグを誤用することもできます。プログラムをコンパイルしようとしてコンパイルが失敗するまで、問題があることに気づかないかもしれません。</seg>
+        <seg>``qtbase``アーカイブを省略したり、他のアーカイブやモジュールが依存しているアーカイブを省略することで、``--archives``フラグを誤用することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2289,10 +2878,27 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>You may have noticed that by default, ``aqt install-qt`` installs a lot of archives that you may or may not need, and a typical installation can take up more disk space than necessary. If you installed the module ``debug_info``, it may have installed more than 1 gigabyte of data. This section will help you to reduce the footprint of your Qt installation.</seg>
+        <seg>You may have noticed that by default, ``aqt install-qt`` installs a lot of archives that you may or may not need, and a typical installation can take up more disk space than necessary.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020910Z" creationid="Hiroshi Miura" creationdate="20221010T020910Z">
-        <seg>お気づきかもしれませんが、デフォルトでは ``aqt install-qt`` は多くのアーカイブをインストールしますが、その必要はないかもしれませんし、一般的なインストールでは必要以上のディスク容量を消費します。モジュール ``debug_info`` をインストールした場合、1 GB以上のデータがインストールされている可能性があります。この節では、Qtインストールのフットプリントを減らすための手助けをします。</seg>
+        <seg>お気づきかもしれませんが、デフォルトでは ``aqt install-qt`` は多くのアーカイブをインストールしますが、その必要はないかもしれませんし、一般的なインストールでは必要以上のディスク容量を消費します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You may need to modify this list if the default mirrors are unreachable, or if you do not trust that they have not been compromised.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010623Z" creationid="Hiroshi Miura" creationdate="20221010T010623Z">
+        <seg>デフォルトのミラーにアクセスできない場合や、ミラーが侵害されていないと信頼できない場合は、このリストを変更する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>You may not notice that there is a problem until you try to compile a program, and compilation fails.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022129Z" creationid="Hiroshi Miura" creationdate="20221010T022129Z">
+        <seg>プログラムをコンパイルしようとしてコンパイルが失敗するまで、問題があることに気づかないかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2305,10 +2911,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>You will need a Unix-style shell to run this command, or at least git-bash on Windows. The ``xargs`` equivalent to this command is an exercise left to the reader.</seg>
+        <seg>You will need a Unix-style shell to run this command, or at least git-bash on Windows.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015226Z" creationid="Hiroshi Miura" creationdate="20221010T015226Z">
-        <seg>このコマンドを実行するにはUnixスタイルのシェルが必要ですし、Windowsでは少なくともgit-bashが必要です。この ``xargs`` に相当するコマンドは、読者の練習課題です。</seg>
+        <seg>このコマンドを実行するにはUnixスタイルのシェルが必要ですし、Windowsでは少なくともgit-bashが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>[Advanced] Specify subset of archives to **limit** installed archives.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072914Z" creationid="miurahr" creationdate="20221015T072852Z">
+        <seg>[高度] アーカイブのサブセットを指定して、インストールされているアーカイブを**制限**します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``aqt install-*`` can will still install them without any warnings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004827Z" creationid="Hiroshi Miura" creationdate="20221010T004827Z">
+        <seg>``aqt install-*`` は警告なしでそれらをインストールします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2321,66 +2943,82 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``aqt`` is a tool that can be used to install Qt, modules, tools related to Qt, source, docs, and examples, available at https://download.qt.io/. Before running ``aqt``, you will need to tell ``aqt`` exactly what you want it to install. This section of the documentation is meant to walk you through the process of finding out what packages are available to ``aqt``, so you can tell ``aqt`` what you want to install.</seg>
+        <seg>``aqt`` is a tool that can be used to install Qt, modules, tools related to Qt, source, docs, and examples, available at https://download.qt.io/.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010901Z" creationid="Hiroshi Miura" creationdate="20221010T010901Z">
-        <seg>``aqt`` は、Qt、モジュール、Qtに関連するツール、ソース、ドキュメント、サンプルなどをインストールするためのツールで、https://download.qt.io/ から入手できます。``aqt`` を実行する前に、何をインストールしたいのかを正確に ``aqt`` に指示する必要があります。このセクションでは、どのようなパッケージが ``aqt`` に用意されているのかを調べ、何をインストールしたいのかを ``aqt`` に指示できるようにするための手順を説明します。</seg>
+        <seg>``aqt`` は、Qt、モジュール、Qtに関連するツール、ソース、ドキュメント、サンプルなどをインストールするためのツールで、https://download.qt.io/ から入手できます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``aqt`` transforms the names of modules as they exist in the Qt repository so that they are easier to read and write. If the name of **the base Qt installation** were transformed using the same rules, the name would be empty.</seg>
+        <seg>``aqt`` transforms the names of modules as they exist in the Qt repository so that they are easier to read and write.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021705Z" creationid="Hiroshi Miura" creationdate="20221010T021705Z">
-        <seg>``aqt`` はQtリポジトリに存在するモジュールの名前を読みやすく書きやすくするために変換します。**the base Qt installation** の名前を同じ規則を使って変換された場合、名前は空になります。</seg>
+        <seg>``aqt`` はQtリポジトリに存在するモジュールの名前を読みやすく書きやすくするために変換します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``aqtinstall`` can be configured through a configuration file. A default configuration is stored in ``aqt/settings.ini`` file.</seg>
+        <seg>``aqtinstall`` can be configured through a configuration file.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004251Z" creationid="Hiroshi Miura" creationdate="20221010T004251Z">
-        <seg>``aqtinstall``は設定ファイルで設定できます。デフォルトの設定は ``aqt/settings.ini`` ファイルに保存されています。</seg>
+        <seg>``aqtinstall``は設定ファイルで設定できます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``aqtinstall`` can safely download archive files from the fallback mirror list, and ensure that they are not malicious files, by checking them against the checksums downloaded from the ``trusted_mirrors`` list. ``aqtinstall`` uses the SHA-256 algorithm to perform this check.</seg>
+        <seg>``aqtinstall`` can safely download archive files from the fallback mirror list, and ensure that they are not malicious files, by checking them against the checksums downloaded from the ``trusted_mirrors`` list.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010653Z" creationid="Hiroshi Miura" creationdate="20221010T010653Z">
-        <seg>``aqtinstall`` は、フォールバックミラーリストからアーカイブファイルを安全にダウンロードし、``trusted_mirrors`` リストからダウンロードしたチェックサムに照らして、それらが悪意のあるファイルでないことを確認することができます。``aqtinstall`` は、SHA-256アルゴリズムを使ってこのチェックを行います。</seg>
+        <seg>``aqtinstall`` は、フォールバックミラーリストからアーカイブファイルを安全にダウンロードし、``trusted_mirrors`` リストからダウンロードしたチェックサムに照らして、それらが悪意のあるファイルでないことを確認することができます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``aqtinstall`` downloads all checksums from mirrors in this list. These checksums are used to verify that every other file that ``aqtinstall`` downloads is, in fact, the correct file, and not a corrupt or malicious copy of the file. You may need to modify this list if the default mirrors are unreachable, or if you do not trust that they have not been compromised.</seg>
+        <seg>``aqtinstall`` downloads all checksums from mirrors in this list.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010623Z" creationid="Hiroshi Miura" creationdate="20221010T010623Z">
-        <seg>``aqtinstall`` は、このリスト内のミラーからすべてのチェックサムをダウンロードします。これらのチェックサムは、``aqtinstall`` がダウンロードする他のすべてのファイルが、実際には正しいファイルであり、そのファイルの不正コピーや悪意のあるコピーではないことを確認するために使用されます。デフォルトのミラーにアクセスできない場合や、ミラーが侵害されていないと信頼できない場合は、このリストを変更する必要があります。</seg>
+        <seg>``aqtinstall`` は、このリスト内のミラーからすべてのチェックサムをダウンロードします。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``baseurl`` is a URL of Qt download site. When you have your own Qt download site repository, you can set it here. It is as same as ``--base`` option.</seg>
+        <seg>``aqtinstall`` uses the SHA-256 algorithm to perform this check.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010653Z" creationid="Hiroshi Miura" creationdate="20221010T010653Z">
+        <seg>``aqtinstall`` は、SHA-256アルゴリズムを使ってこのチェックを行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``baseurl`` is a URL of Qt download site.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004500Z" creationid="Hiroshi Miura" creationdate="20221010T004500Z">
-        <seg>``baseurl`` はQtダウンロードサイトのURLです。独自のQtダウンロードサイトリポジトリがある場合は、ここで設定できます。これは``--base``オプションと同じです。</seg>
+        <seg>``baseurl`` はQtダウンロードサイトのURLです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``concurrency`` is a setting how many download concurrently starts. It should be a integer value.</seg>
+        <seg>``concurrency`` is a setting how many download concurrently starts.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004433Z" creationid="Hiroshi Miura" creationdate="20221010T004433Z">
-        <seg>``concurrency`` は、同時に開始するダウンロードの数を設定します。これは整数値でなくてはなりません。</seg>
+        <seg>``concurrency`` は、同時に開始するダウンロードの数を設定します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``connection_timeout`` is a timeout in second for connection. It is passed to ``requests`` library.</seg>
+        <seg>``connection_timeout`` is a timeout in second for connection.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010340Z" creationid="Hiroshi Miura" creationdate="20221010T010340Z">
-        <seg>``connection_timeout`` は接続の秒単位のタイムアウトです。これは ``requests`` ライブラリに渡されます。</seg>
+        <seg>``connection_timeout`` は接続の秒単位のタイムアウトです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``list-doc &lt;host&gt; &lt;version&gt;``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073007Z" creationid="miurahr" creationdate="20221015T073007Z">
+        <seg>``list-doc &lt;host&gt; &lt;version&gt;``</seg>
       </tuv>
     </tu>
     <tu>
@@ -2393,10 +3031,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>``list-example &lt;host&gt; &lt;version&gt;``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073000Z" creationid="miurahr" creationdate="20221015T073000Z">
+        <seg>``list-example &lt;host&gt; &lt;version&gt;``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``list-qt &lt;host&gt; &lt;target&gt; --archives &lt;version&gt;``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072958Z" creationid="miurahr" creationdate="20221015T072958Z">
+        <seg>``list-qt &lt;host&gt; &lt;target&gt; --archives &lt;version&gt;``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>``list-qt &lt;host&gt; &lt;target&gt; --modules &lt;version&gt; &lt;arch&gt;``</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025052Z" creationid="Hiroshi Miura" creationdate="20221010T025052Z">
         <seg>``list-qt &lt;host&gt; &lt;target&gt; --modules &lt;version&gt; &lt;arch&gt;``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>``list-src &lt;host&gt; &lt;version&gt;``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073006Z" creationid="miurahr" creationdate="20221015T073006Z">
+        <seg>``list-src &lt;host&gt; &lt;version&gt;``</seg>
       </tuv>
     </tu>
     <tu>
@@ -2409,27 +3071,27 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``print_stacktrace_on_error`` is either ``True`` or ``False``. The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program. The ``False`` setting will hide the stack trace, unless an unhandled exception occurs.</seg>
+        <seg>``print_stacktrace_on_error`` is either ``True`` or ``False``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004638Z" creationid="Hiroshi Miura" creationdate="20221010T004638Z">
-        <seg>``print_stacktrace_on_error`` is either ``True`` or ``False``. The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program. The ``False`` setting will hide the stack trace, unless an unhandled exception occurs.</seg>
+        <seg>``print_stacktrace_on_error`` is either ``True`` or ``False``.</seg>
       </tuv>
     </tu>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>``response_timeout`` is a timeout in second how much time waiting for response. It is passed to ``requests`` library.</seg>
+        <seg>``response_timeout`` is a timeout in second how much time waiting for response.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010349Z" creationid="Hiroshi Miura" creationdate="20221010T010349Z">
-        <seg>``response_timeout``は応答待ち時間の秒単位のタイムアウトです。これは``requests``ライブラリに渡されます。</seg>
+        <seg>``response_timeout``は応答待ち時間の秒単位のタイムアウトです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>``retry_backoff`` is a floating point number that controls how long ``aqt`` will sleep between failed connection attempts. Setting this value too low will hammer the server, and may result in no successful connections at all.</seg>
+        <seg>``retry_backoff`` is a floating point number that controls how long ``aqt`` will sleep between failed connection attempts.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010443Z" creationid="Hiroshi Miura" creationdate="20221010T010443Z">
-        <seg>``retry_backoff`` は浮動小数点数で、``aqt`` が失敗した接続試行間にスリープする時間を制御します。この値をあまりに低く設定するとサーバに衝撃を与え、接続が全く成功しなくなる可能性があります。</seg>
+        <seg>``retry_backoff`` は浮動小数点数で、``aqt`` が失敗した接続試行間にスリープする時間を制御します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2458,10 +3120,18 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>and many other participants and contributors. If you find a missing name to record, please feel free to tell me.</seg>
+        <seg>`list-src command`_</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073004Z" creationid="miurahr" creationdate="20221015T073004Z">
+        <seg>`list-src command`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>and many other participants and contributors.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161334Z" creationid="Hiroshi Miura" creationdate="20221009T161334Z">
-        <seg>他にも多くの参加者や貢献者がいます。記録に名前がない方は、遠慮なく言ってください。</seg>
+        <seg>他にも多くの参加者や貢献者がいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2489,12 +3159,20 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>desktop, ios, winrt, or android.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073036Z" creationid="miurahr" creationdate="20221015T073036Z">
+        <seg>desktop, ios, winrt, または android</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
-        <seg>desktop, winrt, ios or android. When omitted, the command prints all the targets available for a host OS. Note that winrt is only available on Windows, and ios is only available on Mac OS.</seg>
+        <seg>desktop, winrt, ios or android.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161713Z" creationid="Hiroshi Miura" creationdate="20221009T161713Z">
-        <seg>desktop、winrt、iosまたはandroid。省略すると、ホストOSで使用可能なすべてのターゲットが出力されます。winrtはWindowsでしか使用できず、iosはMac OSでしか使用できません。</seg>
+        <seg>desktop、winrt、iosまたはandroid。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2542,10 +3220,35 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>install-qt command</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072817Z" creationid="miurahr" creationdate="20221015T072817Z">
+        <seg>install-qtコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>install-src</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073002Z" creationid="miurahr" creationdate="20221015T073002Z">
+        <seg>install-src</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>linux, windows or mac</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161651Z" creationid="Hiroshi Miura" creationdate="20221009T161651Z">
         <seg>linux、windows、またはmac</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>linux, windows or mac.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073024Z" creationid="miurahr" creationdate="20221015T073024Z">
+        <seg>linux, windows または、mac.</seg>
       </tuv>
     </tu>
     <tu>
