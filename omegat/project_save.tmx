@@ -867,8 +867,8 @@
       <tuv lang="en">
         <seg>If we need to use some architecture that is not on this list, we can use the `Available Qt versions`_ wiki page to get a rough idea of what versions support the architecture we want, and then use :ref:`aqt list-qt &lt;list-qt command&gt;` to confirm that the architecture is available.</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011610Z" creationid="Hiroshi Miura" creationdate="20221010T011610Z">
-        <seg>このリストにないアーキテクチャを使用する必要がある場合は、`Available Qt versions`_ wikiページを使用して、どのバージョンが希望するアーキテクチャをサポートしているかの大まかなアイデアを得てから、 :ref:`aqt list-qt &lt;list-qt command&gt;` を使用して、アーキテクチャが使用可能であることを確認します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083940Z" creationid="Hiroshi Miura" creationdate="20221010T011610Z">
+        <seg>このリストにないアーキテクチャを使用する必要がある場合には、`Available Qt versions`_ wikiページを使用して、どのバージョンが希望するアーキテクチャをサポートしているかの大まかなアイデアを得てから、 :ref:`aqt list-qt &lt;list-qt command&gt;` を使用して、アーキテクチャが使用可能であることを確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1792,8 +1792,8 @@
       <tuv lang="en">
         <seg>Notice that this is a very small subset of the architectures listed in the `Available Qt versions`_ wiki page.</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011610Z" creationid="Hiroshi Miura" creationdate="20221010T011610Z">
-        <seg>これは `Available Qt versions`_ wikiページにリストされているアーキテクチャの非常に小さなサブセットであることに注意してください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083923Z" creationid="Hiroshi Miura" creationdate="20221010T011610Z">
+        <seg>`Available Qt versions`_ wikiページにリストされているアーキテクチャの非常に小さなサブセットだということに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3011,8 +3011,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>To do this, we can use :ref:`aqt list-qt &lt;list-qt command&gt;` with the ``--arch`` flag:</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011459Z" creationid="Hiroshi Miura" creationdate="20221010T011459Z">
-        <seg>これを行うには、:ref:`aqt list-qt &lt;list-qt command&gt;` に ``--arch`` フラグを付けて確認します:</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083909Z" creationid="Hiroshi Miura" creationdate="20221010T011459Z">
+        <seg>これには、:ref:`aqt list-qt &lt;list-qt command&gt;` に ``--arch`` フラグを付けて確認します:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3774,24 +3774,24 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>`list-doc command`_</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T073419Z" creationid="miurahr" creationdate="20221015T073419Z">
-        <seg>`list-doc command`_</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083719Z" creationid="miurahr" creationdate="20221015T073419Z">
+        <seg>:ref: `list-doc コマンド &lt;list-doc command&gt;`</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>`list-example command`_</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025058Z" creationid="Hiroshi Miura" creationdate="20221010T025058Z">
-        <seg>`list-example command`_</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083659Z" creationid="Hiroshi Miura" creationdate="20221010T025058Z">
+        <seg>:ref: `list-example コマンド &lt;list-example command&gt;`</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>`list-qt command`_</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T025050Z" creationid="Hiroshi Miura" creationdate="20221010T025050Z">
-        <seg>`list-qt command`_</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083637Z" creationid="Hiroshi Miura" creationdate="20221010T025050Z">
+        <seg>:ref: `list-qt コマンド &lt;list-qt command&gt;`</seg>
       </tuv>
     </tu>
     <tu>
