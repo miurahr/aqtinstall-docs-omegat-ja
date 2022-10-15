@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>(default: 5 sec)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072225Z" creationid="miurahr" creationdate="20221015T072225Z">
+        <seg>(デフォルト:5秒)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>**Archives**: In this context, an **archive** is a bundle of files compressed with the 7zip algorithm. It exists on a disk drive as a file with the extension ``.7z``.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021255Z" creationid="Hiroshi Miura" creationdate="20221010T021244Z">
@@ -232,6 +240,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T071147Z" creationid="miurahr" creationdate="20221015T071147Z">
         <seg>デフォルトでは、aqtは現在の作業ディレクトリにインストールされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>By default, aqt uses py7zr_ for this task.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072244Z" creationid="miurahr" creationdate="20221015T072244Z">
+        <seg>デフォルトでは、aqtはこのタスクに py7zr_ を使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1477,6 +1493,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>See :ref:`the Configuration section&lt;configuration-ref&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072208Z" creationid="miurahr" creationdate="20221015T072208Z">
+        <seg>:ref:`the Configuration section &lt;configuration-ref&gt;` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Send patch</seg>
@@ -1508,6 +1532,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022700Z" creationid="Hiroshi Miura" creationdate="20221010T022700Z">
         <seg>David Dalcinoによるバージョン2.0と2.1の改善への重要な貢献がありました。バージョン2.0以降の多くの開発とレビューの取り組みも主導しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Specify external 7zip command path.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072234Z" creationid="miurahr" creationdate="20221015T072234Z">
+        <seg>外部7zipコマンドのパスを指定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1673,6 +1705,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021619Z" creationid="Hiroshi Miura" creationdate="20221010T021619Z">
         <seg>``aqt list-qt--modules`` コマンドはこのモジュールの説明を表示できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The connection timeout, in seconds, for the download site.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T072223Z" creationid="miurahr" creationdate="20221015T072223Z">
+        <seg>ダウンロードサイトの接続タイムアウト(秒単位)。</seg>
       </tuv>
     </tu>
     <tu>
