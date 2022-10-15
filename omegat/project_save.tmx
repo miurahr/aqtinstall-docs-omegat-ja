@@ -779,10 +779,27 @@
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>If you are installing an ios or android version of Qt, the corresponding desktop version of Qt must be installed alongside of it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073313Z" creationid="miurahr" creationdate="20221015T073313Z">
+        <seg>iosまたはandroidバージョンのQtをインストールする場合は、対応するデスクトップバージョンのQtも一緒にインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>If you do not add a list of modules to this flag, this command will print a list of all the archives that make up the base Qt installation.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023926Z" creationid="Hiroshi Miura" creationdate="20221010T023926Z">
         <seg>このフラグにモジュールのリストを追加しない場合、このコマンドは基本Qtインストールを構成するすべてのアーカイブのリストを出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you do not specify a download destination, aqt will place these files in the current working directory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073400Z" creationid="miurahr" creationdate="20221015T073400Z">
+        <seg>ダウンロード先を指定しない場合、aqtはこれらのファイルを現在の作業ディレクトリに配置します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1145,6 +1162,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T072906Z" creationid="miurahr" creationdate="20221015T072906Z">
         <seg>これはQtの基本インストールと ``debug_info`` モジュールにのみ影響します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Keep downloaded archive when specified, otherwise remove after install.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073417Z" creationid="miurahr" creationdate="20221015T073345Z">
+        <seg>指定された場合はダウンロードされたアーカイブを保持します。指定されていない場合はインストール後に削除します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1553,6 +1578,15 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015127Z" creationid="Hiroshi Miura" creationdate="20221010T015127Z">
         <seg>Qt 5.15.2で利用可能なすべてのモジュールをインストールする1つの方法は :ref:`aqt list-qt &lt;list-qt command&gt;` の出力を :ref:`aqt install-qt &lt;qt installation command&gt;` に以下のように送ることです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Options:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073142Z" creationid="miurahr" creationdate="20221015T073142Z">
+        <seg>オプション:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2009,6 +2043,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015226Z" creationid="Hiroshi Miura" creationdate="20221010T015226Z">
         <seg>この ``xargs`` に相当するコマンドは、読者の練習課題です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>The compiler architecture for which you are developing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073140Z" creationid="miurahr" creationdate="20221015T073140Z">
+        <seg>開発対象のコンパイラアーキテクチャ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2500,6 +2543,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Turn this option on to install it automatically.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073316Z" creationid="miurahr" creationdate="20221015T073316Z">
+        <seg>このオプションをオンにすると、自動的にインストールされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>Usage of list command</seg>
       </tuv>
@@ -2509,10 +2561,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Use ``--archive-dest &lt;path&gt;`` to choose where aqt will place these files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073406Z" creationid="miurahr" creationdate="20221015T073353Z">
+        <seg>これらのファイルをaqtが配置する場所を選択するには、 ``--archive-dest &lt;path&gt;``を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Use ``aqt list-tool &lt;host&gt; &lt;target&gt;`` to see accepted values.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T071044Z" creationid="miurahr" creationdate="20221015T070904Z">
         <seg>利用可能な値を確認するには、 ``aqt list-tool &lt;host&gt; &lt;target&gt;`` を使用してください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the :ref:`List-Qt Command` to list available architectures.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073309Z" creationid="miurahr" creationdate="20221015T073309Z">
+        <seg>:ref:`List-Qt Command` を使用して、利用可能なアーキテクチャを一覧表示してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2723,6 +2791,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>When using this option, ``aqt`` will print the version that it has installed in the logs so that you can verify it easily.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073137Z" creationid="miurahr" creationdate="20221015T073137Z">
+        <seg>このオプションを使用すると、``aqt`` はインストールされたバージョンをログに出力するので、簡単に確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>When you are happy with the default sites, you can override with your custom settings.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010747Z" creationid="Hiroshi Miura" creationdate="20221010T010747Z">
@@ -2915,6 +2991,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015226Z" creationid="Hiroshi Miura" creationdate="20221010T015226Z">
         <seg>このコマンドを実行するにはUnixスタイルのシェルが必要ですし、Windowsでは少なくともgit-bashが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>[Advanced] Specify not to install all base packages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073335Z" creationid="miurahr" creationdate="20221015T073335Z">
+        <seg>[高度]すべての基本パッケージをインストールしないように指定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3136,6 +3220,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>android_armv7, android_arm64_v8a, android_x86, android_x86_64 for android</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073242Z" creationid="miurahr" creationdate="20221015T073242Z">
+        <seg>Androidの場合は： android_armv7, android_arm64_v8a, android_x86, android_x86_64</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>aqtinstall changeLog</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022721Z" creationid="Hiroshi Miura" creationdate="20221010T022721Z">
@@ -3148,6 +3240,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004436Z" creationid="Hiroshi Miura" creationdate="20221010T004436Z">
         <seg>baseurl:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>clang_64 for mac desktop</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073250Z" creationid="miurahr" creationdate="20221015T073206Z">
+        <seg>mac デスクトップの場合：  clang_64</seg>
       </tuv>
     </tu>
     <tu>
@@ -3199,6 +3299,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163326Z" creationid="Hiroshi Miura" creationdate="20221009T163326Z">
         <seg>修正案はすべて「プルリクエスト」として送信する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>gcc_64 for linux desktop</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073258Z" creationid="miurahr" creationdate="20221015T073148Z">
+        <seg>Linuxデスクトップの場合： gcc_64</seg>
       </tuv>
     </tu>
     <tu>
@@ -3360,6 +3468,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022425Z" creationid="Hiroshi Miura" creationdate="20221010T022425Z">
         <seg>``debug_info``モジュールからの3つのアーカイブ ``qtbase``、``qtcharts``、``qtdeclarative``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>win64_msvc2019_64, win64_msvc2017_64, win64_msvc2015_64, win32_msvc2015, win32_mingw53 for windows desktop</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T073224Z" creationid="miurahr" creationdate="20221015T073224Z">
+        <seg>Windowsデスクトップの場合は、win64_msvc2019_64, win64_msvc2017_64, win64_msvc2015_64, win32_msvc2015, win32_mingw53 </seg>
       </tuv>
     </tu>
     <tu>
