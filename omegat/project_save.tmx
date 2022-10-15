@@ -2260,8 +2260,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>The 'Qt version' argument can be in the format "5.X.Y" or the "latest" keyword.</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023920Z" creationid="Hiroshi Miura" creationdate="20221010T023920Z">
-        <seg>'Qt version'引数は、"5.X.Y"または"latest"キーワードの形式にすることができます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T081521Z" creationid="Hiroshi Miura" creationdate="20221010T023920Z">
+        <seg>'Qt version'引数は、"5.X.Y"または "latest" キーワードの形式にすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2788,8 +2788,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>This flag requires a list of at least two arguments: 'Qt version' and 'architecture'.</seg>
       </tuv>
-      <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T023920Z" creationid="Hiroshi Miura" creationdate="20221010T023920Z">
-        <seg>このフラグには、'Qt version'と'architecture'の2つ以上の引数のリストが必要です。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T081517Z" creationid="Hiroshi Miura" creationdate="20221010T023920Z">
+        <seg>このフラグには、'Qt version' と 'architecture' の2つ以上の引数のリストが必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3484,16 +3484,16 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>You can use the ``--arch`` flag to see a list of acceptable values for the 'architecture' argument.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071854Z" creationid="miurahr" creationdate="20221015T071854Z">
-        <seg>'architecture' 引数に指定できる値のリストを見るには、``--arch`` フラグを使用します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T081532Z" creationid="miurahr" creationdate="20221015T071854Z">
+        <seg>'architecture'  引数に指定できる値のリストを見るには、 ``--arch`` フラグを使用します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>You can use the ``--modules`` flag to see a list of acceptable values.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071918Z" creationid="miurahr" creationdate="20221015T071918Z">
-        <seg>受け入れ可能な値のリストを見るために、``--modules`` フラグを使うことができます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T081544Z" creationid="miurahr" creationdate="20221015T071918Z">
+        <seg>受け入れ可能な値のリストを見るために、 ``--modules`` フラグを使うことができます。</seg>
       </tuv>
     </tu>
     <tu>
