@@ -127,6 +127,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>All it did was add `android_` to the beginning of the architecture I gave it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075110Z" creationid="miurahr" creationdate="20221015T075005Z">
+        <seg>「私が引数に付与したアーキテクチャの最初に `android_` を 追加しただけだ。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>All notable changes to this project will be documented in this file.</seg>
@@ -781,6 +789,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015445Z" creationid="Hiroshi Miura" creationdate="20221010T015445Z">
         <seg>少し機能後退したように聞こえますが、それがQtリポジトリが組み立てられた方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If it prints an error message, instead of the obvious `android_armv7`, we would know that Qt 6.2.0 for that architecture doesn't exist for some reason, and any attempt to install it with :ref:`aqt install-qt &lt;qt installation command&gt;` will fail.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075146Z" creationid="miurahr" creationdate="20221015T075146Z">
+        <seg>期待した ``android_armv7`` の出力ではなくエラーメッセージが出力された場合、Qt 6.2.0のそのアーキテクチャ用のパッケージが何らかの理由で存在しないことがわかります。そのため、:ref:`aqt install-qt &lt;qt installation command&gt;`でインストールしようとすると失敗します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2586,6 +2602,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This gives us a list of things that we could install using :ref:`aqt install-tool &lt;tools installation command&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075237Z" creationid="miurahr" creationdate="20221015T075237Z">
+        <seg>このコマンドの出力は、以下の :ref:`aqt install-tool &lt;Tools installation command&gt;` で使える値のリストになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This is a Qt version such as 5.9.7, 5.12.1 etc.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024047Z" creationid="Hiroshi Miura" creationdate="20221010T024047Z">
@@ -3116,6 +3140,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020830Z" creationid="Hiroshi Miura" creationdate="20221010T020830Z">
         <seg>これらのツールを標準のGUIインストーラでインストールする場合、インストーラは``installscript.qs`` スクリプトを使ってシステムに追加の変更を加えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Why do I need to use ``aqt list-qt --arch`` for that?" The answer is, ``aqt list-qt --arch`` is checking to see what actually exists in the Qt repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075126Z" creationid="miurahr" creationdate="20221015T075035Z">
+        <seg>なぜそのために`aqt list-qt--arch`を使う必要があるのか?」おそらく、そう考えるでしょう。 その答えは、``aqt list-qt-arch`` はQtリポジトリに実際に何が存在するかをチェックしているということです。</seg>
       </tuv>
     </tu>
     <tu>
