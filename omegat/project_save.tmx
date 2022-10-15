@@ -71,6 +71,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>:ref:`aqt list-tool &lt;list-tool command&gt;` additionally prints the 'Display Name' and 'Description' for each tool if your terminal is wider than 95 characters; terminals that are narrower than this cannot display this table in a readable way.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075321Z" creationid="miurahr" creationdate="20221015T075321Z">
+        <seg>:ref:`aqt list-tool &lt;list-tool command&gt;` は、端末の幅が95文字より広い場合、各ツールの 「表示名」と「説明」を出力します。これより表示幅の狭い端末では、このテーブルを読みやすい形で表示することはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt; 2.2</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022824Z" creationid="Hiroshi Miura" creationdate="20221010T022824Z">
@@ -206,6 +214,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T161242Z" creationid="Hiroshi Miura" creationdate="20221009T161242Z">
         <seg>作者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Be careful about using the ``--archives`` flag; it is marked `Advanced` for a reason!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075447Z" creationid="miurahr" creationdate="20221015T075431Z">
+        <seg>``--archives`` フラグの使用には注意してください。`Advanced` とマークされているのは理由があります! </seg>
       </tuv>
     </tu>
     <tu>
@@ -429,6 +445,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073844Z" creationid="miurahr" creationdate="20221015T073844Z">
         <seg>これらの古いコマンドのドキュメントは、https://aqtinstall.readthedocs.io/en/v1.2.4/でまだ入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Don't use it unless you know what you are doing!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075514Z" creationid="miurahr" creationdate="20221015T075514Z">
+        <seg>自分が何をしているのかわかっていない限り、使用しないでください!</seg>
       </tuv>
     </tu>
     <tu>
@@ -732,6 +756,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>For some tools, like `qtcreator` or `ifw`, this is an appropriate thing to do, since each tool variant is a different program.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075417Z" creationid="miurahr" creationdate="20221015T075346Z">
+        <seg>``qtcreator`` や ``ifw`` のようないくつかのツールでは、それぞれのツールバリエーションが異なるプログラムなので、これは適切なことです。。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>From version 2.0.0, sub commands are changed.</seg>
@@ -781,6 +813,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021942Z" creationid="Hiroshi Miura" creationdate="20221010T021918Z">
         <seg>ここでは、関心のあるQtのバージョンと使用しているアーキテクチャの2つの引数を持つ``--archives``フラグを使用しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>However, for tools like `mingw` and `vcredist`, it would make more sense to use :ref:`aqt list-tool &lt;list-tool command&gt;` to see what tool variants are available, and then install just the tool variant you are interested in, like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075404Z" creationid="miurahr" creationdate="20221015T075404Z">
+        <seg>しかし、``mingw``や``vcredist``のようなツールでは、:ref:`aqt list-tool &lt;list-tool command&gt;` を使ってどんなバリエーションが利用可能か調べてから、必要なツールのバリエーションだけをインストールする方が理にかなっています:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1277,6 +1317,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>It is very easy to misuse this command and end up with a Qt installation that is missing the components that you need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075452Z" creationid="miurahr" creationdate="20221015T075442Z">
+        <seg>このコマンドを誤用しますと、必須コンポーネントがない不完全なQtインストール結果になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>It may be required for vcredist and mingw installation.</seg>
@@ -1467,6 +1515,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Let's see some more details, using the ``-l`` or ``--long`` flag:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075251Z" creationid="miurahr" creationdate="20221015T075251Z">
+        <seg>以下のように、``--l`` または ``--long`` フラグを使用して詳細を調べてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Let's see what happens when we try to list architectures and modules for Qt 6:</seg>
@@ -1634,6 +1690,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004026Z" creationid="Hiroshi Miura" creationdate="20221010T004026Z">
         <seg>新しい構文はバージョンを使用しません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Normally, when you run ``aqt install-qt``, the program will print a long list of archives that it is downloading, extracting, and installing, including ``qtbase``, ``qtmultimedia``, ``qt3d``, and ~25 more items.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075528Z" creationid="miurahr" creationdate="20221015T075528Z">
+        <seg>通常、``aqt install-qt`` を実行すると、このプログラムはダウンロード、抽出、インストールしているアーカイブの長いリストを出力します。このリストには、``qtbase``、``qtmultimedia``、``qt3d``、そして約25項目が含まれています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2158,6 +2222,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T011407Z" creationid="Hiroshi Miura" creationdate="20221010T011407Z">
         <seg>`Available Qt versions`_ wikiページは過去のある時点での更新ですので、最新であるかどうかは保障されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The ``-l`` flag causes :ref:`aqt list-tool &lt;list-tool command&gt;` to print a table that shows plenty of data pertinent to each tool variant available in `tools_mingw`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075311Z" creationid="miurahr" creationdate="20221015T075311Z">
+        <seg>:ref:`aqt list-tool &lt;list-tool command&gt;` は、``tools_mingw`` で利用可能な各ツールに関連する、豊富なデータが含まれるテーブルを出力します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2939,6 +3011,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Using this command will install every tool variant available in `tools_mingw`; in this case, you would install 10 different versions of the same tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075428Z" creationid="miurahr" creationdate="20221015T075338Z">
+        <seg>このコマンドを使用すると、`tools_mingw`  で利用可能なすべてのツールバリエーションがインストールされます。この場合、同じツールの10種類の異なるバージョンをインストールすることになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Using this command will install every tool variant available in `tools_mingw`; in this case, you would install 10 different versions of the same tool. For some tools, like `qtcreator` or `ifw`, this is an appropriate thing to do, since each tool variant is a different program. However, for tools like `mingw` and `vcredist`, it would make more sense to use :ref:`aqt list-tool &lt;list-tool command&gt;` to see what tool variants are available, and then install just the tool variant you are interested in, like this:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T020752Z" creationid="Hiroshi Miura" creationdate="20221010T020635Z">
@@ -3019,6 +3099,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021924Z" creationid="Hiroshi Miura" creationdate="20221010T021911Z">
         <seg>``aqt list-qt --archives``コマンドでこれらのアーカイブのリストを表示することができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We can use the ``--archives`` flag to choose which of these archives we will actually install.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075538Z" creationid="miurahr" creationdate="20221015T075538Z">
+        <seg>これらのアーカイブのどれを実際にインストールするかは、``--archives`` フラグを使って選択することができます。</seg>
       </tuv>
     </tu>
     <tu>
