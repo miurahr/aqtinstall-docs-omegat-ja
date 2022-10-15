@@ -424,6 +424,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Each version of Qt has a different list of modules for each host OS/ target SDK/ architecture combination, so we will need to supply :ref:`aqt list-qt &lt;list-qt command&gt;` with that information:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074716Z" creationid="miurahr" creationdate="20221015T074716Z">
+        <seg>Qtの各バージョンには、ホストOS/ターゲットSDK/アーキテクチャの組み合わせごとに異なるモジュールリストがあるので、その情報を :ref:`aqt list-qt &lt;list-qt command&gt;` に提供する必要があります:</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Every report to github issue tracker should be in triage. whether it is bug, question or invalid.</seg>
@@ -622,8 +630,8 @@
       <tuv lang="en">
         <seg>First we need to find out what the modules are called, and we can do that with :ref:`aqt list-qt &lt;list-qt command&gt;` with the ``--modules`` flag.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T074654Z" creationid="miurahr" creationdate="20221015T074654Z">
-        <seg>まず、モジュールが何と呼ばれているかを知る必要があります。これは``--modules`` フラグを付けて、:ref:`aqt list-qt &lt;list-qt command&gt;` を実行すれば確認できます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074745Z" creationid="miurahr" creationdate="20221015T074654Z">
+        <seg>まず、モジュールが何と呼ばれているかを調べる必要があります。そのためには :ref:`aqt list-qt &lt;list-qt command&gt;` と ``--modules`` フラグを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -899,6 +907,15 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024120Z" creationid="Hiroshi Miura" creationdate="20221010T024120Z">
         <seg>バージョンとして解釈できない何かを位置引数 ``&lt;Qt version&gt;`` に入力すると、それは `SimpleSpec`_ として解釈され、``aqt`` はその`SimpleSpec`_ 内で利用可能な最高バージョンを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>If you want to install all available modules, you are probably better off using the ``all`` keyword, as discussed above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074751Z" creationid="miurahr" creationdate="20221015T074751Z">
+        <seg>利用可能なモジュールをすべてインストールしたい場合は、上で説明したように、「all」キーワードを使った方が良いでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1737,6 +1754,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Perhaps you want to install all modules except `qtnetworkauth`; you could write a script that removes `qtnetworkauth` from the output of :ref:`aqt list-qt &lt;list-qt command&gt;`, and pipe that into :ref:`aqt install-qt &lt;qt installation command&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074851Z" creationid="miurahr" creationdate="20221015T074851Z">
+        <seg>:ref:`aqt list-qt &lt;list-qt command&gt;` の出力から `qtnetworkauth` を削除するスクリプトを書いて、それを :ref:`aqt install-qt &lt;qt installation command&gt;` にパイプで渡すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Please disclose security vulnerabilities privately at miurahr@linux.com</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022855Z" creationid="Hiroshi Miura" creationdate="20221010T022855Z">
@@ -2497,6 +2522,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This exercise is left to the reader.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074927Z" creationid="miurahr" creationdate="20221015T074927Z">
+        <seg>これは読者の練習課題です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This flag allows you to avoid installing parts of Qt that you do not need.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T070855Z" creationid="miurahr" creationdate="20221015T070855Z">
@@ -2691,6 +2724,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073515Z" creationid="miurahr" creationdate="20221015T073515Z">
         <seg>このパラメータは下位互換性のために存在し、その値は無視されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>This scripting example is presented to give you a sense of how to accomplish something more complicated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074757Z" creationid="miurahr" creationdate="20221015T074757Z">
+        <seg>このスクリプト例は、より複雑なことを実現する方法を理解するためのものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3230,6 +3272,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022129Z" creationid="Hiroshi Miura" creationdate="20221010T022129Z">
         <seg>プログラムをコンパイルしようとしてコンパイルが失敗するまで、問題があることに気づかないかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You should be thinking, "Well, that was silly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074952Z" creationid="miurahr" creationdate="20221015T074952Z">
+        <seg>「ばかげている」そう思われるかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
