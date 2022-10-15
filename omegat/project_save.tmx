@@ -2820,8 +2820,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>This is a lot of archives.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T075838Z" creationid="miurahr" creationdate="20221015T075838Z">
-        <seg>This is a lot of archives.</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075903Z" creationid="miurahr" creationdate="20221015T075838Z">
+        <seg>ここにはたくさんのアーカイブがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3925,6 +3925,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>doc</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075917Z" creationid="miurahr" creationdate="20221015T075917Z">
+        <seg>doc</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>each pull request can consist of multiple commits.</seg>
@@ -3944,6 +3952,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>examples</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075915Z" creationid="miurahr" creationdate="20221015T075915Z">
+        <seg>examples</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>fallbacks:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T074522Z" creationid="miurahr" creationdate="20221015T074522Z">
@@ -3956,6 +3972,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073258Z" creationid="miurahr" creationdate="20221015T073148Z">
         <seg>Linuxデスクトップの場合： gcc_64</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>install</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075911Z" creationid="miurahr" creationdate="20221015T075911Z">
+        <seg>install</seg>
       </tuv>
     </tu>
     <tu>
@@ -4036,6 +4060,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>install-tool</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075913Z" creationid="miurahr" creationdate="20221015T075913Z">
+        <seg>install-tool</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>install-tool command</seg>
@@ -4062,6 +4094,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>list</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075918Z" creationid="miurahr" creationdate="20221015T075918Z">
+        <seg>list</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>list-doc command</seg>
@@ -4080,6 +4120,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>list-qt</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075919Z" creationid="miurahr" creationdate="20221015T075919Z">
+        <seg>list-qt</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>list-qt command</seg>
@@ -4095,6 +4143,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024011Z" creationid="Hiroshi Miura" creationdate="20221010T024011Z">
         <seg>list-srcコマンド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>list-tool</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075923Z" creationid="miurahr" creationdate="20221015T075923Z">
+        <seg>list-tool</seg>
       </tuv>
     </tu>
     <tu>
@@ -4174,6 +4230,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>src</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075914Z" creationid="miurahr" creationdate="20221015T075914Z">
+        <seg>src</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>the 1 archive ``qtcharts`` from the ``qtcharts`` module, and</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022440Z" creationid="Hiroshi Miura" creationdate="20221010T022440Z">
@@ -4194,6 +4258,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022425Z" creationid="Hiroshi Miura" creationdate="20221010T022425Z">
         <seg>``debug_info``モジュールからの3つのアーカイブ ``qtbase``、``qtcharts``、``qtdeclarative``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>tool</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T075910Z" creationid="miurahr" creationdate="20221015T075910Z">
+        <seg>tool</seg>
       </tuv>
     </tu>
     <tu>
