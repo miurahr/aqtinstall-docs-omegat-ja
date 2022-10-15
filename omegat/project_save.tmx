@@ -1010,8 +1010,8 @@
       <tuv lang="en">
         <seg>If you wish to install every module available, you may use the ``all`` keyword instead of a list of modules, like this:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072836Z" creationid="miurahr" creationdate="20221015T072836Z">
-        <seg>利用可能なすべてのモジュールをインストールしたい場合は、次のように、モジュールのリストの代わりに ``all``キーワードを使うことができます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083247Z" creationid="miurahr" creationdate="20221015T072836Z">
+        <seg>利用可能なすべてのモジュールをインストールしたい場合は、次のように、モジュールのリストの代わりに ``all`` キーワードを使うことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2117,8 +2117,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>See `common options`_.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T073457Z" creationid="miurahr" creationdate="20221015T073457Z">
-        <seg>`common options`_ 参照</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083033Z" creationid="miurahr" creationdate="20221015T073457Z">
+        <seg>:ref:`共通オプション &lt;common options&gt;`  参照</seg>
       </tuv>
     </tu>
     <tu>
@@ -3092,8 +3092,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>Use the :ref:`List-Qt Command` to list available architectures.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T073309Z" creationid="miurahr" creationdate="20221015T073309Z">
-        <seg>:ref:`List-Qt Command` を使用して、利用可能なアーキテクチャを一覧表示してください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083610Z" creationid="miurahr" creationdate="20221015T073309Z">
+        <seg>:ref:`List-Qtコマンド &lt;List-Qt Command&gt;` を使用して、利用可能なアーキテクチャを一覧できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3435,8 +3435,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>You can print a list of all acceptable values to use with this command by using the appropriate ``aqt list-*`` command:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T072954Z" creationid="miurahr" creationdate="20221015T072954Z">
-        <seg>適切な``aqt list-*`` コマンドを使えば、このコマンドで使える全ての値のリストを出力することができます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T083300Z" creationid="miurahr" creationdate="20221015T072954Z">
+        <seg>適切な ``aqt list-*`` コマンドを使えば、このコマンドで使える全ての値のリストを出力することができます。</seg>
       </tuv>
     </tu>
     <tu>
