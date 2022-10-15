@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_b9dbf593d" segtype="sentence" srclang="en"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_4d1034fa" segtype="sentence" srclang="en"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1027,6 +1027,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Long display: shows extra metadata associated with each tool variant.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T070939Z" creationid="miurahr" creationdate="20221015T070939Z">
+        <seg>長い表示: 各ツールバリアントに関連付けられた追加のメタデータを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Long display: shows extra metadata associated with each tool variant. This metadata is displayed in a table, and includes versions and release dates for each tool. If your terminal is wider than 95 characters, ``aqt list-tool`` will also display the names and descriptions for each tool. An example of this output is displayed below.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024616Z" creationid="Hiroshi Miura" creationdate="20221010T024616Z">
@@ -1554,6 +1562,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>The name of a tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T070903Z" creationid="miurahr" creationdate="20221015T070903Z">
+        <seg>ツールの名前。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>The name of a tool. Use ``aqt list-tool &lt;host&gt; &lt;target&gt;`` to see accepted values. When set, this prints all 'tool variant names' available.</seg>
       </tuv>
@@ -1592,6 +1609,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T163404Z" creationid="Hiroshi Miura" creationdate="20221009T163404Z">
         <seg>プロジェクトは、Azure Pipelines、Githubアクション、Coverallsを使用してリグレッションテストを行うように設定されています。テスト結果はバッジで確認でき、詳細はバッジからリンクされたWebページで確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The purpose of this command is to show you what arguments you can pass to the :ref:`archives flag &lt;install archives flag&gt;` when using the ``install-*`` commands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T070837Z" creationid="miurahr" creationdate="20221015T070837Z">
+        <seg>このコマンドの目的は、 ``install-*`` コマンドを使うときに :ref:`archives flag &lt;install archives flag&gt;` に渡すことができる引数を表示することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1669,6 +1694,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T022120Z" creationid="Hiroshi Miura" creationdate="20221010T022120Z">
         <seg>このコマンドは3つのアーカイブを正しくインストールします。1つは``qtbase``用で、もう1つは2つのモジュール用です。このコマンドをaqtの以前のバージョンで使用しようとすると、2つのモジュールは``--archives``リストに指定されていなかったので、インストールされませんでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This flag allows you to avoid installing parts of Qt that you do not need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T070855Z" creationid="miurahr" creationdate="20221015T070855Z">
+        <seg>このフラグを使うと、Qtの不要な部分をインストールするのを避けることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1753,6 +1786,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>This metadata is displayed in a table, and includes versions and release dates for each tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T070947Z" creationid="miurahr" creationdate="20221015T070947Z">
+        <seg>このメタデータは表形式で表示され、各ツールのバージョンとリリース日が含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>This option only applicable to ``install-qt``, ``install-example``, and ``install-doc``.</seg>
       </tuv>
@@ -1833,6 +1875,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Use ``aqt list-tool &lt;host&gt; &lt;target&gt;`` to see accepted values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T070904Z" creationid="miurahr" creationdate="20221015T070904Z">
+        <seg>Use ``aqt list-tool &lt;host&gt; &lt;target&gt;`` to see accepted values.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>Use the ``--extensions`` flag to list all relevant options for a host/target. Incompatible with the ``--extensions`` flag, but may be combined with any other flag.</seg>
@@ -1899,6 +1949,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015553Z" creationid="Hiroshi Miura" creationdate="20221010T015553Z">
         <seg>アーキテクチャに ``armv7`` を使いたいことはわかっていますが、:ref:`aqt install-qt &lt;qt installation command&gt;` に渡す必要のある'アーキテクチャ'の値が正確にはまだ分からないので、もう一度 :ref:`aqt list-qt &lt;list-qt command&gt;` を使います:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>When set, this prints all 'tool variant names' available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T070927Z" creationid="miurahr" creationdate="20221015T070927Z">
+        <seg>利用可能な値を確認するには、 ``aqt list-tool &lt;host&gt; &lt;target&gt;`` を使用してください。</seg>
       </tuv>
     </tu>
     <tu>
