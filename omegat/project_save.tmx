@@ -903,6 +903,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>If you want to print these modules with ``aqt list-*``, please feel free to change the `min_module_size` value to something less than 40.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074337Z" creationid="miurahr" creationdate="20221015T074337Z">
+        <seg>これらのモジュールを ``aqt list-*`` で表示したい場合は、`min_module_size` の値を40以下に変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>If you wish to install every module available, you may use the ``all`` keyword instead of a list of modules, like this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T072836Z" creationid="miurahr" creationdate="20221015T072836Z">
@@ -2113,6 +2121,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The ``False`` setting will require you to set ``--keep`` manually every time you run aqt, unless you don't want to keep ``.7z`` archives.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074225Z" creationid="miurahr" creationdate="20221015T074225Z">
+        <seg> ``False`` が設定されると、 aqt実行するときに``.7z``アーカイブを削除したくないときは、``--keep`` を手動で設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The ``True`` setting causes a stack trace to be printed to stderr any time an error occurs that will end the program.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073917Z" creationid="Hiroshi Miura" creationdate="20221010T004638Z">
@@ -2173,6 +2189,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T015226Z" creationid="Hiroshi Miura" creationdate="20221010T015226Z">
         <seg>この ``xargs`` に相当するコマンドは、読者の練習課題です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The authors feel that it is not useful for ``aqt list-*`` to list these empty modules.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074317Z" creationid="miurahr" creationdate="20221015T074317Z">
+        <seg>著者らは、これらの空のモジュールを列挙することは ``aqt list-*`` にとって有用ではないと感じています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The authors of aqt have discovered that the Qt repository contains a few mysteriously "empty" modules, including the examples modules for `qtlottie` and `qtquicktimeline`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074305Z" creationid="miurahr" creationdate="20221015T074244Z">
+        <seg>aqtの作成者は、Qtリポジトリに、`qtlottie`と`qtquicktimeline`のサンプルモジュールになど、いくつかの不可解な「空の」モジュールが含まれていることを発見しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2400,6 +2432,15 @@ Generated-By: Babel 2.8.0</seg>
     <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
+        <seg>These modules consist of a single archive that contains empty directories, and they are exactly 40 bytes when uncompressed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074309Z" creationid="miurahr" creationdate="20221015T074247Z">
+        <seg>これらのモジュールは、空のディレクトリを含む1つのアーカイブで構成され、圧縮されていない場合は正確に40バイトです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
         <seg>This allow you to add modules to existent Qt installation.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T073447Z" creationid="miurahr" creationdate="20221015T073447Z">
@@ -2550,6 +2591,15 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20221015T074004Z" creationid="miurahr" creationdate="20221015T074004Z">
         <seg>これは、 ``True``か ``False`` を値にとります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>This is the minimum decompressed size, in bytes, of the modules that aqt is permitted to list.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074237Z" creationid="miurahr" creationdate="20221015T074237Z">
+        <seg>これは、aqtがリストすることを許可されているモジュールの最小解凍サイズ(バイト単位)です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3449,6 +3499,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>archive_download_location:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074227Z" creationid="miurahr" creationdate="20221015T074227Z">
+        <seg>archive_download_location:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>baseurl:</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004436Z" creationid="Hiroshi Miura" creationdate="20221010T004436Z">
@@ -3700,6 +3758,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T010356Z" creationid="Hiroshi Miura" creationdate="20221010T010356Z">
         <seg>max_retries_on_connection_error:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>min_module_size:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T074234Z" creationid="miurahr" creationdate="20221015T074234Z">
+        <seg>min_module_size:</seg>
       </tuv>
     </tu>
     <tu>
