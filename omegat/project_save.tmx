@@ -544,6 +544,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>For example, ``aqt list-qt windows desktop --spec "5.12"`` would print all versions of Qt for Windows Desktop beginning with 5.12.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071504Z" creationid="miurahr" creationdate="20221015T071504Z">
+        <seg>例えば、``aqt list-qt windows desktop --spec "5.12"`` と入力すると、5.12から始まるWindows デスクトップ用のQtのすべてのバージョンが出力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="origin">MT:[TexTra Powered by NICT]</prop>
       <tuv lang="en">
         <seg>For example, ``aqt list-src mac 5.12`` would print archives for the latest version of Qt 5.12 available (5.12.11 at the time of this writing).</seg>
@@ -686,6 +694,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T021155Z" creationid="Hiroshi Miura" creationdate="20221010T021155Z">
         <seg>このドキュメントでは、**"modules"**, **"archives"**, **"base Qt installation"** はそれぞれ別のものを指しており、ここで定義されています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Incompatible with the ``--extension`` flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071316Z" creationid="miurahr" creationdate="20221015T071316Z">
+        <seg>`--extension`フラグとは互換性がありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1051,6 +1067,15 @@
       </tuv>
     </tu>
     <tu>
+      <prop type="origin">MT:[TexTra Powered by NICT]</prop>
+      <tuv lang="en">
+        <seg>Long display for modules: Similar to ``--modules``, but shows extra metadata associated with each module.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071607Z" creationid="miurahr" creationdate="20221015T071607Z">
+        <seg>モジュールの長い表示:`--modules`に似ていますが、各モジュールに関連した追加のメタデータを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>Long display for modules: Similar to ``--modules``, but shows extra metadata associated with each module. This metadata is displayed in a table that includes long display names for each module. If your terminal is wider than 95 characters, ``aqt list-qt`` will also display release dates and sizes for each module. An example of this output is displayed below.</seg>
       </tuv>
@@ -1072,6 +1097,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024616Z" creationid="Hiroshi Miura" creationdate="20221010T024616Z">
         <seg>長い表示: 各ツールバリアントに関連付けられた追加のメタデータを表示します。このメタデータは表に表示され、各ツールのバージョンとリリース日が含まれています。あなたの端末の表示幅が95文字を超える場合、``aqt list-tool``  は各ツールの名前と説明も表示します。この出力例を以下に示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>May be combined with any other flag to filter the output of that flag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071517Z" creationid="miurahr" creationdate="20221015T071517Z">
+        <seg>他のフラグと組み合わせて、そのフラグの出力をフィルタリングすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1263,6 +1296,14 @@
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T024008Z" creationid="Hiroshi Miura" creationdate="20221010T024008Z">
         <seg>入手可能な最新バージョンのみを印刷します。 ``--extension`` フラグや ``--spec`` フラグと組み合わせることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Print versions of Qt within a `SimpleSpec`_ that specifies a range of versions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071449Z" creationid="miurahr" creationdate="20221015T071331Z">
+        <seg>バージョンの範囲を指定する `SimpleSpec`_  内のQtのバージョンを表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1772,6 +1813,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This flag lists all the modules available for Qt 5.X.Y with a host/target/extension/architecture combination, or the latest version of Qt if ``latest`` is specified.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071552Z" creationid="miurahr" creationdate="20221015T071528Z">
+        <seg>このフラグは、Qt 5.X.Yで利用可能なすべてのモジュールをホスト/ターゲット/拡張/アーキテクチャの組み合わせで一覧表示します。``latest``  が指定されている場合はQtの最新バージョンを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This flag lists all the modules available for Qt 5.X.Y with a host/target/extension/architecture combination, or the latest version of Qt if ``latest`` is specified. You can list available architectures by using ``aqt list-qt`` with the ``--arch`` flag described below.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221009T162842Z" creationid="Hiroshi Miura" creationdate="20221009T162842Z">
@@ -2021,8 +2070,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en">
         <seg>When set, this prints all valid arguments for the ``--extension`` flag for Qt 5.X.Y, or the latest version of Qt if ``latest`` is specified.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20221015T071301Z" creationid="miurahr" creationdate="20221015T071301Z">
-        <seg>これを設定すると、Qt 5.X.Yの ``--extension`` フラグの有効な引数をすべて出力します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071329Z" creationid="miurahr" creationdate="20221015T071301Z">
+        <seg>これを設定すると、Qt 5.X.Yの ``--extension`` フラグの有効な引数をすべて出力します。または、``latest``が指定されている場合はQtの最新バージョンを出力します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2036,10 +2085,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>You can list available architectures by using ``aqt list-qt`` with the ``--arch`` flag described below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071545Z" creationid="miurahr" creationdate="20221015T071545Z">
+        <seg>利用可能なアーキテクチャを一覧表示するには、以下で説明する ``--arch`` フラグを付けて ``aqt list-qt`` を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>You can specify custom configuration file through ``AQT_CONFIG`` environment variable or "-c" or "--config" command line option.</seg>
       </tuv>
       <tuv lang="ja" changeid="Hiroshi Miura" changedate="20221010T004317Z" creationid="Hiroshi Miura" creationdate="20221010T004317Z">
         <seg>環境変数 ``AQT_CONFIG`` やコマンドラインオプション``-c``や``--config`` でカスタム設定ファイルを指定することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You can specify partial versions, inequalities, etc. ``"*"`` would match all versions of Qt; ``"&gt;6.0.2,&lt;6.2.0"`` would match all versions of Qt between 6.0.2 and 6.2.0, etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20221015T071456Z" creationid="miurahr" creationdate="20221015T071339Z">
+        <seg>部分的なバージョンや不等式などを指定できます。``"*"``  はQtのすべてのバージョンにマッチし、``"&gt;6.0.2,&lt;6.2.0"``  は6.0.2から6.2.0までのQtのすべてのバージョンにマッチします。</seg>
       </tuv>
     </tu>
     <tu>
